@@ -1,4 +1,4 @@
-update=2/3/2020 21:41:07
+update=Monday, February 03, 2020 at 11:09:04 PM
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/Jasper Rubin/Desktop/Projects/Hyperloop/testing-hardware/PARADIGM_TEMPLATE.kicad_wks
+PageLayoutDescrFile=../../PARADIGM_TEMPLATE.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
