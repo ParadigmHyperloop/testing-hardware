@@ -1,0 +1,1727 @@
+EESchema Schematic File Version 4
+LIBS:PCB_Morro_Bay-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_US R?
+U 1 1 5E63C1C0
+P 1200 1000
+F 0 "R?" H 1268 1091 50  0000 L CNN
+F 1 "5.1K" H 1268 1000 50  0000 L CNN
+F 2 "" V 1240 990 50  0001 C CNN
+F 3 "~" H 1200 1000 50  0001 C CNN
+F 4 "0.1%" H 1268 909 50  0000 L CNN "Tolerance"
+	1    1200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63C1C7
+P 1200 1400
+F 0 "R?" H 1268 1491 50  0000 L CNN
+F 1 "10K" H 1268 1400 50  0000 L CNN
+F 2 "" V 1240 1390 50  0001 C CNN
+F 3 "~" H 1200 1400 50  0001 C CNN
+F 4 "0.1%" H 1268 1309 50  0000 L CNN "Tolerance"
+	1    1200 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1150 1200 1200
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 5 1 5E63C1CE
+P 1300 5700
+F 0 "U?" H 1258 5746 50  0000 L CNN
+F 1 "LM2902" H 1258 5655 50  0000 L CNN
+F 2 "" H 1250 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1350 5900 50  0001 C CNN
+	5    1300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E63C1D4
+P 1800 1300
+F 0 "U?" H 1800 1667 50  0000 C CNN
+F 1 "LM2902" H 1800 1576 50  0000 C CNN
+F 2 "" H 1750 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1850 1500 50  0001 C CNN
+	1    1800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1200 1500 1200
+Connection ~ 1200 1200
+Wire Wire Line
+	1200 1200 1200 1250
+Wire Wire Line
+	1500 1400 1500 1550
+Wire Wire Line
+	1500 1550 2100 1550
+Wire Wire Line
+	2100 1550 2100 1300
+Text Label 900  850  0    50   ~ 0
+5V_IN_1
+Wire Wire Line
+	900  850  1200 850 
+Wire Wire Line
+	2150 1300 2100 1300
+Connection ~ 2100 1300
+Wire Wire Line
+	1200 1550 1200 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5E63C1E5
+P 1200 1600
+F 0 "#PWR?" H 1200 1350 50  0001 C CNN
+F 1 "GND" H 1205 1427 50  0000 C CNN
+F 2 "" H 1200 1600 50  0001 C CNN
+F 3 "" H 1200 1600 50  0001 C CNN
+	1    1200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63C1EC
+P 1200 2050
+F 0 "R?" H 1268 2141 50  0000 L CNN
+F 1 "5.1K" H 1268 2050 50  0000 L CNN
+F 2 "" V 1240 2040 50  0001 C CNN
+F 3 "~" H 1200 2050 50  0001 C CNN
+F 4 "0.1%" H 1268 1959 50  0000 L CNN "Tolerance"
+	1    1200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63C1F3
+P 1200 2450
+F 0 "R?" H 1268 2541 50  0000 L CNN
+F 1 "10K" H 1268 2450 50  0000 L CNN
+F 2 "" V 1240 2440 50  0001 C CNN
+F 3 "~" H 1200 2450 50  0001 C CNN
+F 4 "0.1%" H 1268 2359 50  0000 L CNN "Tolerance"
+	1    1200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2200 1200 2250
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 2 1 5E63C1FA
+P 1800 2350
+F 0 "U?" H 1800 2717 50  0000 C CNN
+F 1 "LM2902" H 1800 2626 50  0000 C CNN
+F 2 "" H 1750 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1850 2550 50  0001 C CNN
+	2    1800 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2250 1500 2250
+Connection ~ 1200 2250
+Wire Wire Line
+	1200 2250 1200 2300
+Wire Wire Line
+	1500 2450 1500 2600
+Wire Wire Line
+	1500 2600 2100 2600
+Wire Wire Line
+	2100 2600 2100 2350
+Text Label 900  1900 0    50   ~ 0
+5V_IN_2
+Wire Wire Line
+	900  1900 1200 1900
+Wire Wire Line
+	1200 2600 1200 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5E63C209
+P 1200 2650
+F 0 "#PWR?" H 1200 2400 50  0001 C CNN
+F 1 "GND" H 1205 2477 50  0000 C CNN
+F 2 "" H 1200 2650 50  0001 C CNN
+F 3 "" H 1200 2650 50  0001 C CNN
+	1    1200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63C210
+P 1200 3100
+F 0 "R?" H 1268 3191 50  0000 L CNN
+F 1 "5.1K" H 1268 3100 50  0000 L CNN
+F 2 "" V 1240 3090 50  0001 C CNN
+F 3 "~" H 1200 3100 50  0001 C CNN
+F 4 "0.1%" H 1268 3009 50  0000 L CNN "Tolerance"
+	1    1200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63C217
+P 1200 3500
+F 0 "R?" H 1268 3591 50  0000 L CNN
+F 1 "10K" H 1268 3500 50  0000 L CNN
+F 2 "" V 1240 3490 50  0001 C CNN
+F 3 "~" H 1200 3500 50  0001 C CNN
+F 4 "0.1%" H 1268 3409 50  0000 L CNN "Tolerance"
+	1    1200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3250 1200 3300
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 3 1 5E63C21E
+P 1800 3400
+F 0 "U?" H 1800 3767 50  0000 C CNN
+F 1 "LM2902" H 1800 3676 50  0000 C CNN
+F 2 "" H 1750 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1850 3600 50  0001 C CNN
+	3    1800 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3300 1500 3300
+Connection ~ 1200 3300
+Wire Wire Line
+	1200 3300 1200 3350
+Wire Wire Line
+	1500 3500 1500 3650
+Wire Wire Line
+	1500 3650 2100 3650
+Wire Wire Line
+	2100 3650 2100 3400
+Text Label 900  2950 0    50   ~ 0
+5V_IN_3
+Wire Wire Line
+	900  2950 1200 2950
+Wire Wire Line
+	1200 3650 1200 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5E63C22D
+P 1200 3700
+F 0 "#PWR?" H 1200 3450 50  0001 C CNN
+F 1 "GND" H 1205 3527 50  0000 C CNN
+F 2 "" H 1200 3700 50  0001 C CNN
+F 3 "" H 1200 3700 50  0001 C CNN
+	1    1200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63C234
+P 1200 4150
+F 0 "R?" H 1268 4241 50  0000 L CNN
+F 1 "5.1K" H 1268 4150 50  0000 L CNN
+F 2 "" V 1240 4140 50  0001 C CNN
+F 3 "~" H 1200 4150 50  0001 C CNN
+F 4 "0.1%" H 1268 4059 50  0000 L CNN "Tolerance"
+	1    1200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63C23B
+P 1200 4550
+F 0 "R?" H 1268 4641 50  0000 L CNN
+F 1 "10K" H 1268 4550 50  0000 L CNN
+F 2 "" V 1240 4540 50  0001 C CNN
+F 3 "~" H 1200 4550 50  0001 C CNN
+F 4 "0.1%" H 1268 4459 50  0000 L CNN "Tolerance"
+	1    1200 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4300 1200 4350
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 4 1 5E63C242
+P 1800 4450
+F 0 "U?" H 1800 4817 50  0000 C CNN
+F 1 "LM2902" H 1800 4726 50  0000 C CNN
+F 2 "" H 1750 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1850 4650 50  0001 C CNN
+	4    1800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4350 1500 4350
+Connection ~ 1200 4350
+Wire Wire Line
+	1200 4350 1200 4400
+Wire Wire Line
+	1500 4550 1500 4700
+Wire Wire Line
+	1500 4700 2100 4700
+Wire Wire Line
+	2100 4700 2100 4450
+Text Label 900  4000 0    50   ~ 0
+5V_IN_4
+Wire Wire Line
+	900  4000 1200 4000
+Wire Wire Line
+	1200 4700 1200 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5E63C251
+P 1200 4750
+F 0 "#PWR?" H 1200 4500 50  0001 C CNN
+F 1 "GND" H 1205 4577 50  0000 C CNN
+F 2 "" H 1200 4750 50  0001 C CNN
+F 3 "" H 1200 4750 50  0001 C CNN
+	1    1200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E63C257
+P 1200 5300
+F 0 "#PWR?" H 1200 5150 50  0001 C CNN
+F 1 "+5V" H 1215 5473 50  0000 C CNN
+F 2 "" H 1200 5300 50  0001 C CNN
+F 3 "" H 1200 5300 50  0001 C CNN
+	1    1200 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5300 1200 5350
+Wire Wire Line
+	1200 6000 1200 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5E63C25F
+P 1200 6100
+F 0 "#PWR?" H 1200 5850 50  0001 C CNN
+F 1 "GND" H 1205 5927 50  0000 C CNN
+F 2 "" H 1200 6100 50  0001 C CNN
+F 3 "" H 1200 6100 50  0001 C CNN
+	1    1200 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5350 1650 5350
+Wire Wire Line
+	1650 5350 1650 5550
+Connection ~ 1200 5350
+Wire Wire Line
+	1200 5350 1200 5400
+$Comp
+L Device:C C?
+U 1 1 5E63C269
+P 1650 5700
+F 0 "C?" H 1765 5746 50  0000 L CNN
+F 1 "0.1uF" H 1765 5655 50  0000 L CNN
+F 2 "" H 1688 5550 50  0001 C CNN
+F 3 "~" H 1650 5700 50  0001 C CNN
+	1    1650 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5850 1650 6050
+Wire Wire Line
+	1650 6050 1200 6050
+Connection ~ 1200 6050
+Wire Wire Line
+	1200 6050 1200 6100
+Text GLabel 2150 1300 2    50   Output ~ 0
+SAMD_ADC_1
+Wire Wire Line
+	2150 2350 2100 2350
+Text GLabel 2150 2350 2    50   Output ~ 0
+SAMD_ADC_2
+Connection ~ 2100 2350
+Wire Wire Line
+	2150 3400 2100 3400
+Text GLabel 2150 3400 2    50   Output ~ 0
+SAMD_ADC_3
+Wire Wire Line
+	2150 4450 2100 4450
+Text GLabel 2150 4450 2    50   Output ~ 0
+SAMD_ADC_4
+Connection ~ 2100 3400
+Connection ~ 2100 4450
+$Comp
+L Device:R_US R?
+U 1 1 5E63DA78
+P 3000 1000
+F 0 "R?" H 3068 1091 50  0000 L CNN
+F 1 "5.1K" H 3068 1000 50  0000 L CNN
+F 2 "" V 3040 990 50  0001 C CNN
+F 3 "~" H 3000 1000 50  0001 C CNN
+F 4 "0.1%" H 3068 909 50  0000 L CNN "Tolerance"
+	1    3000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63DA83
+P 3000 1400
+F 0 "R?" H 3068 1491 50  0000 L CNN
+F 1 "10K" H 3068 1400 50  0000 L CNN
+F 2 "" V 3040 1390 50  0001 C CNN
+F 3 "~" H 3000 1400 50  0001 C CNN
+F 4 "0.1%" H 3068 1309 50  0000 L CNN "Tolerance"
+	1    3000 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1150 3000 1200
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 5 1 5E63DA8E
+P 3100 5700
+F 0 "U?" H 3058 5746 50  0000 L CNN
+F 1 "LM2902" H 3058 5655 50  0000 L CNN
+F 2 "" H 3050 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3150 5900 50  0001 C CNN
+	5    3100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E63DA98
+P 3600 1300
+F 0 "U?" H 3600 1667 50  0000 C CNN
+F 1 "LM2902" H 3600 1576 50  0000 C CNN
+F 2 "" H 3550 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3650 1500 50  0001 C CNN
+	1    3600 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1200 3300 1200
+Connection ~ 3000 1200
+Wire Wire Line
+	3000 1200 3000 1250
+Wire Wire Line
+	3300 1400 3300 1550
+Wire Wire Line
+	3300 1550 3900 1550
+Wire Wire Line
+	3900 1550 3900 1300
+Text Label 2700 850  0    50   ~ 0
+5V_IN_1
+Wire Wire Line
+	2700 850  3000 850 
+Wire Wire Line
+	3950 1300 3900 1300
+Connection ~ 3900 1300
+Wire Wire Line
+	3000 1550 3000 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5E63DAAD
+P 3000 1600
+F 0 "#PWR?" H 3000 1350 50  0001 C CNN
+F 1 "GND" H 3005 1427 50  0000 C CNN
+F 2 "" H 3000 1600 50  0001 C CNN
+F 3 "" H 3000 1600 50  0001 C CNN
+	1    3000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63DAB8
+P 3000 2050
+F 0 "R?" H 3068 2141 50  0000 L CNN
+F 1 "5.1K" H 3068 2050 50  0000 L CNN
+F 2 "" V 3040 2040 50  0001 C CNN
+F 3 "~" H 3000 2050 50  0001 C CNN
+F 4 "0.1%" H 3068 1959 50  0000 L CNN "Tolerance"
+	1    3000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63DAC3
+P 3000 2450
+F 0 "R?" H 3068 2541 50  0000 L CNN
+F 1 "10K" H 3068 2450 50  0000 L CNN
+F 2 "" V 3040 2440 50  0001 C CNN
+F 3 "~" H 3000 2450 50  0001 C CNN
+F 4 "0.1%" H 3068 2359 50  0000 L CNN "Tolerance"
+	1    3000 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2200 3000 2250
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 2 1 5E63DACE
+P 3600 2350
+F 0 "U?" H 3600 2717 50  0000 C CNN
+F 1 "LM2902" H 3600 2626 50  0000 C CNN
+F 2 "" H 3550 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3650 2550 50  0001 C CNN
+	2    3600 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2250 3300 2250
+Connection ~ 3000 2250
+Wire Wire Line
+	3000 2250 3000 2300
+Wire Wire Line
+	3300 2450 3300 2600
+Wire Wire Line
+	3300 2600 3900 2600
+Wire Wire Line
+	3900 2600 3900 2350
+Text Label 2700 1900 0    50   ~ 0
+5V_IN_2
+Wire Wire Line
+	2700 1900 3000 1900
+Wire Wire Line
+	3000 2600 3000 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5E63DAE1
+P 3000 2650
+F 0 "#PWR?" H 3000 2400 50  0001 C CNN
+F 1 "GND" H 3005 2477 50  0000 C CNN
+F 2 "" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63DAEC
+P 3000 3100
+F 0 "R?" H 3068 3191 50  0000 L CNN
+F 1 "5.1K" H 3068 3100 50  0000 L CNN
+F 2 "" V 3040 3090 50  0001 C CNN
+F 3 "~" H 3000 3100 50  0001 C CNN
+F 4 "0.1%" H 3068 3009 50  0000 L CNN "Tolerance"
+	1    3000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63DAF7
+P 3000 3500
+F 0 "R?" H 3068 3591 50  0000 L CNN
+F 1 "10K" H 3068 3500 50  0000 L CNN
+F 2 "" V 3040 3490 50  0001 C CNN
+F 3 "~" H 3000 3500 50  0001 C CNN
+F 4 "0.1%" H 3068 3409 50  0000 L CNN "Tolerance"
+	1    3000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3250 3000 3300
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 3 1 5E63DB02
+P 3600 3400
+F 0 "U?" H 3600 3767 50  0000 C CNN
+F 1 "LM2902" H 3600 3676 50  0000 C CNN
+F 2 "" H 3550 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3650 3600 50  0001 C CNN
+	3    3600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3300 3300 3300
+Connection ~ 3000 3300
+Wire Wire Line
+	3000 3300 3000 3350
+Wire Wire Line
+	3300 3500 3300 3650
+Wire Wire Line
+	3300 3650 3900 3650
+Wire Wire Line
+	3900 3650 3900 3400
+Text Label 2700 2950 0    50   ~ 0
+5V_IN_3
+Wire Wire Line
+	2700 2950 3000 2950
+Wire Wire Line
+	3000 3650 3000 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5E63DB15
+P 3000 3700
+F 0 "#PWR?" H 3000 3450 50  0001 C CNN
+F 1 "GND" H 3005 3527 50  0000 C CNN
+F 2 "" H 3000 3700 50  0001 C CNN
+F 3 "" H 3000 3700 50  0001 C CNN
+	1    3000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63DB20
+P 3000 4150
+F 0 "R?" H 3068 4241 50  0000 L CNN
+F 1 "5.1K" H 3068 4150 50  0000 L CNN
+F 2 "" V 3040 4140 50  0001 C CNN
+F 3 "~" H 3000 4150 50  0001 C CNN
+F 4 "0.1%" H 3068 4059 50  0000 L CNN "Tolerance"
+	1    3000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E63DB2B
+P 3000 4550
+F 0 "R?" H 3068 4641 50  0000 L CNN
+F 1 "10K" H 3068 4550 50  0000 L CNN
+F 2 "" V 3040 4540 50  0001 C CNN
+F 3 "~" H 3000 4550 50  0001 C CNN
+F 4 "0.1%" H 3068 4459 50  0000 L CNN "Tolerance"
+	1    3000 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4300 3000 4350
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 4 1 5E63DB36
+P 3600 4450
+F 0 "U?" H 3600 4817 50  0000 C CNN
+F 1 "LM2902" H 3600 4726 50  0000 C CNN
+F 2 "" H 3550 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3650 4650 50  0001 C CNN
+	4    3600 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4350 3300 4350
+Connection ~ 3000 4350
+Wire Wire Line
+	3000 4350 3000 4400
+Wire Wire Line
+	3300 4550 3300 4700
+Wire Wire Line
+	3300 4700 3900 4700
+Wire Wire Line
+	3900 4700 3900 4450
+Text Label 2700 4000 0    50   ~ 0
+5V_IN_4
+Wire Wire Line
+	2700 4000 3000 4000
+Wire Wire Line
+	3000 4700 3000 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5E63DB49
+P 3000 4750
+F 0 "#PWR?" H 3000 4500 50  0001 C CNN
+F 1 "GND" H 3005 4577 50  0000 C CNN
+F 2 "" H 3000 4750 50  0001 C CNN
+F 3 "" H 3000 4750 50  0001 C CNN
+	1    3000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E63DB53
+P 3000 5300
+F 0 "#PWR?" H 3000 5150 50  0001 C CNN
+F 1 "+5V" H 3015 5473 50  0000 C CNN
+F 2 "" H 3000 5300 50  0001 C CNN
+F 3 "" H 3000 5300 50  0001 C CNN
+	1    3000 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5300 3000 5350
+Wire Wire Line
+	3000 6000 3000 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5E63DB5F
+P 3000 6100
+F 0 "#PWR?" H 3000 5850 50  0001 C CNN
+F 1 "GND" H 3005 5927 50  0000 C CNN
+F 2 "" H 3000 6100 50  0001 C CNN
+F 3 "" H 3000 6100 50  0001 C CNN
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5350 3450 5350
+Wire Wire Line
+	3450 5350 3450 5550
+Connection ~ 3000 5350
+Wire Wire Line
+	3000 5350 3000 5400
+$Comp
+L Device:C C?
+U 1 1 5E63DB6D
+P 3450 5700
+F 0 "C?" H 3565 5746 50  0000 L CNN
+F 1 "0.1uF" H 3565 5655 50  0000 L CNN
+F 2 "" H 3488 5550 50  0001 C CNN
+F 3 "~" H 3450 5700 50  0001 C CNN
+	1    3450 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5850 3450 6050
+Wire Wire Line
+	3450 6050 3000 6050
+Connection ~ 3000 6050
+Wire Wire Line
+	3000 6050 3000 6100
+Text GLabel 3950 1300 2    50   Output ~ 0
+SAMD_ADC_1
+Wire Wire Line
+	3950 2350 3900 2350
+Text GLabel 3950 2350 2    50   Output ~ 0
+SAMD_ADC_2
+Connection ~ 3900 2350
+Wire Wire Line
+	3950 3400 3900 3400
+Text GLabel 3950 3400 2    50   Output ~ 0
+SAMD_ADC_3
+Wire Wire Line
+	3950 4450 3900 4450
+Text GLabel 3950 4450 2    50   Output ~ 0
+SAMD_ADC_4
+Connection ~ 3900 3400
+Connection ~ 3900 4450
+$Comp
+L Device:R_US R?
+U 1 1 5E66F958
+P 4800 1000
+F 0 "R?" H 4868 1091 50  0000 L CNN
+F 1 "5.1K" H 4868 1000 50  0000 L CNN
+F 2 "" V 4840 990 50  0001 C CNN
+F 3 "~" H 4800 1000 50  0001 C CNN
+F 4 "0.1%" H 4868 909 50  0000 L CNN "Tolerance"
+	1    4800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66F963
+P 4800 1400
+F 0 "R?" H 4868 1491 50  0000 L CNN
+F 1 "10K" H 4868 1400 50  0000 L CNN
+F 2 "" V 4840 1390 50  0001 C CNN
+F 3 "~" H 4800 1400 50  0001 C CNN
+F 4 "0.1%" H 4868 1309 50  0000 L CNN "Tolerance"
+	1    4800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1150 4800 1200
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 5 1 5E66F96E
+P 4900 5700
+F 0 "U?" H 4858 5746 50  0000 L CNN
+F 1 "LM2902" H 4858 5655 50  0000 L CNN
+F 2 "" H 4850 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 5900 50  0001 C CNN
+	5    4900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E66F978
+P 5400 1300
+F 0 "U?" H 5400 1667 50  0000 C CNN
+F 1 "LM2902" H 5400 1576 50  0000 C CNN
+F 2 "" H 5350 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5450 1500 50  0001 C CNN
+	1    5400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1200 5100 1200
+Connection ~ 4800 1200
+Wire Wire Line
+	4800 1200 4800 1250
+Wire Wire Line
+	5100 1400 5100 1550
+Wire Wire Line
+	5100 1550 5700 1550
+Wire Wire Line
+	5700 1550 5700 1300
+Text Label 4500 850  0    50   ~ 0
+5V_IN_1
+Wire Wire Line
+	4500 850  4800 850 
+Wire Wire Line
+	5750 1300 5700 1300
+Connection ~ 5700 1300
+Wire Wire Line
+	4800 1550 4800 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5E66F98D
+P 4800 1600
+F 0 "#PWR?" H 4800 1350 50  0001 C CNN
+F 1 "GND" H 4805 1427 50  0000 C CNN
+F 2 "" H 4800 1600 50  0001 C CNN
+F 3 "" H 4800 1600 50  0001 C CNN
+	1    4800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66F998
+P 4800 2050
+F 0 "R?" H 4868 2141 50  0000 L CNN
+F 1 "5.1K" H 4868 2050 50  0000 L CNN
+F 2 "" V 4840 2040 50  0001 C CNN
+F 3 "~" H 4800 2050 50  0001 C CNN
+F 4 "0.1%" H 4868 1959 50  0000 L CNN "Tolerance"
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66F9A3
+P 4800 2450
+F 0 "R?" H 4868 2541 50  0000 L CNN
+F 1 "10K" H 4868 2450 50  0000 L CNN
+F 2 "" V 4840 2440 50  0001 C CNN
+F 3 "~" H 4800 2450 50  0001 C CNN
+F 4 "0.1%" H 4868 2359 50  0000 L CNN "Tolerance"
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2200 4800 2250
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 2 1 5E66F9AE
+P 5400 2350
+F 0 "U?" H 5400 2717 50  0000 C CNN
+F 1 "LM2902" H 5400 2626 50  0000 C CNN
+F 2 "" H 5350 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5450 2550 50  0001 C CNN
+	2    5400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2250 5100 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 2250 4800 2300
+Wire Wire Line
+	5100 2450 5100 2600
+Wire Wire Line
+	5100 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 2350
+Text Label 4500 1900 0    50   ~ 0
+5V_IN_2
+Wire Wire Line
+	4500 1900 4800 1900
+Wire Wire Line
+	4800 2600 4800 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5E66F9C1
+P 4800 2650
+F 0 "#PWR?" H 4800 2400 50  0001 C CNN
+F 1 "GND" H 4805 2477 50  0000 C CNN
+F 2 "" H 4800 2650 50  0001 C CNN
+F 3 "" H 4800 2650 50  0001 C CNN
+	1    4800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66F9CC
+P 4800 3100
+F 0 "R?" H 4868 3191 50  0000 L CNN
+F 1 "5.1K" H 4868 3100 50  0000 L CNN
+F 2 "" V 4840 3090 50  0001 C CNN
+F 3 "~" H 4800 3100 50  0001 C CNN
+F 4 "0.1%" H 4868 3009 50  0000 L CNN "Tolerance"
+	1    4800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66F9D7
+P 4800 3500
+F 0 "R?" H 4868 3591 50  0000 L CNN
+F 1 "10K" H 4868 3500 50  0000 L CNN
+F 2 "" V 4840 3490 50  0001 C CNN
+F 3 "~" H 4800 3500 50  0001 C CNN
+F 4 "0.1%" H 4868 3409 50  0000 L CNN "Tolerance"
+	1    4800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3250 4800 3300
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 3 1 5E66F9E2
+P 5400 3400
+F 0 "U?" H 5400 3767 50  0000 C CNN
+F 1 "LM2902" H 5400 3676 50  0000 C CNN
+F 2 "" H 5350 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5450 3600 50  0001 C CNN
+	3    5400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3300 5100 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	4800 3300 4800 3350
+Wire Wire Line
+	5100 3500 5100 3650
+Wire Wire Line
+	5100 3650 5700 3650
+Wire Wire Line
+	5700 3650 5700 3400
+Text Label 4500 2950 0    50   ~ 0
+5V_IN_3
+Wire Wire Line
+	4500 2950 4800 2950
+Wire Wire Line
+	4800 3650 4800 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5E66F9F5
+P 4800 3700
+F 0 "#PWR?" H 4800 3450 50  0001 C CNN
+F 1 "GND" H 4805 3527 50  0000 C CNN
+F 2 "" H 4800 3700 50  0001 C CNN
+F 3 "" H 4800 3700 50  0001 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FA00
+P 4800 4150
+F 0 "R?" H 4868 4241 50  0000 L CNN
+F 1 "5.1K" H 4868 4150 50  0000 L CNN
+F 2 "" V 4840 4140 50  0001 C CNN
+F 3 "~" H 4800 4150 50  0001 C CNN
+F 4 "0.1%" H 4868 4059 50  0000 L CNN "Tolerance"
+	1    4800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FA0B
+P 4800 4550
+F 0 "R?" H 4868 4641 50  0000 L CNN
+F 1 "10K" H 4868 4550 50  0000 L CNN
+F 2 "" V 4840 4540 50  0001 C CNN
+F 3 "~" H 4800 4550 50  0001 C CNN
+F 4 "0.1%" H 4868 4459 50  0000 L CNN "Tolerance"
+	1    4800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4300 4800 4350
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 4 1 5E66FA16
+P 5400 4450
+F 0 "U?" H 5400 4817 50  0000 C CNN
+F 1 "LM2902" H 5400 4726 50  0000 C CNN
+F 2 "" H 5350 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5450 4650 50  0001 C CNN
+	4    5400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4350 5100 4350
+Connection ~ 4800 4350
+Wire Wire Line
+	4800 4350 4800 4400
+Wire Wire Line
+	5100 4550 5100 4700
+Wire Wire Line
+	5100 4700 5700 4700
+Wire Wire Line
+	5700 4700 5700 4450
+Text Label 4500 4000 0    50   ~ 0
+5V_IN_4
+Wire Wire Line
+	4500 4000 4800 4000
+Wire Wire Line
+	4800 4700 4800 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5E66FA29
+P 4800 4750
+F 0 "#PWR?" H 4800 4500 50  0001 C CNN
+F 1 "GND" H 4805 4577 50  0000 C CNN
+F 2 "" H 4800 4750 50  0001 C CNN
+F 3 "" H 4800 4750 50  0001 C CNN
+	1    4800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E66FA33
+P 4800 5300
+F 0 "#PWR?" H 4800 5150 50  0001 C CNN
+F 1 "+5V" H 4815 5473 50  0000 C CNN
+F 2 "" H 4800 5300 50  0001 C CNN
+F 3 "" H 4800 5300 50  0001 C CNN
+	1    4800 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5300 4800 5350
+Wire Wire Line
+	4800 6000 4800 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5E66FA3F
+P 4800 6100
+F 0 "#PWR?" H 4800 5850 50  0001 C CNN
+F 1 "GND" H 4805 5927 50  0000 C CNN
+F 2 "" H 4800 6100 50  0001 C CNN
+F 3 "" H 4800 6100 50  0001 C CNN
+	1    4800 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5350 5250 5350
+Wire Wire Line
+	5250 5350 5250 5550
+Connection ~ 4800 5350
+Wire Wire Line
+	4800 5350 4800 5400
+$Comp
+L Device:C C?
+U 1 1 5E66FA4D
+P 5250 5700
+F 0 "C?" H 5365 5746 50  0000 L CNN
+F 1 "0.1uF" H 5365 5655 50  0000 L CNN
+F 2 "" H 5288 5550 50  0001 C CNN
+F 3 "~" H 5250 5700 50  0001 C CNN
+	1    5250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5850 5250 6050
+Wire Wire Line
+	5250 6050 4800 6050
+Connection ~ 4800 6050
+Wire Wire Line
+	4800 6050 4800 6100
+Text GLabel 5750 1300 2    50   Output ~ 0
+SAMD_ADC_1
+Wire Wire Line
+	5750 2350 5700 2350
+Text GLabel 5750 2350 2    50   Output ~ 0
+SAMD_ADC_2
+Connection ~ 5700 2350
+Wire Wire Line
+	5750 3400 5700 3400
+Text GLabel 5750 3400 2    50   Output ~ 0
+SAMD_ADC_3
+Wire Wire Line
+	5750 4450 5700 4450
+Text GLabel 5750 4450 2    50   Output ~ 0
+SAMD_ADC_4
+Connection ~ 5700 3400
+Connection ~ 5700 4450
+$Comp
+L Device:R_US R?
+U 1 1 5E66FA66
+P 6600 1000
+F 0 "R?" H 6668 1091 50  0000 L CNN
+F 1 "5.1K" H 6668 1000 50  0000 L CNN
+F 2 "" V 6640 990 50  0001 C CNN
+F 3 "~" H 6600 1000 50  0001 C CNN
+F 4 "0.1%" H 6668 909 50  0000 L CNN "Tolerance"
+	1    6600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FA71
+P 6600 1400
+F 0 "R?" H 6668 1491 50  0000 L CNN
+F 1 "10K" H 6668 1400 50  0000 L CNN
+F 2 "" V 6640 1390 50  0001 C CNN
+F 3 "~" H 6600 1400 50  0001 C CNN
+F 4 "0.1%" H 6668 1309 50  0000 L CNN "Tolerance"
+	1    6600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1150 6600 1200
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 5 1 5E66FA7C
+P 6700 5700
+F 0 "U?" H 6658 5746 50  0000 L CNN
+F 1 "LM2902" H 6658 5655 50  0000 L CNN
+F 2 "" H 6650 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 5900 50  0001 C CNN
+	5    6700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E66FA86
+P 7200 1300
+F 0 "U?" H 7200 1667 50  0000 C CNN
+F 1 "LM2902" H 7200 1576 50  0000 C CNN
+F 2 "" H 7150 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7250 1500 50  0001 C CNN
+	1    7200 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1200 6900 1200
+Connection ~ 6600 1200
+Wire Wire Line
+	6600 1200 6600 1250
+Wire Wire Line
+	6900 1400 6900 1550
+Wire Wire Line
+	6900 1550 7500 1550
+Wire Wire Line
+	7500 1550 7500 1300
+Text Label 6300 850  0    50   ~ 0
+5V_IN_1
+Wire Wire Line
+	6300 850  6600 850 
+Wire Wire Line
+	7550 1300 7500 1300
+Connection ~ 7500 1300
+Wire Wire Line
+	6600 1550 6600 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5E66FA9B
+P 6600 1600
+F 0 "#PWR?" H 6600 1350 50  0001 C CNN
+F 1 "GND" H 6605 1427 50  0000 C CNN
+F 2 "" H 6600 1600 50  0001 C CNN
+F 3 "" H 6600 1600 50  0001 C CNN
+	1    6600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FAA6
+P 6600 2050
+F 0 "R?" H 6668 2141 50  0000 L CNN
+F 1 "5.1K" H 6668 2050 50  0000 L CNN
+F 2 "" V 6640 2040 50  0001 C CNN
+F 3 "~" H 6600 2050 50  0001 C CNN
+F 4 "0.1%" H 6668 1959 50  0000 L CNN "Tolerance"
+	1    6600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FAB1
+P 6600 2450
+F 0 "R?" H 6668 2541 50  0000 L CNN
+F 1 "10K" H 6668 2450 50  0000 L CNN
+F 2 "" V 6640 2440 50  0001 C CNN
+F 3 "~" H 6600 2450 50  0001 C CNN
+F 4 "0.1%" H 6668 2359 50  0000 L CNN "Tolerance"
+	1    6600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2200 6600 2250
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 2 1 5E66FABC
+P 7200 2350
+F 0 "U?" H 7200 2717 50  0000 C CNN
+F 1 "LM2902" H 7200 2626 50  0000 C CNN
+F 2 "" H 7150 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7250 2550 50  0001 C CNN
+	2    7200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2250 6900 2250
+Connection ~ 6600 2250
+Wire Wire Line
+	6600 2250 6600 2300
+Wire Wire Line
+	6900 2450 6900 2600
+Wire Wire Line
+	6900 2600 7500 2600
+Wire Wire Line
+	7500 2600 7500 2350
+Text Label 6300 1900 0    50   ~ 0
+5V_IN_2
+Wire Wire Line
+	6300 1900 6600 1900
+Wire Wire Line
+	6600 2600 6600 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5E66FACF
+P 6600 2650
+F 0 "#PWR?" H 6600 2400 50  0001 C CNN
+F 1 "GND" H 6605 2477 50  0000 C CNN
+F 2 "" H 6600 2650 50  0001 C CNN
+F 3 "" H 6600 2650 50  0001 C CNN
+	1    6600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FADA
+P 6600 3100
+F 0 "R?" H 6668 3191 50  0000 L CNN
+F 1 "5.1K" H 6668 3100 50  0000 L CNN
+F 2 "" V 6640 3090 50  0001 C CNN
+F 3 "~" H 6600 3100 50  0001 C CNN
+F 4 "0.1%" H 6668 3009 50  0000 L CNN "Tolerance"
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FAE5
+P 6600 3500
+F 0 "R?" H 6668 3591 50  0000 L CNN
+F 1 "10K" H 6668 3500 50  0000 L CNN
+F 2 "" V 6640 3490 50  0001 C CNN
+F 3 "~" H 6600 3500 50  0001 C CNN
+F 4 "0.1%" H 6668 3409 50  0000 L CNN "Tolerance"
+	1    6600 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3250 6600 3300
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 3 1 5E66FAF0
+P 7200 3400
+F 0 "U?" H 7200 3767 50  0000 C CNN
+F 1 "LM2902" H 7200 3676 50  0000 C CNN
+F 2 "" H 7150 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7250 3600 50  0001 C CNN
+	3    7200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3300 6900 3300
+Connection ~ 6600 3300
+Wire Wire Line
+	6600 3300 6600 3350
+Wire Wire Line
+	6900 3500 6900 3650
+Wire Wire Line
+	6900 3650 7500 3650
+Wire Wire Line
+	7500 3650 7500 3400
+Text Label 6300 2950 0    50   ~ 0
+5V_IN_3
+Wire Wire Line
+	6300 2950 6600 2950
+Wire Wire Line
+	6600 3650 6600 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5E66FB03
+P 6600 3700
+F 0 "#PWR?" H 6600 3450 50  0001 C CNN
+F 1 "GND" H 6605 3527 50  0000 C CNN
+F 2 "" H 6600 3700 50  0001 C CNN
+F 3 "" H 6600 3700 50  0001 C CNN
+	1    6600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FB0E
+P 6600 4150
+F 0 "R?" H 6668 4241 50  0000 L CNN
+F 1 "5.1K" H 6668 4150 50  0000 L CNN
+F 2 "" V 6640 4140 50  0001 C CNN
+F 3 "~" H 6600 4150 50  0001 C CNN
+F 4 "0.1%" H 6668 4059 50  0000 L CNN "Tolerance"
+	1    6600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E66FB19
+P 6600 4550
+F 0 "R?" H 6668 4641 50  0000 L CNN
+F 1 "10K" H 6668 4550 50  0000 L CNN
+F 2 "" V 6640 4540 50  0001 C CNN
+F 3 "~" H 6600 4550 50  0001 C CNN
+F 4 "0.1%" H 6668 4459 50  0000 L CNN "Tolerance"
+	1    6600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4300 6600 4350
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 4 1 5E66FB24
+P 7200 4450
+F 0 "U?" H 7200 4817 50  0000 C CNN
+F 1 "LM2902" H 7200 4726 50  0000 C CNN
+F 2 "" H 7150 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7250 4650 50  0001 C CNN
+	4    7200 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4350 6900 4350
+Connection ~ 6600 4350
+Wire Wire Line
+	6600 4350 6600 4400
+Wire Wire Line
+	6900 4550 6900 4700
+Wire Wire Line
+	6900 4700 7500 4700
+Wire Wire Line
+	7500 4700 7500 4450
+Text Label 6300 4000 0    50   ~ 0
+5V_IN_4
+Wire Wire Line
+	6300 4000 6600 4000
+Wire Wire Line
+	6600 4700 6600 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5E66FB37
+P 6600 4750
+F 0 "#PWR?" H 6600 4500 50  0001 C CNN
+F 1 "GND" H 6605 4577 50  0000 C CNN
+F 2 "" H 6600 4750 50  0001 C CNN
+F 3 "" H 6600 4750 50  0001 C CNN
+	1    6600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E66FB41
+P 6600 5300
+F 0 "#PWR?" H 6600 5150 50  0001 C CNN
+F 1 "+5V" H 6615 5473 50  0000 C CNN
+F 2 "" H 6600 5300 50  0001 C CNN
+F 3 "" H 6600 5300 50  0001 C CNN
+	1    6600 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5300 6600 5350
+Wire Wire Line
+	6600 6000 6600 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5E66FB4D
+P 6600 6100
+F 0 "#PWR?" H 6600 5850 50  0001 C CNN
+F 1 "GND" H 6605 5927 50  0000 C CNN
+F 2 "" H 6600 6100 50  0001 C CNN
+F 3 "" H 6600 6100 50  0001 C CNN
+	1    6600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5350 7050 5350
+Wire Wire Line
+	7050 5350 7050 5550
+Connection ~ 6600 5350
+Wire Wire Line
+	6600 5350 6600 5400
+$Comp
+L Device:C C?
+U 1 1 5E66FB5B
+P 7050 5700
+F 0 "C?" H 7165 5746 50  0000 L CNN
+F 1 "0.1uF" H 7165 5655 50  0000 L CNN
+F 2 "" H 7088 5550 50  0001 C CNN
+F 3 "~" H 7050 5700 50  0001 C CNN
+	1    7050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5850 7050 6050
+Wire Wire Line
+	7050 6050 6600 6050
+Connection ~ 6600 6050
+Wire Wire Line
+	6600 6050 6600 6100
+Text GLabel 7550 1300 2    50   Output ~ 0
+SAMD_ADC_1
+Wire Wire Line
+	7550 2350 7500 2350
+Text GLabel 7550 2350 2    50   Output ~ 0
+SAMD_ADC_2
+Connection ~ 7500 2350
+Wire Wire Line
+	7550 3400 7500 3400
+Text GLabel 7550 3400 2    50   Output ~ 0
+SAMD_ADC_3
+Wire Wire Line
+	7550 4450 7500 4450
+Text GLabel 7550 4450 2    50   Output ~ 0
+SAMD_ADC_4
+Connection ~ 7500 3400
+Connection ~ 7500 4450
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC3E0
+P 8550 950
+F 0 "R?" H 8618 1041 50  0000 L CNN
+F 1 "5.1K" H 8618 950 50  0000 L CNN
+F 2 "" V 8590 940 50  0001 C CNN
+F 3 "~" H 8550 950 50  0001 C CNN
+F 4 "0.1%" H 8618 859 50  0000 L CNN "Tolerance"
+	1    8550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC3EB
+P 8550 1350
+F 0 "R?" H 8618 1441 50  0000 L CNN
+F 1 "10K" H 8618 1350 50  0000 L CNN
+F 2 "" V 8590 1340 50  0001 C CNN
+F 3 "~" H 8550 1350 50  0001 C CNN
+F 4 "0.1%" H 8618 1259 50  0000 L CNN "Tolerance"
+	1    8550 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1100 8550 1150
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 5 1 5E6CC3F6
+P 8650 5650
+F 0 "U?" H 8608 5696 50  0000 L CNN
+F 1 "LM2902" H 8608 5605 50  0000 L CNN
+F 2 "" H 8600 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8700 5850 50  0001 C CNN
+	5    8650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E6CC400
+P 9150 1250
+F 0 "U?" H 9150 1617 50  0000 C CNN
+F 1 "LM2902" H 9150 1526 50  0000 C CNN
+F 2 "" H 9100 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9200 1450 50  0001 C CNN
+	1    9150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1150 8850 1150
+Connection ~ 8550 1150
+Wire Wire Line
+	8550 1150 8550 1200
+Wire Wire Line
+	8850 1350 8850 1500
+Wire Wire Line
+	8850 1500 9450 1500
+Wire Wire Line
+	9450 1500 9450 1250
+Text Label 8250 800  0    50   ~ 0
+5V_IN_1
+Wire Wire Line
+	8250 800  8550 800 
+Wire Wire Line
+	9500 1250 9450 1250
+Connection ~ 9450 1250
+Wire Wire Line
+	8550 1500 8550 1550
+$Comp
+L power:GND #PWR?
+U 1 1 5E6CC415
+P 8550 1550
+F 0 "#PWR?" H 8550 1300 50  0001 C CNN
+F 1 "GND" H 8555 1377 50  0000 C CNN
+F 2 "" H 8550 1550 50  0001 C CNN
+F 3 "" H 8550 1550 50  0001 C CNN
+	1    8550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC420
+P 8550 2000
+F 0 "R?" H 8618 2091 50  0000 L CNN
+F 1 "5.1K" H 8618 2000 50  0000 L CNN
+F 2 "" V 8590 1990 50  0001 C CNN
+F 3 "~" H 8550 2000 50  0001 C CNN
+F 4 "0.1%" H 8618 1909 50  0000 L CNN "Tolerance"
+	1    8550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC42B
+P 8550 2400
+F 0 "R?" H 8618 2491 50  0000 L CNN
+F 1 "10K" H 8618 2400 50  0000 L CNN
+F 2 "" V 8590 2390 50  0001 C CNN
+F 3 "~" H 8550 2400 50  0001 C CNN
+F 4 "0.1%" H 8618 2309 50  0000 L CNN "Tolerance"
+	1    8550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2150 8550 2200
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 2 1 5E6CC436
+P 9150 2300
+F 0 "U?" H 9150 2667 50  0000 C CNN
+F 1 "LM2902" H 9150 2576 50  0000 C CNN
+F 2 "" H 9100 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9200 2500 50  0001 C CNN
+	2    9150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2200 8850 2200
+Connection ~ 8550 2200
+Wire Wire Line
+	8550 2200 8550 2250
+Wire Wire Line
+	8850 2400 8850 2550
+Wire Wire Line
+	8850 2550 9450 2550
+Wire Wire Line
+	9450 2550 9450 2300
+Text Label 8250 1850 0    50   ~ 0
+5V_IN_2
+Wire Wire Line
+	8250 1850 8550 1850
+Wire Wire Line
+	8550 2550 8550 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5E6CC449
+P 8550 2600
+F 0 "#PWR?" H 8550 2350 50  0001 C CNN
+F 1 "GND" H 8555 2427 50  0000 C CNN
+F 2 "" H 8550 2600 50  0001 C CNN
+F 3 "" H 8550 2600 50  0001 C CNN
+	1    8550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC454
+P 8550 3050
+F 0 "R?" H 8618 3141 50  0000 L CNN
+F 1 "5.1K" H 8618 3050 50  0000 L CNN
+F 2 "" V 8590 3040 50  0001 C CNN
+F 3 "~" H 8550 3050 50  0001 C CNN
+F 4 "0.1%" H 8618 2959 50  0000 L CNN "Tolerance"
+	1    8550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC45F
+P 8550 3450
+F 0 "R?" H 8618 3541 50  0000 L CNN
+F 1 "10K" H 8618 3450 50  0000 L CNN
+F 2 "" V 8590 3440 50  0001 C CNN
+F 3 "~" H 8550 3450 50  0001 C CNN
+F 4 "0.1%" H 8618 3359 50  0000 L CNN "Tolerance"
+	1    8550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3200 8550 3250
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 3 1 5E6CC46A
+P 9150 3350
+F 0 "U?" H 9150 3717 50  0000 C CNN
+F 1 "LM2902" H 9150 3626 50  0000 C CNN
+F 2 "" H 9100 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9200 3550 50  0001 C CNN
+	3    9150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3250 8850 3250
+Connection ~ 8550 3250
+Wire Wire Line
+	8550 3250 8550 3300
+Wire Wire Line
+	8850 3450 8850 3600
+Wire Wire Line
+	8850 3600 9450 3600
+Wire Wire Line
+	9450 3600 9450 3350
+Text Label 8250 2900 0    50   ~ 0
+5V_IN_3
+Wire Wire Line
+	8250 2900 8550 2900
+Wire Wire Line
+	8550 3600 8550 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5E6CC47D
+P 8550 3650
+F 0 "#PWR?" H 8550 3400 50  0001 C CNN
+F 1 "GND" H 8555 3477 50  0000 C CNN
+F 2 "" H 8550 3650 50  0001 C CNN
+F 3 "" H 8550 3650 50  0001 C CNN
+	1    8550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC488
+P 8550 4100
+F 0 "R?" H 8618 4191 50  0000 L CNN
+F 1 "5.1K" H 8618 4100 50  0000 L CNN
+F 2 "" V 8590 4090 50  0001 C CNN
+F 3 "~" H 8550 4100 50  0001 C CNN
+F 4 "0.1%" H 8618 4009 50  0000 L CNN "Tolerance"
+	1    8550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6CC493
+P 8550 4500
+F 0 "R?" H 8618 4591 50  0000 L CNN
+F 1 "10K" H 8618 4500 50  0000 L CNN
+F 2 "" V 8590 4490 50  0001 C CNN
+F 3 "~" H 8550 4500 50  0001 C CNN
+F 4 "0.1%" H 8618 4409 50  0000 L CNN "Tolerance"
+	1    8550 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4250 8550 4300
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 4 1 5E6CC49E
+P 9150 4400
+F 0 "U?" H 9150 4767 50  0000 C CNN
+F 1 "LM2902" H 9150 4676 50  0000 C CNN
+F 2 "" H 9100 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9200 4600 50  0001 C CNN
+	4    9150 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4300 8850 4300
+Connection ~ 8550 4300
+Wire Wire Line
+	8550 4300 8550 4350
+Wire Wire Line
+	8850 4500 8850 4650
+Wire Wire Line
+	8850 4650 9450 4650
+Wire Wire Line
+	9450 4650 9450 4400
+Text Label 8250 3950 0    50   ~ 0
+5V_IN_4
+Wire Wire Line
+	8250 3950 8550 3950
+Wire Wire Line
+	8550 4650 8550 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5E6CC4B1
+P 8550 4700
+F 0 "#PWR?" H 8550 4450 50  0001 C CNN
+F 1 "GND" H 8555 4527 50  0000 C CNN
+F 2 "" H 8550 4700 50  0001 C CNN
+F 3 "" H 8550 4700 50  0001 C CNN
+	1    8550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E6CC4BB
+P 8550 5250
+F 0 "#PWR?" H 8550 5100 50  0001 C CNN
+F 1 "+5V" H 8565 5423 50  0000 C CNN
+F 2 "" H 8550 5250 50  0001 C CNN
+F 3 "" H 8550 5250 50  0001 C CNN
+	1    8550 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5250 8550 5300
+Wire Wire Line
+	8550 5950 8550 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5E6CC4C7
+P 8550 6050
+F 0 "#PWR?" H 8550 5800 50  0001 C CNN
+F 1 "GND" H 8555 5877 50  0000 C CNN
+F 2 "" H 8550 6050 50  0001 C CNN
+F 3 "" H 8550 6050 50  0001 C CNN
+	1    8550 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5300 9000 5300
+Wire Wire Line
+	9000 5300 9000 5500
+Connection ~ 8550 5300
+Wire Wire Line
+	8550 5300 8550 5350
+$Comp
+L Device:C C?
+U 1 1 5E6CC4D5
+P 9000 5650
+F 0 "C?" H 9115 5696 50  0000 L CNN
+F 1 "0.1uF" H 9115 5605 50  0000 L CNN
+F 2 "" H 9038 5500 50  0001 C CNN
+F 3 "~" H 9000 5650 50  0001 C CNN
+	1    9000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5800 9000 6000
+Wire Wire Line
+	9000 6000 8550 6000
+Connection ~ 8550 6000
+Wire Wire Line
+	8550 6000 8550 6050
+Text GLabel 9500 1250 2    50   Output ~ 0
+SAMD_ADC_1
+Wire Wire Line
+	9500 2300 9450 2300
+Text GLabel 9500 2300 2    50   Output ~ 0
+SAMD_ADC_2
+Connection ~ 9450 2300
+Wire Wire Line
+	9500 3350 9450 3350
+Text GLabel 9500 3350 2    50   Output ~ 0
+SAMD_ADC_3
+Wire Wire Line
+	9500 4400 9450 4400
+Text GLabel 9500 4400 2    50   Output ~ 0
+SAMD_ADC_4
+Connection ~ 9450 3350
+Connection ~ 9450 4400
+$EndSCHEMATC
