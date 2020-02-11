@@ -83,10 +83,6 @@ Wire Wire Line
 	2100 1550 2100 1300
 Text Label 900  850  0    50   ~ 0
 5V_IN_1
-Wire Wire Line
-	900  850  1200 850 
-Wire Wire Line
-	2150 1300 2100 1300
 Connection ~ 2100 1300
 Wire Wire Line
 	1200 1550 1200 1600
@@ -379,8 +375,6 @@ Wire Wire Line
 Connection ~ 1200 6050
 Wire Wire Line
 	1200 6050 1200 6100
-Text GLabel 2150 1300 2    50   Output ~ 0
-SAMD_ADC_1
 Wire Wire Line
 	2150 2350 2100 2350
 Text GLabel 2150 2350 2    50   Output ~ 0
@@ -1924,4 +1918,10 @@ Text GLabel 9500 4400 2    50   Output ~ 0
 SAMD_ADC_4
 Connection ~ 9450 3350
 Connection ~ 9450 4400
+Wire Wire Line
+	2150 1300 2100 1300
+Text GLabel 2150 1300 2    50   Output ~ 0
+SAMD_ADC_1
+Wire Wire Line
+	900  850  1200 850 
 $EndSCHEMATC
