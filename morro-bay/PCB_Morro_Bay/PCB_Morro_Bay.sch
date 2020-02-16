@@ -1017,43 +1017,43 @@ F1 "AnalogInput.sch" 50
 $EndSheet
 Text Notes 1350 6450 0    118  ~ 0
 Analog Input
-Text GLabel 8850 1800 0    50   Input ~ 0
-SAMD_ADC_1
-Text GLabel 8850 1900 0    50   Input ~ 0
-SAMD_ADC_2
-Text GLabel 8850 2000 0    50   Input ~ 0
-SAMD_ADC_3
-Text GLabel 8850 2100 0    50   Input ~ 0
-SAMD_ADC_4
-Text GLabel 8850 2200 0    50   Input ~ 0
-SAMD_ADC_5
-Text GLabel 8850 2300 0    50   Input ~ 0
-SAMD_ADC_6
-Text GLabel 8850 2400 0    50   Input ~ 0
-SAMD_ADC_7
-Text GLabel 8850 2500 0    50   Input ~ 0
-SAMD_ADC_8
-Text GLabel 8850 2600 0    50   Input ~ 0
-SAMD_ADC_9
-Text GLabel 8850 2700 0    50   Input ~ 0
-SAMD_ADC_10
 Text GLabel 8850 2850 0    50   Input ~ 0
-SAMD_ADC_11
+SAMD_ADC_1
 Text GLabel 8850 2950 0    50   Input ~ 0
-SAMD_ADC_12
+SAMD_ADC_2
 Text GLabel 8850 3050 0    50   Input ~ 0
-SAMD_ADC_13
+SAMD_ADC_3
 Text GLabel 8850 3150 0    50   Input ~ 0
-SAMD_ADC_14
+SAMD_ADC_4
+Text GLabel 8850 1800 0    50   Input ~ 0
+SAMD_ADC_5
+Text GLabel 8850 1900 0    50   Input ~ 0
+SAMD_ADC_6
 Text GLabel 8850 3250 0    50   Input ~ 0
-SAMD_ADC_15
+SAMD_ADC_7
 Text GLabel 8850 3350 0    50   Input ~ 0
-SAMD_ADC_16
+SAMD_ADC_8
 Text GLabel 8850 3450 0    50   Input ~ 0
-SAMD_ADC_17
+SAMD_ADC_9
 Text GLabel 8850 3550 0    50   Input ~ 0
-SAMD_ADC_18
+SAMD_ADC_10
 Text GLabel 8850 3650 0    50   Input ~ 0
+SAMD_ADC_11
+Text GLabel 8850 3750 0    50   Input ~ 0
+SAMD_ADC_12
+Text GLabel 8850 2000 0    50   Input ~ 0
+SAMD_ADC_13
+Text GLabel 8850 2100 0    50   Input ~ 0
+SAMD_ADC_14
+Text GLabel 8850 2200 0    50   Input ~ 0
+SAMD_ADC_15
+Text GLabel 8850 2300 0    50   Input ~ 0
+SAMD_ADC_16
+Text GLabel 8850 2400 0    50   Input ~ 0
+SAMD_ADC_17
+Text GLabel 8850 2500 0    50   Input ~ 0
+SAMD_ADC_18
+Text GLabel 8850 2600 0    50   Input ~ 0
 SAMD_ADC_19
 Wire Wire Line
 	2800 4800 2800 4850
@@ -1332,7 +1332,7 @@ Wire Wire Line
 	2600 3350 2850 3350
 Wire Wire Line
 	2600 3250 2650 3250
-Text GLabel 8850 3750 0    50   Input ~ 0
+Text GLabel 8850 2700 0    50   Input ~ 0
 SAMD_ADC_20
 Wire Wire Line
 	8850 1800 8900 1800
@@ -1406,4 +1406,6 @@ Wire Wire Line
 Connection ~ 8050 1650
 Wire Wire Line
 	8050 1650 8050 1700
+Text Notes 3900 6950 0    118  ~ 0
+TODO:\nGLOBAL LABELS ON INPUTS\nCONNECTORS\nCRYSTALS\nCAN CONTROLS\nLEDS\nDIP SWITCHES\nEXTERNAL ADC
 $EndSCHEMATC
