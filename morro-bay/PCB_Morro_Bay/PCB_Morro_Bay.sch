@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Morro Bay Data Acquisition Board"
 Date ""
 Rev "A"
@@ -938,8 +938,8 @@ U 5E59A680
 F0 "AnalogInput" 50
 F1 "AnalogInput.sch" 50
 $EndSheet
-Text Notes 900  7300 0    118  ~ 0
-Analog Input
+Text Notes 850  7250 0    118  ~ 0
+ANALOG INPUT
 Text GLabel 8850 2850 0    50   Input ~ 0
 SAMD_ADC_1
 Text GLabel 8850 2950 0    50   Input ~ 0
@@ -1329,8 +1329,8 @@ Wire Wire Line
 Connection ~ 8050 1650
 Wire Wire Line
 	8050 1650 8050 1700
-Text Notes 3350 6200 0    118  ~ 0
-TODO:\n-CRYSTALS\n-CAN CONTROLS\n-LEDS\n-EXTERNAL ADC\n-SERIAL\n-PROGRAMMING HEADER
+Text Notes 3500 6800 0    118  ~ 0
+TODO:\n-CRYSTALS\n-CAN CONTROLS\n-LEDS\n-EXTERNAL ADC\n-SERIAL\n-PROGRAMMING HEADER\n-POWER FILTERING
 $Comp
 L Device:LED D?
 U 1 1 5E4DC511

@@ -1,0 +1,250 @@
+EESchema Schematic File Version 4
+LIBS:PCB_Morro_Bay-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "Morro Bay Data Acquisition Board"
+Date ""
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Jasper Rubin"
+$EndDescr
+$Comp
+L Morro_Bay_Lib:ADS114S08BIPBSR U?
+U 1 1 5E5B6637
+P 5500 2900
+F 0 "U?" H 4950 3850 50  0000 C CNN
+F 1 "ADS114S08BIPBSR" H 6000 2000 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_5x5mm_P0.5mm" H 5400 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads114s06b.pdf" H 5400 3150 50  0001 C CNN
+	1    5500 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3650 6250 3650
+NoConn ~ 6250 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5E5B9197
+P 5600 3950
+F 0 "#PWR?" H 5600 3700 50  0001 C CNN
+F 1 "GND" H 5605 3777 50  0000 C CNN
+F 2 "" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1850 5600 1850
+Wire Wire Line
+	5600 1850 5600 1900
+Wire Wire Line
+	5500 1850 5500 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E5BC118
+P 5600 1800
+F 0 "#PWR?" H 5600 1650 50  0001 C CNN
+F 1 "+3.3V" H 5615 1973 50  0000 C CNN
+F 2 "" H 5600 1800 50  0001 C CNN
+F 3 "" H 5600 1800 50  0001 C CNN
+	1    5600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1800 5600 1850
+Connection ~ 5600 1850
+Wire Wire Line
+	5350 1800 5350 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5E5BD3C4
+P 5350 3950
+F 0 "#PWR?" H 5350 3700 50  0001 C CNN
+F 1 "GND" H 5355 3777 50  0000 C CNN
+F 2 "" H 5350 3950 50  0001 C CNN
+F 3 "" H 5350 3950 50  0001 C CNN
+	1    5350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3950 5350 3900
+Wire Wire Line
+	5350 3900 5450 3900
+Wire Wire Line
+	5450 3900 5450 3850
+Connection ~ 5350 3900
+Wire Wire Line
+	5350 3900 5350 3850
+Wire Wire Line
+	5600 3850 5600 3950
+$Comp
+L power:+5V #PWR?
+U 1 1 5E5BFA6B
+P 5350 1800
+F 0 "#PWR?" H 5350 1650 50  0001 C CNN
+F 1 "+5V" H 5365 1973 50  0000 C CNN
+F 2 "" H 5350 1800 50  0001 C CNN
+F 3 "" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2250 6300 2250
+Wire Wire Line
+	6850 2250 6850 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5E5C5303
+P 6850 2300
+F 0 "#PWR?" H 6850 2050 50  0001 C CNN
+F 1 "GND" H 6855 2127 50  0000 C CNN
+F 2 "" H 6850 2300 50  0001 C CNN
+F 3 "" H 6850 2300 50  0001 C CNN
+	1    6850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5C6552
+P 6650 2150
+F 0 "C?" V 6398 2150 50  0000 C CNN
+F 1 "0.1uF" V 6489 2150 50  0000 C CNN
+F 2 "" H 6688 2000 50  0001 C CNN
+F 3 "~" H 6650 2150 50  0001 C CNN
+	1    6650 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 2150 6850 2150
+Wire Wire Line
+	6850 2150 6850 2250
+Connection ~ 6850 2250
+Wire Wire Line
+	6500 2150 6200 2150
+Wire Wire Line
+	4800 3550 4750 3550
+Wire Wire Line
+	4800 3650 4750 3650
+NoConn ~ 4750 3550
+NoConn ~ 4750 3650
+Text GLabel 6600 2700 2    50   Input ~ 0
+EADC_RESET
+Wire Wire Line
+	6250 2700 6200 2700
+Wire Wire Line
+	6200 2600 6250 2600
+Wire Wire Line
+	6200 3050 6250 3050
+Wire Wire Line
+	6200 3150 6250 3150
+Wire Wire Line
+	6200 3250 6250 3250
+Wire Wire Line
+	6200 3350 6250 3350
+Wire Wire Line
+	6200 3450 6250 3450
+Wire Wire Line
+	6300 2500 6300 2250
+Wire Wire Line
+	6200 2500 6300 2500
+Connection ~ 6300 2250
+Wire Wire Line
+	6300 2250 6850 2250
+Text GLabel 6600 2600 2    50   Output ~ 0
+EADC_START_SYNC
+Text GLabel 6600 3150 2    50   Output ~ 0
+EADC_DOUT_DRDY
+Text GLabel 6600 3250 2    50   Input ~ 0
+EADC_SCLK
+Text GLabel 6600 3350 2    50   Input ~ 0
+EADC_DIN
+Text GLabel 6600 3450 2    50   Input ~ 0
+EADC_CS
+$Comp
+L Device:R_US R?
+U 1 1 5E5D0EBB
+P 6400 2600
+F 0 "R?" V 6450 2700 50  0000 C CNN
+F 1 "47" V 6450 2500 50  0000 C CNN
+F 2 "" V 6440 2590 50  0001 C CNN
+F 3 "~" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E5D1AE1
+P 6400 2700
+F 0 "R?" V 6450 2800 50  0000 C CNN
+F 1 "47" V 6450 2600 50  0000 C CNN
+F 2 "" V 6440 2690 50  0001 C CNN
+F 3 "~" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E5D24FA
+P 6400 3150
+F 0 "R?" V 6450 3250 50  0000 C CNN
+F 1 "47" V 6450 3050 50  0000 C CNN
+F 2 "" V 6440 3140 50  0001 C CNN
+F 3 "~" H 6400 3150 50  0001 C CNN
+	1    6400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E5D275F
+P 6400 3250
+F 0 "R?" V 6450 3350 50  0000 C CNN
+F 1 "47" V 6450 3150 50  0000 C CNN
+F 2 "" V 6440 3240 50  0001 C CNN
+F 3 "~" H 6400 3250 50  0001 C CNN
+	1    6400 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E5D2B1D
+P 6400 3350
+F 0 "R?" V 6450 3450 50  0000 C CNN
+F 1 "47" V 6450 3250 50  0000 C CNN
+F 2 "" V 6440 3340 50  0001 C CNN
+F 3 "~" H 6400 3350 50  0001 C CNN
+	1    6400 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E5D2DFC
+P 6400 3450
+F 0 "R?" V 6450 3550 50  0000 C CNN
+F 1 "47" V 6450 3350 50  0000 C CNN
+F 2 "" V 6440 3440 50  0001 C CNN
+F 3 "~" H 6400 3450 50  0001 C CNN
+	1    6400 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 2600 6550 2600
+Wire Wire Line
+	6550 2700 6600 2700
+Wire Wire Line
+	6600 3150 6550 3150
+Wire Wire Line
+	6600 3250 6550 3250
+Wire Wire Line
+	6600 3350 6550 3350
+Wire Wire Line
+	6600 3450 6550 3450
+NoConn ~ 6250 3050
+Text Label 6250 2150 0    50   ~ 0
+REFOUT
+$EndSCHEMATC

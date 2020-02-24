@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title "Morro Bay Data Acquisition Board"
 Date ""
 Rev "A"
@@ -3165,8 +3165,8 @@ U 5E877D15
 F0 "AnalogConnectors" 50
 F1 "AnalogConnectors.sch" 50
 $EndSheet
-Text Notes 800  7400 0    118  ~ 0
-Analog Connectors
+Text Notes 700  7450 0    118  ~ 0
+ANALOG CONNECTORS
 $Comp
 L Switch:SW_DIP_x10 SW1
 U 1 1 5ED6B5DC
@@ -3349,4 +3349,12 @@ Text GLabel 5350 7550 0    50   Input ~ 0
 5V_IN_20
 Wire Wire Line
 	5350 7550 5400 7550
+$Sheet
+S 650  6400 2000 500 
+U 5E5467E7
+F0 "ExternalADC" 50
+F1 "ExternalADC.sch" 50
+$EndSheet
+Text Notes 1000 6750 0    118  ~ 0
+EXTERNAL ADC
 $EndSCHEMATC
