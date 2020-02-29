@@ -2230,51 +2230,51 @@ Text GLabel 5300 1950 2    50   Input ~ 0
 5V_IN_30
 Wire Wire Line
 	5300 1950 5250 1950
-Text GLabel 8200 2450 0    50   Input ~ 0
+Text GLabel 8200 2950 0    50   Input ~ 0
 EADC_ADC_1
 Wire Wire Line
 	8200 2450 8250 2450
-Text GLabel 8200 2550 0    50   Input ~ 0
+Text GLabel 8200 2850 0    50   Input ~ 0
 EADC_ADC_2
 Wire Wire Line
 	8200 2550 8250 2550
-Text GLabel 8200 2650 0    50   Input ~ 0
+Text GLabel 8200 2750 0    50   Input ~ 0
 EADC_ADC_3
 Wire Wire Line
 	8200 2650 8250 2650
-Text GLabel 8200 2750 0    50   Input ~ 0
+Text GLabel 8200 2650 0    50   Input ~ 0
 EADC_ADC_4
 Wire Wire Line
 	8200 2750 8250 2750
-Text GLabel 8200 2850 0    50   Input ~ 0
+Text GLabel 8200 2550 0    50   Input ~ 0
 EADC_ADC_5
 Wire Wire Line
 	8200 2850 8250 2850
-Text GLabel 8200 2950 0    50   Input ~ 0
+Text GLabel 8200 2450 0    50   Input ~ 0
 EADC_ADC_6
 Wire Wire Line
 	8200 2950 8250 2950
-Text GLabel 8200 3050 0    50   Input ~ 0
+Text GLabel 8200 3550 0    50   Input ~ 0
 EADC_ADC_7
 Wire Wire Line
 	8200 3050 8250 3050
-Text GLabel 8200 3150 0    50   Input ~ 0
+Text GLabel 8200 3450 0    50   Input ~ 0
 EADC_ADC_8
 Wire Wire Line
 	8200 3150 8250 3150
-Text GLabel 8200 3250 0    50   Input ~ 0
+Text GLabel 8200 3350 0    50   Input ~ 0
 EADC_ADC_9
 Wire Wire Line
 	8200 3250 8250 3250
-Text GLabel 8200 3350 0    50   Input ~ 0
+Text GLabel 8200 3250 0    50   Input ~ 0
 EADC_ADC_10
 Wire Wire Line
 	8200 3350 8250 3350
-Text GLabel 8200 3450 0    50   Input ~ 0
+Text GLabel 8200 3150 0    50   Input ~ 0
 EADC_ADC_11
 Wire Wire Line
 	8200 3450 8250 3450
-Text GLabel 8200 3550 0    50   Input ~ 0
+Text GLabel 8200 3050 0    50   Input ~ 0
 EADC_ADC_12
 Wire Wire Line
 	8200 3550 8250 3550
@@ -2463,4 +2463,19 @@ Text Notes 8350 700  0    50   ~ 0
 AVDD
 Text Notes 8850 700  0    50   ~ 0
 DVDD
+Wire Wire Line
+	8250 3700 8050 3700
+Wire Wire Line
+	8050 3700 8050 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5EE946F3
+P 8050 3750
+F 0 "#PWR?" H 8050 3500 50  0001 C CNN
+F 1 "GND" H 8055 3577 50  0000 C CNN
+F 2 "" H 8050 3750 50  0001 C CNN
+F 3 "" H 8050 3750 50  0001 C CNN
+	1    8050 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

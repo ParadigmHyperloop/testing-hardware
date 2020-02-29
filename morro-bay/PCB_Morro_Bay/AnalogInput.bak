@@ -3170,185 +3170,185 @@ ANALOG CONNECTORS
 $Comp
 L Switch:SW_DIP_x10 SW1
 U 1 1 5ED6B5DC
-P 4200 7150
-F 0 "SW1" H 4200 7917 50  0000 C CNN
-F 1 "SW_DIP_x10" H 4200 7826 50  0000 C CNN
-F 2 "" H 4200 7150 50  0001 C CNN
-F 3 "~" H 4200 7150 50  0001 C CNN
-	1    4200 7150
+P 4600 7150
+F 0 "SW1" H 4600 7917 50  0000 C CNN
+F 1 "SW_DIP_x10" H 4600 7826 50  0000 C CNN
+F 2 "" H 4600 7150 50  0001 C CNN
+F 3 "~" H 4600 7150 50  0001 C CNN
+	1    4600 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 6650 0    50   Input ~ 0
+Text GLabel 4250 6650 0    50   Input ~ 0
 5V_IN_1
 Wire Wire Line
-	3850 6650 3900 6650
-Text Label 4900 6650 2    50   ~ 0
+	4250 6650 4300 6650
+Text Label 5300 6650 2    50   ~ 0
 3V3_IN_1
 Wire Wire Line
-	4900 6650 4500 6650
-Text Label 4900 6750 2    50   ~ 0
+	5300 6650 4900 6650
+Text Label 5300 6750 2    50   ~ 0
 3V3_IN_2
 Wire Wire Line
-	4900 6750 4500 6750
-Text Label 4900 6850 2    50   ~ 0
+	5300 6750 4900 6750
+Text Label 5300 6850 2    50   ~ 0
 3V3_IN_3
 Wire Wire Line
-	4900 6850 4500 6850
-Text Label 4900 6950 2    50   ~ 0
+	5300 6850 4900 6850
+Text Label 5300 6950 2    50   ~ 0
 3V3_IN_4
 Wire Wire Line
-	4900 6950 4500 6950
-Text Label 4900 7050 2    50   ~ 0
+	5300 6950 4900 6950
+Text Label 5300 7050 2    50   ~ 0
 3V3_IN_5
 Wire Wire Line
-	4900 7050 4500 7050
-Text Label 4900 7150 2    50   ~ 0
+	5300 7050 4900 7050
+Text Label 5300 7150 2    50   ~ 0
 3V3_IN_6
 Wire Wire Line
-	4900 7150 4500 7150
-Text Label 4900 7250 2    50   ~ 0
+	5300 7150 4900 7150
+Text Label 5300 7250 2    50   ~ 0
 3V3_IN_7
 Wire Wire Line
-	4900 7250 4500 7250
-Text Label 4900 7350 2    50   ~ 0
+	5300 7250 4900 7250
+Text Label 5300 7350 2    50   ~ 0
 3V3_IN_8
 Wire Wire Line
-	4900 7350 4500 7350
-Text Label 4900 7450 2    50   ~ 0
+	5300 7350 4900 7350
+Text Label 5300 7450 2    50   ~ 0
 3V3_IN_9
 Wire Wire Line
-	4900 7450 4500 7450
-Text Label 4900 7550 2    50   ~ 0
+	5300 7450 4900 7450
+Text Label 5300 7550 2    50   ~ 0
 3V3_IN_10
 Wire Wire Line
-	4900 7550 4500 7550
-Text GLabel 3850 6750 0    50   Input ~ 0
+	5300 7550 4900 7550
+Text GLabel 4250 6750 0    50   Input ~ 0
 5V_IN_2
 Wire Wire Line
-	3850 6750 3900 6750
-Text GLabel 3850 6850 0    50   Input ~ 0
+	4250 6750 4300 6750
+Text GLabel 4250 6850 0    50   Input ~ 0
 5V_IN_3
 Wire Wire Line
-	3850 6850 3900 6850
-Text GLabel 3850 6950 0    50   Input ~ 0
+	4250 6850 4300 6850
+Text GLabel 4250 6950 0    50   Input ~ 0
 5V_IN_4
 Wire Wire Line
-	3850 6950 3900 6950
-Text GLabel 3850 7050 0    50   Input ~ 0
+	4250 6950 4300 6950
+Text GLabel 4250 7050 0    50   Input ~ 0
 5V_IN_5
 Wire Wire Line
-	3850 7050 3900 7050
-Text GLabel 3850 7150 0    50   Input ~ 0
+	4250 7050 4300 7050
+Text GLabel 4250 7150 0    50   Input ~ 0
 5V_IN_6
 Wire Wire Line
-	3850 7150 3900 7150
-Text GLabel 3850 7250 0    50   Input ~ 0
+	4250 7150 4300 7150
+Text GLabel 4250 7250 0    50   Input ~ 0
 5V_IN_7
 Wire Wire Line
-	3850 7250 3900 7250
-Text GLabel 3850 7350 0    50   Input ~ 0
+	4250 7250 4300 7250
+Text GLabel 4250 7350 0    50   Input ~ 0
 5V_IN_8
 Wire Wire Line
-	3850 7350 3900 7350
-Text GLabel 3850 7450 0    50   Input ~ 0
+	4250 7350 4300 7350
+Text GLabel 4250 7450 0    50   Input ~ 0
 5V_IN_9
 Wire Wire Line
-	3850 7450 3900 7450
-Text GLabel 3850 7550 0    50   Input ~ 0
+	4250 7450 4300 7450
+Text GLabel 4250 7550 0    50   Input ~ 0
 5V_IN_10
 Wire Wire Line
-	3850 7550 3900 7550
+	4250 7550 4300 7550
 $Comp
 L Switch:SW_DIP_x10 SW2
 U 1 1 5EF485AE
-P 5700 7150
-F 0 "SW2" H 5700 7917 50  0000 C CNN
-F 1 "SW_DIP_x10" H 5700 7826 50  0000 C CNN
-F 2 "" H 5700 7150 50  0001 C CNN
-F 3 "~" H 5700 7150 50  0001 C CNN
-	1    5700 7150
+P 6100 7150
+F 0 "SW2" H 6100 7917 50  0000 C CNN
+F 1 "SW_DIP_x10" H 6100 7826 50  0000 C CNN
+F 2 "" H 6100 7150 50  0001 C CNN
+F 3 "~" H 6100 7150 50  0001 C CNN
+	1    6100 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 5350 6650 0    50   Input ~ 0
+Text GLabel 5750 6650 0    50   Input ~ 0
 5V_IN_11
 Wire Wire Line
-	5350 6650 5400 6650
-Text Label 6400 6650 2    50   ~ 0
+	5750 6650 5800 6650
+Text Label 6800 6650 2    50   ~ 0
 3V3_IN_11
 Wire Wire Line
-	6400 6650 6000 6650
-Text Label 6400 6750 2    50   ~ 0
+	6800 6650 6400 6650
+Text Label 6800 6750 2    50   ~ 0
 3V3_IN_12
 Wire Wire Line
-	6400 6750 6000 6750
-Text Label 6400 6850 2    50   ~ 0
+	6800 6750 6400 6750
+Text Label 6800 6850 2    50   ~ 0
 3V3_IN_13
 Wire Wire Line
-	6400 6850 6000 6850
-Text Label 6400 6950 2    50   ~ 0
+	6800 6850 6400 6850
+Text Label 6800 6950 2    50   ~ 0
 3V3_IN_14
 Wire Wire Line
-	6400 6950 6000 6950
-Text Label 6400 7050 2    50   ~ 0
+	6800 6950 6400 6950
+Text Label 6800 7050 2    50   ~ 0
 3V3_IN_15
 Wire Wire Line
-	6400 7050 6000 7050
-Text Label 6400 7150 2    50   ~ 0
+	6800 7050 6400 7050
+Text Label 6800 7150 2    50   ~ 0
 3V3_IN_16
 Wire Wire Line
-	6400 7150 6000 7150
-Text Label 6400 7250 2    50   ~ 0
+	6800 7150 6400 7150
+Text Label 6800 7250 2    50   ~ 0
 3V3_IN_17
 Wire Wire Line
-	6400 7250 6000 7250
-Text Label 6400 7350 2    50   ~ 0
+	6800 7250 6400 7250
+Text Label 6800 7350 2    50   ~ 0
 3V3_IN_18
 Wire Wire Line
-	6400 7350 6000 7350
-Text Label 6400 7450 2    50   ~ 0
+	6800 7350 6400 7350
+Text Label 6800 7450 2    50   ~ 0
 3V3_IN_19
 Wire Wire Line
-	6400 7450 6000 7450
-Text Label 6400 7550 2    50   ~ 0
+	6800 7450 6400 7450
+Text Label 6800 7550 2    50   ~ 0
 3V3_IN_20
 Wire Wire Line
-	6400 7550 6000 7550
-Text GLabel 5350 6750 0    50   Input ~ 0
+	6800 7550 6400 7550
+Text GLabel 5750 6750 0    50   Input ~ 0
 5V_IN_12
 Wire Wire Line
-	5350 6750 5400 6750
-Text GLabel 5350 6850 0    50   Input ~ 0
+	5750 6750 5800 6750
+Text GLabel 5750 6850 0    50   Input ~ 0
 5V_IN_13
 Wire Wire Line
-	5350 6850 5400 6850
-Text GLabel 5350 6950 0    50   Input ~ 0
+	5750 6850 5800 6850
+Text GLabel 5750 6950 0    50   Input ~ 0
 5V_IN_14
 Wire Wire Line
-	5350 6950 5400 6950
-Text GLabel 5350 7050 0    50   Input ~ 0
+	5750 6950 5800 6950
+Text GLabel 5750 7050 0    50   Input ~ 0
 5V_IN_15
 Wire Wire Line
-	5350 7050 5400 7050
-Text GLabel 5350 7150 0    50   Input ~ 0
+	5750 7050 5800 7050
+Text GLabel 5750 7150 0    50   Input ~ 0
 5V_IN_16
 Wire Wire Line
-	5350 7150 5400 7150
-Text GLabel 5350 7250 0    50   Input ~ 0
+	5750 7150 5800 7150
+Text GLabel 5750 7250 0    50   Input ~ 0
 5V_IN_17
 Wire Wire Line
-	5350 7250 5400 7250
-Text GLabel 5350 7350 0    50   Input ~ 0
+	5750 7250 5800 7250
+Text GLabel 5750 7350 0    50   Input ~ 0
 5V_IN_18
 Wire Wire Line
-	5350 7350 5400 7350
-Text GLabel 5350 7450 0    50   Input ~ 0
+	5750 7350 5800 7350
+Text GLabel 5750 7450 0    50   Input ~ 0
 5V_IN_19
 Wire Wire Line
-	5350 7450 5400 7450
-Text GLabel 5350 7550 0    50   Input ~ 0
+	5750 7450 5800 7450
+Text GLabel 5750 7550 0    50   Input ~ 0
 5V_IN_20
 Wire Wire Line
-	5350 7550 5400 7550
+	5750 7550 5800 7550
 $Sheet
 S 650  6400 2000 500 
 U 5E5467E7
@@ -3357,4 +3357,71 @@ F1 "ExternalADC.sch" 50
 $EndSheet
 Text Notes 1000 6750 0    118  ~ 0
 EXTERNAL ADC
+$Comp
+L power:+5V #PWR?
+U 1 1 5EEA9E94
+P 3050 6800
+AR Path="/5E59A680/5EEA9E94" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5EEA9E94" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 6650 50  0001 C CNN
+F 1 "+5V" H 3065 6973 50  0000 C CNN
+F 2 "" H 3050 6800 50  0001 C CNN
+F 3 "" H 3050 6800 50  0001 C CNN
+	1    3050 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EEAA8A3
+P 3450 7300
+AR Path="/5EEAA8A3" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5EEAA8A3" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5EEAA8A3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 7050 50  0001 C CNN
+F 1 "GND" H 3455 7127 50  0000 C CNN
+F 2 "" H 3450 7300 50  0001 C CNN
+F 3 "" H 3450 7300 50  0001 C CNN
+	1    3450 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5EEAB869
+P 3050 7050
+F 0 "C?" H 3165 7096 50  0000 L CNN
+F 1 "22uF" H 3165 7005 50  0000 L CNN
+F 2 "" H 3050 7050 50  0001 C CNN
+F 3 "~" H 3050 7050 50  0001 C CNN
+	1    3050 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5EEAD276
+P 3450 7050
+F 0 "C?" H 3565 7096 50  0000 L CNN
+F 1 "22uF" H 3565 7005 50  0000 L CNN
+F 2 "" H 3450 7050 50  0001 C CNN
+F 3 "~" H 3450 7050 50  0001 C CNN
+	1    3450 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6800 3050 6850
+Wire Wire Line
+	3050 6850 3450 6850
+Wire Wire Line
+	3450 6850 3450 6900
+Connection ~ 3050 6850
+Wire Wire Line
+	3050 6850 3050 6900
+Wire Wire Line
+	3050 7200 3050 7250
+Wire Wire Line
+	3050 7250 3450 7250
+Wire Wire Line
+	3450 7250 3450 7200
+Wire Wire Line
+	3450 7300 3450 7250
+Connection ~ 3450 7250
 $EndSCHEMATC
