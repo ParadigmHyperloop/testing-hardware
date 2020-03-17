@@ -12,7 +12,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "Jasper Rubin"
+Comment4 "JR"
 $EndDescr
 Wire Wire Line
 	950  1150 1000 1150
