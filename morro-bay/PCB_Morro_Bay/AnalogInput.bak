@@ -3019,28 +3019,6 @@ F 3 "" H 3450 7300 50  0001 C CNN
 	1    3450 7300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP1 C40
-U 1 1 5EEAB869
-P 3050 7050
-F 0 "C40" H 3165 7096 50  0000 L CNN
-F 1 "22uF" H 3165 7005 50  0000 L CNN
-F 2 "" H 3050 7050 50  0001 C CNN
-F 3 "~" H 3050 7050 50  0001 C CNN
-	1    3050 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C41
-U 1 1 5EEAD276
-P 3450 7050
-F 0 "C41" H 3565 7096 50  0000 L CNN
-F 1 "22uF" H 3565 7005 50  0000 L CNN
-F 2 "" H 3450 7050 50  0001 C CNN
-F 3 "~" H 3450 7050 50  0001 C CNN
-	1    3450 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 6800 3050 6850
 Wire Wire Line
@@ -3978,5 +3956,35 @@ F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1
 F 5 "CC0603KRX7R8BB104" H 10450 4850 50  0001 C CNN "Part Number"
 	1    10450 4850
 	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E78EDE6
+P 3050 7050
+AR Path="/5E78EDE6" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E78EDE6" Ref="C40"  Part="1" 
+F 0 "C40" H 3165 7096 50  0000 L CNN
+F 1 "22uF" H 3165 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3088 6900 50  0001 C CNN
+F 3 "~" H 3050 7050 50  0001 C CNN
+F 4 "CL21A226MAQNNNE" H 3050 7050 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3050 7050 50  0001 C CNN "Digikey"
+	1    3050 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E7BDB3E
+P 3450 7050
+AR Path="/5E7BDB3E" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E7BDB3E" Ref="C41"  Part="1" 
+F 0 "C41" H 3565 7096 50  0000 L CNN
+F 1 "22uF" H 3565 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3488 6900 50  0001 C CNN
+F 3 "~" H 3450 7050 50  0001 C CNN
+F 4 "CL21A226MAQNNNE" H 3450 7050 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3450 7050 50  0001 C CNN "Digikey"
+	1    3450 7050
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

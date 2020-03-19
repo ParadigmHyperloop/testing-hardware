@@ -760,8 +760,6 @@ Wire Wire Line
 	1800 2550 1900 2550
 Wire Wire Line
 	1800 2750 1850 2750
-Text GLabel 1850 2750 2    50   Output ~ 0
-5V_IN_11
 Wire Wire Line
 	1800 3700 1850 3700
 Wire Wire Line
@@ -828,8 +826,6 @@ Wire Wire Line
 	1800 3400 1900 3400
 Wire Wire Line
 	1800 3600 1850 3600
-Text GLabel 1850 3600 2    50   Output ~ 0
-5V_IN_12
 Wire Wire Line
 	1800 4550 1850 4550
 Wire Wire Line
@@ -896,8 +892,6 @@ Wire Wire Line
 	1800 4250 1900 4250
 Wire Wire Line
 	1800 4450 1850 4450
-Text GLabel 1850 4450 2    50   Output ~ 0
-5V_IN_13
 Wire Wire Line
 	1800 5400 1850 5400
 Wire Wire Line
@@ -964,8 +958,6 @@ Wire Wire Line
 	1800 5100 1900 5100
 Wire Wire Line
 	1800 5300 1850 5300
-Text GLabel 1850 5300 2    50   Output ~ 0
-5V_IN_14
 Wire Wire Line
 	1800 6250 1850 6250
 Wire Wire Line
@@ -1032,8 +1024,6 @@ Wire Wire Line
 	1800 5950 1900 5950
 Wire Wire Line
 	1800 6150 1850 6150
-Text GLabel 1850 6150 2    50   Output ~ 0
-5V_IN_15
 Wire Wire Line
 	1800 7100 1850 7100
 Wire Wire Line
@@ -1100,8 +1090,6 @@ Wire Wire Line
 	1800 6800 1900 6800
 Wire Wire Line
 	1800 7000 1850 7000
-Text GLabel 1850 7000 2    50   Output ~ 0
-5V_IN_16
 Wire Wire Line
 	2650 1150 2700 1150
 Wire Wire Line
@@ -1168,8 +1156,6 @@ Wire Wire Line
 	2650 850  2750 850 
 Wire Wire Line
 	2650 1050 2700 1050
-Text GLabel 2700 1050 2    50   Output ~ 0
-5V_IN_17
 Wire Wire Line
 	2650 2000 2700 2000
 Wire Wire Line
@@ -1236,8 +1222,6 @@ Wire Wire Line
 	2650 1700 2750 1700
 Wire Wire Line
 	2650 1900 2700 1900
-Text GLabel 2700 1900 2    50   Output ~ 0
-5V_IN_18
 Wire Wire Line
 	2650 2850 2700 2850
 Wire Wire Line
@@ -1304,8 +1288,6 @@ Wire Wire Line
 	2650 2550 2750 2550
 Wire Wire Line
 	2650 2750 2700 2750
-Text GLabel 2700 2750 2    50   Output ~ 0
-5V_IN_19
 Wire Wire Line
 	2650 3700 2700 3700
 Wire Wire Line
@@ -1372,8 +1354,6 @@ Wire Wire Line
 	2650 3400 2750 3400
 Wire Wire Line
 	2650 3600 2700 3600
-Text GLabel 2700 3600 2    50   Output ~ 0
-5V_IN_20
 Wire Wire Line
 	3750 1150 3800 1150
 Wire Wire Line
@@ -1441,7 +1421,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 1050 3800 1050
 Text GLabel 3800 1050 2    50   Output ~ 0
-5V_IN_21
+5V_IN_13
 Wire Wire Line
 	3750 2000 3800 2000
 Wire Wire Line
@@ -1509,7 +1489,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 1900 3800 1900
 Text GLabel 3800 1900 2    50   Output ~ 0
-5V_IN_22
+5V_IN_14
 Wire Wire Line
 	3750 2850 3800 2850
 Wire Wire Line
@@ -1577,7 +1557,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2750 3800 2750
 Text GLabel 3800 2750 2    50   Output ~ 0
-5V_IN_23
+5V_IN_15
 Wire Wire Line
 	3750 3700 3800 3700
 Wire Wire Line
@@ -1645,7 +1625,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 3600 3800 3600
 Text GLabel 3800 3600 2    50   Output ~ 0
-5V_IN_24
+5V_IN_16
 Wire Wire Line
 	3750 4550 3800 4550
 Wire Wire Line
@@ -1712,8 +1692,6 @@ Wire Wire Line
 	3750 4250 3850 4250
 Wire Wire Line
 	3750 4450 3800 4450
-Text GLabel 3800 4450 2    50   Output ~ 0
-5V_IN_25
 Wire Wire Line
 	3750 5400 3800 5400
 Wire Wire Line
@@ -1780,8 +1758,6 @@ Wire Wire Line
 	3750 5100 3850 5100
 Wire Wire Line
 	3750 5300 3800 5300
-Text GLabel 3800 5300 2    50   Output ~ 0
-5V_IN_26
 Wire Wire Line
 	3750 6250 3800 6250
 Wire Wire Line
@@ -1848,8 +1824,6 @@ Wire Wire Line
 	3750 5950 3850 5950
 Wire Wire Line
 	3750 6150 3800 6150
-Text GLabel 3800 6150 2    50   Output ~ 0
-5V_IN_27
 Wire Wire Line
 	3750 7100 3800 7100
 Wire Wire Line
@@ -1916,8 +1890,6 @@ Wire Wire Line
 	3750 6800 3850 6800
 Wire Wire Line
 	3750 7000 3800 7000
-Text GLabel 3800 7000 2    50   Output ~ 0
-5V_IN_28
 Wire Wire Line
 	4600 1150 4650 1150
 Wire Wire Line
@@ -2190,4 +2162,32 @@ Wire Wire Line
 	4600 3600 4650 3600
 Text GLabel 4650 3600 2    50   Output ~ 0
 5V_IN_32
+Text GLabel 1850 6150 2    50   Output ~ 0
+10V_IN_1
+Text GLabel 1850 7000 2    50   Output ~ 0
+10V_IN_2
+Text GLabel 2700 1050 2    50   Output ~ 0
+10V_IN_3
+Text GLabel 2700 1900 2    50   Output ~ 0
+10V_IN_4
+Text GLabel 2700 2750 2    50   Output ~ 0
+10V_IN_5
+Text GLabel 2700 3600 2    50   Output ~ 0
+10V_IN_6
+Text GLabel 1850 2750 2    50   Output ~ 0
+5V_IN_11
+Text GLabel 1850 3600 2    50   Output ~ 0
+5V_IN_12
+Text GLabel 1850 4450 2    50   Output ~ 0
+5V_IN_13
+Text GLabel 1850 5300 2    50   Output ~ 0
+5V_IN_14
+Text GLabel 3800 4450 2    50   Output ~ 0
+10V_IN_7
+Text GLabel 3800 5300 2    50   Output ~ 0
+10V_IN_8
+Text GLabel 3800 6150 2    50   Output ~ 0
+10V_IN_9
+Text GLabel 3800 7000 2    50   Output ~ 0
+10V_IN_10
 $EndSCHEMATC

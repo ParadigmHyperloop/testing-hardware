@@ -22,6 +22,8 @@ F 0 "U26" H 8400 4200 50  0000 C CNN
 F 1 "ADS114S08BIPBSR" H 9450 2350 50  0000 C CNN
 F 2 "Package_QFP:LQFP-32_5x5mm_P0.5mm" H 8850 2100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads114s06b.pdf" H 8850 3500 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/texas-instruments/ADS114S08BIPBSR/296-50714-1-ND/9685993" H 8950 3250 50  0001 C CNN "Digikey"
+F 5 "ADS114S08BIPBSR" H 8950 3250 50  0001 C CNN "Part Number"
 	1    8950 3250
 	1    0    0    -1  
 $EndComp
@@ -150,64 +152,11 @@ U 1 1 5E5D0EBB
 P 9850 2950
 F 0 "R110" V 9900 3050 50  0000 C CNN
 F 1 "47" V 9900 2850 50  0000 C CNN
-F 2 "" V 9890 2940 50  0001 C CNN
-F 3 "~" H 9850 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9890 2940 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9850 2950 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT47R0/RMCF0603FT47R0CT-ND/1942954" V 9850 2950 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT47R0" V 9850 2950 50  0001 C CNN "Part Number"
 	1    9850 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R111
-U 1 1 5E5D1AE1
-P 9850 3050
-F 0 "R111" V 9900 3150 50  0000 C CNN
-F 1 "47" V 9900 2950 50  0000 C CNN
-F 2 "" V 9890 3040 50  0001 C CNN
-F 3 "~" H 9850 3050 50  0001 C CNN
-	1    9850 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R112
-U 1 1 5E5D24FA
-P 9850 3500
-F 0 "R112" V 9900 3600 50  0000 C CNN
-F 1 "47" V 9900 3400 50  0000 C CNN
-F 2 "" V 9890 3490 50  0001 C CNN
-F 3 "~" H 9850 3500 50  0001 C CNN
-	1    9850 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R113
-U 1 1 5E5D275F
-P 9850 3600
-F 0 "R113" V 9900 3700 50  0000 C CNN
-F 1 "47" V 9900 3500 50  0000 C CNN
-F 2 "" V 9890 3590 50  0001 C CNN
-F 3 "~" H 9850 3600 50  0001 C CNN
-	1    9850 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R114
-U 1 1 5E5D2B1D
-P 9850 3700
-F 0 "R114" V 9900 3800 50  0000 C CNN
-F 1 "47" V 9900 3600 50  0000 C CNN
-F 2 "" V 9890 3690 50  0001 C CNN
-F 3 "~" H 9850 3700 50  0001 C CNN
-	1    9850 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R115
-U 1 1 5E5D2DFC
-P 9850 3800
-F 0 "R115" V 9900 3900 50  0000 C CNN
-F 1 "47" V 9900 3700 50  0000 C CNN
-F 2 "" V 9890 3790 50  0001 C CNN
-F 3 "~" H 9850 3800 50  0001 C CNN
-	1    9850 3800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -811,19 +760,19 @@ Wire Wire Line
 	1500 6150 1500 6200
 Connection ~ 1500 6150
 Text GLabel 900  750  2    50   Input ~ 0
-5V_IN_21
+5V_IN_13
 Wire Wire Line
 	900  750  850  750 
 Text GLabel 900  3150 2    50   Input ~ 0
-5V_IN_23
+5V_IN_15
 Wire Wire Line
 	900  3150 850  3150
 Text GLabel 900  4300 2    50   Input ~ 0
-5V_IN_24
+5V_IN_16
 Wire Wire Line
 	900  4300 850  4300
 Text GLabel 900  1950 2    50   Input ~ 0
-5V_IN_22
+5V_IN_14
 Wire Wire Line
 	900  1950 850  1950
 $Comp
@@ -1401,37 +1350,15 @@ Wire Wire Line
 	3700 6150 3700 6200
 Connection ~ 3700 6150
 Text GLabel 3100 750  2    50   Input ~ 0
-5V_IN_25
+10V_IN_7
 Wire Wire Line
 	3100 750  3050 750 
-Text GLabel 3100 3150 2    50   Input ~ 0
-5V_IN_27
 Wire Wire Line
 	3100 3150 3050 3150
-Text GLabel 3100 4300 2    50   Input ~ 0
-5V_IN_28
 Wire Wire Line
 	3100 4300 3050 4300
-Text GLabel 3100 1950 2    50   Input ~ 0
-5V_IN_26
 Wire Wire Line
 	3100 1950 3050 1950
-$Comp
-L Device:R_US R?
-U 1 1 5E62B20A
-P 5250 950
-AR Path="/5E62B20A" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E62B20A" Ref="R?"  Part="1" 
-AR Path="/5E828D93/5E62B20A" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E62B20A" Ref="R98"  Part="1" 
-F 0 "R98" H 5318 1041 50  0000 L CNN
-F 1 "51.1K" H 5318 950 50  0000 L CNN
-F 2 "" V 5290 940 50  0001 C CNN
-F 3 "~" H 5250 950 50  0001 C CNN
-F 4 "0.1%" H 5318 859 50  0000 L CNN "Tolerance"
-	1    5250 950 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E62B215
@@ -1448,8 +1375,6 @@ F 4 "0.1%" H 5318 1259 50  0000 L CNN "Tolerance"
 	1    5250 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 1100 5250 1150
 $Comp
 L Amplifier_Operational:LM2902 U?
 U 1 1 5E62B220
@@ -1496,8 +1421,6 @@ $EndComp
 Connection ~ 6250 1250
 Wire Wire Line
 	6250 1250 6200 1250
-Text Label 5600 1150 2    50   ~ 0
-3V3_IN_29
 Wire Wire Line
 	6300 1250 6250 1250
 Connection ~ 6750 1250
@@ -1538,28 +1461,10 @@ F 3 "~" H 6450 1250 50  0001 C CNN
 	1    6450 1250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5250 750  5250 800 
 Text GLabel 6800 1250 2    50   Output ~ 0
 EADC_ADC_9
 Text Label 5600 1550 0    50   ~ 0
 IN_29_BUFFERED
-$Comp
-L Device:R_US R?
-U 1 1 5E62B266
-P 5250 2150
-AR Path="/5E62B266" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E62B266" Ref="R?"  Part="1" 
-AR Path="/5E828D93/5E62B266" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E62B266" Ref="R100"  Part="1" 
-F 0 "R100" H 5318 2241 50  0000 L CNN
-F 1 "51.1K" H 5318 2150 50  0000 L CNN
-F 2 "" V 5290 2140 50  0001 C CNN
-F 3 "~" H 5250 2150 50  0001 C CNN
-F 4 "0.1%" H 5318 2059 50  0000 L CNN "Tolerance"
-	1    5250 2150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E62B271
@@ -1576,8 +1481,6 @@ F 4 "0.1%" H 5318 2459 50  0000 L CNN "Tolerance"
 	1    5250 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 2300 5250 2350
 $Comp
 L Amplifier_Operational:LM2902 U?
 U 1 1 5E62B27C
@@ -1624,8 +1527,6 @@ $EndComp
 Connection ~ 6250 2450
 Wire Wire Line
 	6250 2450 6200 2450
-Text Label 5600 2350 2    50   ~ 0
-3V3_IN_30
 Wire Wire Line
 	6300 2450 6250 2450
 Connection ~ 6750 2450
@@ -1666,28 +1567,10 @@ F 3 "~" H 6450 2450 50  0001 C CNN
 	1    6450 2450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5250 1950 5250 2000
 Text GLabel 6800 2450 2    50   Output ~ 0
 EADC_ADC_10
 Text Label 5600 2750 0    50   ~ 0
 IN_30_BUFFERED
-$Comp
-L Device:R_US R?
-U 1 1 5E62B2C2
-P 5250 3350
-AR Path="/5E62B2C2" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E62B2C2" Ref="R?"  Part="1" 
-AR Path="/5E828D93/5E62B2C2" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E62B2C2" Ref="R102"  Part="1" 
-F 0 "R102" H 5318 3441 50  0000 L CNN
-F 1 "51.1K" H 5318 3350 50  0000 L CNN
-F 2 "" V 5290 3340 50  0001 C CNN
-F 3 "~" H 5250 3350 50  0001 C CNN
-F 4 "0.1%" H 5318 3259 50  0000 L CNN "Tolerance"
-	1    5250 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E62B2CD
@@ -1704,8 +1587,6 @@ F 4 "0.1%" H 5318 3659 50  0000 L CNN "Tolerance"
 	1    5250 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 3500 5250 3550
 $Comp
 L Amplifier_Operational:LM2902 U?
 U 1 1 5E62B2D8
@@ -1752,8 +1633,6 @@ $EndComp
 Connection ~ 6250 3650
 Wire Wire Line
 	6250 3650 6200 3650
-Text Label 5600 3550 2    50   ~ 0
-3V3_IN_31
 Wire Wire Line
 	6300 3650 6250 3650
 Connection ~ 6750 3650
@@ -1794,28 +1673,10 @@ F 3 "~" H 6450 3650 50  0001 C CNN
 	1    6450 3650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5250 3150 5250 3200
 Text GLabel 6800 3650 2    50   Output ~ 0
 EADC_ADC_11
 Text Label 5600 3950 0    50   ~ 0
 IN_31_BUFFERED
-$Comp
-L Device:R_US R?
-U 1 1 5E62B31E
-P 5250 4500
-AR Path="/5E62B31E" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E62B31E" Ref="R?"  Part="1" 
-AR Path="/5E828D93/5E62B31E" Ref="R?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E62B31E" Ref="R104"  Part="1" 
-F 0 "R104" H 5318 4591 50  0000 L CNN
-F 1 "51.1K" H 5318 4500 50  0000 L CNN
-F 2 "" V 5290 4490 50  0001 C CNN
-F 3 "~" H 5250 4500 50  0001 C CNN
-F 4 "0.1%" H 5318 4409 50  0000 L CNN "Tolerance"
-	1    5250 4500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E62B329
@@ -1832,8 +1693,6 @@ F 4 "0.1%" H 5318 4809 50  0000 L CNN "Tolerance"
 	1    5250 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 4650 5250 4700
 $Comp
 L Amplifier_Operational:LM2902 U?
 U 1 1 5E62B334
@@ -1851,7 +1710,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5950 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 4700 5600 4700
-Connection ~ 5250 4700
 Wire Wire Line
 	5250 4700 5250 4750
 Wire Wire Line
@@ -1880,8 +1738,6 @@ $EndComp
 Connection ~ 6250 4800
 Wire Wire Line
 	6250 4800 6200 4800
-Text Label 5600 4700 2    50   ~ 0
-3V3_IN_32
 Wire Wire Line
 	6300 4800 6250 4800
 Connection ~ 6750 4800
@@ -1922,8 +1778,6 @@ F 3 "~" H 6450 4800 50  0001 C CNN
 	1    6450 4800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5250 4300 5250 4350
 Text GLabel 6800 4800 2    50   Output ~ 0
 EADC_ADC_12
 Text Label 5600 5100 0    50   ~ 0
@@ -1991,21 +1845,13 @@ Wire Wire Line
 	5900 6150 5900 6200
 Connection ~ 5900 6150
 Text GLabel 5300 750  2    50   Input ~ 0
-5V_IN_29
+RES_IN_1
 Wire Wire Line
 	5300 750  5250 750 
 Text GLabel 5300 3150 2    50   Input ~ 0
-5V_IN_31
+RES_IN_3
 Wire Wire Line
 	5300 3150 5250 3150
-Text GLabel 5300 4300 2    50   Input ~ 0
-5V_IN_32
-Wire Wire Line
-	5300 4300 5250 4300
-Text GLabel 5300 1950 2    50   Input ~ 0
-5V_IN_30
-Wire Wire Line
-	5300 1950 5250 1950
 Text GLabel 8200 2950 0    50   Input ~ 0
 EADC_ADC_1
 Wire Wire Line
@@ -2189,8 +2035,10 @@ U 1 1 5EBFD534
 P 8700 1350
 F 0 "C33" H 8815 1396 50  0000 L CNN
 F 1 "330nF" H 8815 1305 50  0000 L CNN
-F 2 "" H 8738 1200 50  0001 C CNN
-F 3 "~" H 8700 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8738 1200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 8700 1350 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/kemet/C0603C331J5GACTU/411070" H 8700 1350 50  0001 C CNN "Digikey"
+F 5 "C0603C331J5GACTU" H 8700 1350 50  0001 C CNN "Part Number"
 	1    8700 1350
 	1    0    0    -1  
 $EndComp
@@ -2602,35 +2450,18 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5EC14160
-P 4450 4450
+P 4400 5000
 AR Path="/5EC14160" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5EC14160" Ref="C?"  Part="1" 
 AR Path="/5E828D93/5EC14160" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5EC14160" Ref="C65"  Part="1" 
-F 0 "C65" H 4565 4496 50  0000 L CNN
-F 1 "0.1uF" H 4565 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 4300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4450 4450 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 4450 4450 50  0001 C CNN "Digikey"
-F 5 "CC0603KRX7R8BB104" H 4450 4450 50  0001 C CNN "Part Number"
-	1    4450 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EC14B81
-P 4750 6800
-AR Path="/5EC14B81" Ref="C?"  Part="1" 
-AR Path="/5E59A680/5EC14B81" Ref="C?"  Part="1" 
-AR Path="/5E828D93/5EC14B81" Ref="C?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5EC14B81" Ref="C64"  Part="1" 
-F 0 "C64" H 4865 6846 50  0000 L CNN
-F 1 "0.1uF" H 4865 6755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4788 6650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4750 6800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 4750 6800 50  0001 C CNN "Digikey"
-F 5 "CC0603KRX7R8BB104" H 4750 6800 50  0001 C CNN "Part Number"
-	1    4750 6800
+F 0 "C65" H 4515 5046 50  0000 L CNN
+F 1 "0.1uF" H 4515 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4438 4850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4400 5000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 4400 5000 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 4400 5000 50  0001 C CNN "Part Number"
+	1    4400 5000
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2819,5 +2650,110 @@ F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1
 F 5 "CC0603KRX7R8BB104" H 10100 2500 50  0001 C CNN "Part Number"
 	1    10100 2500
 	0    1    1    0   
+$EndComp
+Text GLabel 3100 1950 2    50   Input ~ 0
+10V_IN_8
+Text GLabel 3100 3150 2    50   Input ~ 0
+10V_IN_9
+Text GLabel 3100 4300 2    50   Input ~ 0
+10V_IN_9
+$Comp
+L Device:C C?
+U 1 1 5E78006C
+P 4400 3850
+AR Path="/5E78006C" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E78006C" Ref="C?"  Part="1" 
+AR Path="/5E828D93/5E78006C" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E78006C" Ref="C64"  Part="1" 
+F 0 "C64" H 4515 3896 50  0000 L CNN
+F 1 "0.1uF" H 4515 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4438 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4400 3850 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 4400 3850 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 4400 3850 50  0001 C CNN "Part Number"
+	1    4400 3850
+	-1   0    0    1   
+$EndComp
+Connection ~ 5250 4700
+Text GLabel 5300 4300 2    50   Input ~ 0
+RES_IN_4
+Wire Wire Line
+	5250 3150 5250 3550
+Wire Wire Line
+	5300 4300 5250 4300
+Wire Wire Line
+	5250 4300 5250 4700
+Text GLabel 5300 1950 2    50   Input ~ 0
+RES_IN_2
+Wire Wire Line
+	5300 1950 5250 1950
+Wire Wire Line
+	5250 1950 5250 2350
+Wire Wire Line
+	5250 750  5250 1150
+$Comp
+L Device:R_US R98
+U 1 1 5E942CF4
+P 9850 3050
+F 0 "R98" V 9900 3150 50  0000 C CNN
+F 1 "47" V 9900 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9890 3040 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9850 3050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT47R0/RMCF0603FT47R0CT-ND/1942954" V 9850 3050 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT47R0" V 9850 3050 50  0001 C CNN "Part Number"
+	1    9850 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R100
+U 1 1 5E942F8D
+P 9850 3500
+F 0 "R100" V 9900 3600 50  0000 C CNN
+F 1 "47" V 9900 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9890 3490 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9850 3500 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT47R0/RMCF0603FT47R0CT-ND/1942954" V 9850 3500 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT47R0" V 9850 3500 50  0001 C CNN "Part Number"
+	1    9850 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R102
+U 1 1 5E943906
+P 9850 3600
+F 0 "R102" V 9900 3700 50  0000 C CNN
+F 1 "47" V 9900 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9890 3590 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9850 3600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT47R0/RMCF0603FT47R0CT-ND/1942954" V 9850 3600 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT47R0" V 9850 3600 50  0001 C CNN "Part Number"
+	1    9850 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R104
+U 1 1 5E943CCB
+P 9850 3700
+F 0 "R104" V 9900 3800 50  0000 C CNN
+F 1 "47" V 9900 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9890 3690 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9850 3700 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT47R0/RMCF0603FT47R0CT-ND/1942954" V 9850 3700 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT47R0" V 9850 3700 50  0001 C CNN "Part Number"
+	1    9850 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R111
+U 1 1 5E94404D
+P 9850 3800
+F 0 "R111" V 9900 3900 50  0000 C CNN
+F 1 "47" V 9900 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9890 3790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9850 3800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT47R0/RMCF0603FT47R0CT-ND/1942954" V 9850 3800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT47R0" V 9850 3800 50  0001 C CNN "Part Number"
+	1    9850 3800
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
