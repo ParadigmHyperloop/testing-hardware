@@ -223,21 +223,6 @@ F 6 "ERJ-PB3B1003V" H 850 1350 50  0001 C CNN "Part Number"
 $EndComp
 Wire Wire Line
 	850  1100 850  1150
-$Comp
-L Amplifier_Operational:LM2902 U?
-U 1 1 5E5F6D49
-P 1500 1250
-AR Path="/5E5F6D49" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5F6D49" Ref="U?"  Part="1" 
-AR Path="/5E828D93/5E5F6D49" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E5F6D49" Ref="U14"  Part="1" 
-F 0 "U14" H 1500 1617 50  0000 C CNN
-F 1 "LM2902" H 1500 1526 50  0000 C CNN
-F 2 "" H 1450 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1550 1450 50  0001 C CNN
-	1    1500 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	850  1150 1200 1150
 Connection ~ 850  1150
@@ -307,17 +292,17 @@ Wire Wire Line
 	850  2300 850  2350
 $Comp
 L Amplifier_Operational:LM2902 U?
-U 1 1 5E5F6D89
+U 2 1 5E5F6D89
 P 1500 2450
 AR Path="/5E5F6D89" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E5F6D89" Ref="U?"  Part="1" 
 AR Path="/5E828D93/5E5F6D89" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E5F6D89" Ref="U15"  Part="1" 
-F 0 "U15" H 1500 2817 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E5F6D89" Ref="U10"  Part="2" 
+F 0 "U10" H 1500 2817 50  0000 C CNN
 F 1 "LM2902" H 1500 2726 50  0000 C CNN
-F 2 "" H 1450 2550 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1450 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1550 2650 50  0001 C CNN
-	1    1500 2450
+	2    1500 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -389,17 +374,17 @@ Wire Wire Line
 	850  3500 850  3550
 $Comp
 L Amplifier_Operational:LM2902 U?
-U 1 1 5E5F6DC9
+U 3 1 5E5F6DC9
 P 1500 3650
 AR Path="/5E5F6DC9" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E5F6DC9" Ref="U?"  Part="1" 
 AR Path="/5E828D93/5E5F6DC9" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E5F6DC9" Ref="U16"  Part="1" 
-F 0 "U16" H 1500 4017 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E5F6DC9" Ref="U10"  Part="3" 
+F 0 "U10" H 1500 4017 50  0000 C CNN
 F 1 "LM2902" H 1500 3926 50  0000 C CNN
-F 2 "" H 1450 3750 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1450 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1550 3850 50  0001 C CNN
-	1    1500 3650
+	3    1500 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -471,17 +456,17 @@ Wire Wire Line
 	850  4650 850  4700
 $Comp
 L Amplifier_Operational:LM2902 U?
-U 1 1 5E5F6E09
+U 4 1 5E5F6E09
 P 1500 4800
 AR Path="/5E5F6E09" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E5F6E09" Ref="U?"  Part="1" 
 AR Path="/5E828D93/5E5F6E09" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E5F6E09" Ref="U17"  Part="1" 
-F 0 "U17" H 1500 5167 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E5F6E09" Ref="U10"  Part="4" 
+F 0 "U10" H 1500 5167 50  0000 C CNN
 F 1 "LM2902" H 1500 5076 50  0000 C CNN
-F 2 "" H 1450 4900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1450 4900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1550 5000 50  0001 C CNN
-	1    1500 4800
+	4    1500 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -556,10 +541,10 @@ P 1600 5800
 AR Path="/5E5F6E3A" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E5F6E3A" Ref="U?"  Part="5" 
 AR Path="/5E828D93/5E5F6E3A" Ref="U?"  Part="5" 
-AR Path="/5E59A680/5E5467E7/5E5F6E3A" Ref="U11"  Part="5" 
-F 0 "U11" H 1700 5850 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E5F6E3A" Ref="U10"  Part="5" 
+F 0 "U10" H 1700 5850 50  0000 C CNN
 F 1 "LM2902" H 1700 5750 50  0000 C CNN
-F 2 "" H 1550 5900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1550 5900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1650 6000 50  0001 C CNN
 	5    1600 5800
 	1    0    0    -1  
@@ -647,21 +632,6 @@ F 6 "ERA-3AEB2053V" H 3050 950 50  0001 C CNN "Part Number"
 $EndComp
 Wire Wire Line
 	3050 1100 3050 1150
-$Comp
-L Amplifier_Operational:LM2902 U?
-U 1 1 5E6049B1
-P 3700 1250
-AR Path="/5E6049B1" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E6049B1" Ref="U?"  Part="1" 
-AR Path="/5E828D93/5E6049B1" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E6049B1" Ref="U18"  Part="1" 
-F 0 "U18" H 3700 1617 50  0000 C CNN
-F 1 "LM2902" H 3700 1526 50  0000 C CNN
-F 2 "" H 3650 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 1450 50  0001 C CNN
-	1    3700 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 1150 3400 1150
 Connection ~ 3050 1150
@@ -731,17 +701,17 @@ Wire Wire Line
 	3050 2300 3050 2350
 $Comp
 L Amplifier_Operational:LM2902 U?
-U 1 1 5E604A0D
+U 2 1 5E604A0D
 P 3700 2450
 AR Path="/5E604A0D" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E604A0D" Ref="U?"  Part="1" 
 AR Path="/5E828D93/5E604A0D" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E604A0D" Ref="U19"  Part="1" 
-F 0 "U19" H 3700 2817 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E604A0D" Ref="U11"  Part="2" 
+F 0 "U11" H 3700 2817 50  0000 C CNN
 F 1 "LM2902" H 3700 2726 50  0000 C CNN
-F 2 "" H 3650 2550 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 2650 50  0001 C CNN
-	1    3700 2450
+	2    3700 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -813,17 +783,17 @@ Wire Wire Line
 	3050 3500 3050 3550
 $Comp
 L Amplifier_Operational:LM2902 U?
-U 1 1 5E604A69
+U 3 1 5E604A69
 P 3700 3650
 AR Path="/5E604A69" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E604A69" Ref="U?"  Part="1" 
 AR Path="/5E828D93/5E604A69" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E604A69" Ref="U20"  Part="1" 
-F 0 "U20" H 3700 4017 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E604A69" Ref="U11"  Part="3" 
+F 0 "U11" H 3700 4017 50  0000 C CNN
 F 1 "LM2902" H 3700 3926 50  0000 C CNN
-F 2 "" H 3650 3750 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 3850 50  0001 C CNN
-	1    3700 3650
+	3    3700 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -895,17 +865,17 @@ Wire Wire Line
 	3050 4650 3050 4700
 $Comp
 L Amplifier_Operational:LM2902 U?
-U 1 1 5E604AC5
+U 4 1 5E604AC5
 P 3700 4800
 AR Path="/5E604AC5" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E604AC5" Ref="U?"  Part="1" 
 AR Path="/5E828D93/5E604AC5" Ref="U?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5E604AC5" Ref="U21"  Part="1" 
-F 0 "U21" H 3700 5167 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E604AC5" Ref="U11"  Part="4" 
+F 0 "U11" H 3700 5167 50  0000 C CNN
 F 1 "LM2902" H 3700 5076 50  0000 C CNN
-F 2 "" H 3650 4900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 4900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 5000 50  0001 C CNN
-	1    3700 4800
+	4    3700 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -980,10 +950,10 @@ P 3800 5800
 AR Path="/5E604B0A" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E604B0A" Ref="U?"  Part="5" 
 AR Path="/5E828D93/5E604B0A" Ref="U?"  Part="5" 
-AR Path="/5E59A680/5E5467E7/5E604B0A" Ref="U10"  Part="5" 
-F 0 "U10" H 3900 5850 50  0000 C CNN
+AR Path="/5E59A680/5E5467E7/5E604B0A" Ref="U11"  Part="5" 
+F 0 "U11" H 3900 5850 50  0000 C CNN
 F 1 "LM2902" H 3900 5750 50  0000 C CNN
-F 2 "" H 3750 5900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3750 5900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3850 6000 50  0001 C CNN
 	5    3800 5800
 	1    0    0    -1  
@@ -1636,7 +1606,7 @@ Text GLabel 3100 1950 2    50   Input ~ 0
 Text GLabel 3100 3150 2    50   Input ~ 0
 10V_IN_9
 Text GLabel 3100 4300 2    50   Input ~ 0
-10V_IN_9
+10V_IN_10
 $Comp
 L Device:C C?
 U 1 1 5E78006C
@@ -2149,4 +2119,38 @@ F 5 "RMCF0603FT470R" V 4250 4800 50  0001 C CNN "Part Number"
 $EndComp
 Connection ~ 4400 4800
 Connection ~ 2200 4800
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E894B14
+P 1500 1250
+AR Path="/5E894B14" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E894B14" Ref="U?"  Part="1" 
+AR Path="/5E828D93/5E894B14" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E894B14" Ref="U10"  Part="1" 
+F 0 "U10" H 1500 1617 50  0000 C CNN
+F 1 "LM2902" H 1500 1526 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1450 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1550 1450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/texas-instruments/LM2902LVIDR/296-51255-1-ND/9745619" H 1500 1250 50  0001 C CNN "Digikey"
+F 5 "LM2902LVIDR" H 1500 1250 50  0001 C CNN "Part Number"
+	1    1500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E8A38F1
+P 3700 1250
+AR Path="/5E8A38F1" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E8A38F1" Ref="U?"  Part="1" 
+AR Path="/5E828D93/5E8A38F1" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E8A38F1" Ref="U11"  Part="1" 
+F 0 "U11" H 3700 1617 50  0000 C CNN
+F 1 "LM2902" H 3700 1526 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 1450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/texas-instruments/LM2902LVIDR/296-51255-1-ND/9745619" H 3700 1250 50  0001 C CNN "Digikey"
+F 5 "LM2902LVIDR" H 3700 1250 50  0001 C CNN "Part Number"
+	1    3700 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
