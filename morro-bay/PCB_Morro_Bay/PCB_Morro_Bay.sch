@@ -57,9 +57,10 @@ U 1 1 5E396CF7
 P 3250 1150
 F 0 "FB1" V 2976 1150 50  0000 C CNN
 F 1 "HI2220P701R-10" V 3067 1150 50  0000 C CNN
-F 2 "" V 3180 1150 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Ferrite_Laird_HI2220P701R-10" V 3180 1150 50  0001 C CNN
 F 3 "http://assets.lairdtech.com/home/brandworld/files/HI2220P701R-10.pdf" H 3250 1150 50  0001 C CNN
-F 4 "240-2428-1-ND" V 3250 1150 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.ca/products/en?keywords=240-2428-1-ND" V 3250 1150 50  0001 C CNN "Digikey"
+F 5 "HI2220P701R-10" V 3250 1150 50  0001 C CNN "Part Number"
 	1    3250 1150
 	0    1    1    0   
 $EndComp
@@ -602,17 +603,6 @@ Wire Wire Line
 	1050 3900 1050 3850
 Wire Wire Line
 	650  3850 650  3900
-$Comp
-L Device:C C2
-U 1 1 5E582081
-P 1050 3700
-F 0 "C2" H 1165 3746 50  0000 L CNN
-F 1 "22pF" H 1165 3655 50  0000 L CNN
-F 2 "" H 1088 3550 50  0001 C CNN
-F 3 "~" H 1050 3700 50  0001 C CNN
-	1    1050 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1050 3500 1050 3550
 $Comp
@@ -621,8 +611,10 @@ U 1 1 5E582097
 P 850 3500
 F 0 "Y1" H 850 3768 50  0000 C CNN
 F 1 "8MHz" H 850 3677 50  0000 C CNN
-F 2 "" H 850 3500 50  0001 C CNN
-F 3 "~" H 850 3500 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 850 3500 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ABLS2.pdf" H 850 3500 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/abracon-llc/ABLS2-8-000MHZ-D4Y-T/535-9864-1-ND/2001487" H 850 3500 50  0001 C CNN "Digikey"
+F 5 "ABLS2-8.000MHZ-D4Y-T" H 850 3500 50  0001 C CNN "Part Number"
 	1    850  3500
 	1    0    0    -1  
 $EndComp
@@ -652,8 +644,10 @@ U 1 1 5E49B041
 P 7700 1400
 F 0 "Y3" H 7700 1668 50  0000 C CNN
 F 1 "32.768kHz" H 7700 1577 50  0000 C CNN
-F 2 "" H 7700 1400 50  0001 C CNN
-F 3 "~" H 7700 1400 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering" H 7700 1400 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-146&lang=en" H 7700 1400 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/epson/MC-146-32-7680KA-AC0-ROHS/SER4303CT-ND/7932290" H 7700 1400 50  0001 C CNN "Digikey"
+F 5 "MC-146 32.7680KA-AC0: ROHS" H 7700 1400 50  0001 C CNN "Part Number"
 	1    7700 1400
 	1    0    0    -1  
 $EndComp
@@ -664,21 +658,12 @@ L Device:C C10
 U 1 1 5E4B0BFB
 P 6750 1600
 F 0 "C10" H 6865 1646 50  0000 L CNN
-F 1 "C" H 6865 1555 50  0000 L CNN
-F 2 "" H 6788 1450 50  0001 C CNN
-F 3 "~" H 6750 1600 50  0001 C CNN
+F 1 "18pF" H 6865 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6788 1450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6750 1600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 6750 1600 50  0001 C CNN "Digikey"
+F 5 "CL10C180FB8NNNC" H 6750 1600 50  0001 C CNN "Part Number"
 	1    6750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5E4B2072
-P 7150 1600
-F 0 "C11" H 7265 1646 50  0000 L CNN
-F 1 "C" H 7265 1555 50  0000 L CNN
-F 2 "" H 7188 1450 50  0001 C CNN
-F 3 "~" H 7150 1600 50  0001 C CNN
-	1    7150 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -686,21 +671,12 @@ L Device:C C13
 U 1 1 5E4B2744
 P 7500 1600
 F 0 "C13" H 7615 1646 50  0000 L CNN
-F 1 "C" H 7615 1555 50  0000 L CNN
-F 2 "" H 7538 1450 50  0001 C CNN
-F 3 "~" H 7500 1600 50  0001 C CNN
+F 1 "9pF" H 7615 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7538 1450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7500 1600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C090CB8NNNC/1276-2142-1-ND/3890228" H 7500 1600 50  0001 C CNN "Digikey"
+F 5 "CL10C090CB8NNNC" H 7500 1600 50  0001 C CNN "Part Number"
 	1    7500 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 5E4B29DB
-P 7900 1600
-F 0 "C14" H 8015 1646 50  0000 L CNN
-F 1 "C" H 8015 1555 50  0000 L CNN
-F 2 "" H 7938 1450 50  0001 C CNN
-F 3 "~" H 7900 1600 50  0001 C CNN
-	1    7900 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -834,8 +810,10 @@ U 1 1 5E42C915
 P 3650 4100
 F 0 "R6" V 3850 4100 50  0000 C CNN
 F 1 "120" V 3750 4100 50  0000 C CNN
-F 2 "" V 3690 4090 50  0001 C CNN
-F 3 "~" H 3650 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3690 4090 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3650 4100 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603JT120R/RMCF0603JT120RCT-ND/1943157" V 3650 4100 50  0001 C CNN "Digikey"
+F 5 "RMCF0603JT120R" V 3650 4100 50  0001 C CNN "Part Number"
 	1    3650 4100
 	0    1    1    0   
 $EndComp
@@ -952,39 +930,6 @@ Wire Wire Line
 	2700 3400 3550 3400
 Wire Wire Line
 	3550 2950 3550 3400
-$Comp
-L Device:R_US R8
-U 1 1 5E3B4E22
-P 3950 2800
-F 0 "R8" H 3850 2900 50  0000 L CNN
-F 1 "10K" V 3850 2700 50  0000 L CNN
-F 2 "" V 3990 2790 50  0001 C CNN
-F 3 "~" H 3950 2800 50  0001 C CNN
-	1    3950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R7
-U 1 1 5E3B4A88
-P 3750 2800
-F 0 "R7" H 3650 2900 50  0000 L CNN
-F 1 "10K" V 3650 2700 50  0000 L CNN
-F 2 "" V 3790 2790 50  0001 C CNN
-F 3 "~" H 3750 2800 50  0001 C CNN
-	1    3750 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R5
-U 1 1 5E3B4378
-P 3550 2800
-F 0 "R5" H 3450 2900 50  0000 L CNN
-F 1 "10K" V 3450 2700 50  0000 L CNN
-F 2 "" V 3590 2790 50  0001 C CNN
-F 3 "~" H 3550 2800 50  0001 C CNN
-	1    3550 2800
-	1    0    0    -1  
-$EndComp
 Connection ~ 3350 3300
 Wire Wire Line
 	3350 2950 3350 3300
@@ -998,46 +943,15 @@ Connection ~ 2750 3000
 Wire Wire Line
 	2750 2950 2750 3000
 $Comp
-L Device:R_US R4
-U 1 1 5E3B26A9
-P 3350 2800
-F 0 "R4" H 3250 2900 50  0000 L CNN
-F 1 "10K" V 3250 2700 50  0000 L CNN
-F 2 "" V 3390 2790 50  0001 C CNN
-F 3 "~" H 3350 2800 50  0001 C CNN
-	1    3350 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R3
-U 1 1 5E3B2269
-P 3150 2800
-F 0 "R3" H 3050 2900 50  0000 L CNN
-F 1 "10K" V 3050 2700 50  0000 L CNN
-F 2 "" V 3190 2790 50  0001 C CNN
-F 3 "~" H 3150 2800 50  0001 C CNN
-	1    3150 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 5E3B1AE3
-P 2950 2800
-F 0 "R2" H 2850 2900 50  0000 L CNN
-F 1 "10K" V 2850 2700 50  0000 L CNN
-F 2 "" V 2990 2790 50  0001 C CNN
-F 3 "~" H 2950 2800 50  0001 C CNN
-	1    2950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R1
 U 1 1 5E3ADD49
 P 2750 2800
 F 0 "R1" H 2650 2900 50  0000 L CNN
 F 1 "10K" V 2650 2700 50  0000 L CNN
-F 2 "" V 2790 2790 50  0001 C CNN
-F 3 "~" H 2750 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2790 2790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2750 2800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 2750 2800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 2750 2800 50  0001 C CNN "Part Number"
 	1    2750 2800
 	1    0    0    -1  
 $EndComp
@@ -1099,8 +1013,10 @@ U 1 1 5E499307
 P 6950 1400
 F 0 "Y2" H 6950 1668 50  0000 C CNN
 F 1 "30MHz" H 6950 1577 50  0000 C CNN
-F 2 "" H 6950 1400 50  0001 C CNN
-F 3 "~" H 6950 1400 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 6950 1400 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ABLS2.pdf" H 6950 1400 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/abracon-llc/ABLS2-30-000MHZ-D4YF-T/535-9887-1-ND/2001510" H 6950 1400 50  0001 C CNN "Digikey"
+F 5 "ABLS2-30.000MHZ-D4YF-T" H 6950 1400 50  0001 C CNN "Part Number"
 	1    6950 1400
 	1    0    0    -1  
 $EndComp
@@ -1161,9 +1077,11 @@ L Device:R_US R69
 U 1 1 5E4DFBF1
 P 5950 1650
 F 0 "R69" H 6018 1696 50  0000 L CNN
-F 1 "600" H 6018 1605 50  0000 L CNN
-F 2 "" V 5990 1640 50  0001 C CNN
-F 3 "~" H 5950 1650 50  0001 C CNN
+F 1 "620" H 6018 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5990 1640 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5950 1650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT620R/RMCF0603FT620RCT-ND/2418109" H 5950 1650 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT620R" H 5950 1650 50  0001 C CNN "Part Number"
 	1    5950 1650
 	1    0    0    -1  
 $EndComp
@@ -1201,8 +1119,10 @@ U 1 1 5E4FD2B7
 P 6300 1650
 F 0 "R70" H 6368 1696 50  0000 L CNN
 F 1 "330" H 6368 1605 50  0000 L CNN
-F 2 "" V 6340 1640 50  0001 C CNN
-F 3 "~" H 6300 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6340 1640 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" H 6300 1650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ331/RHM330DCT-ND/1762933" H 6300 1650 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ331" H 6300 1650 50  0001 C CNN "Part Number"
 	1    6300 1650
 	1    0    0    -1  
 $EndComp
@@ -1229,8 +1149,10 @@ U 1 1 5E51DBE4
 P 2200 1250
 F 0 "U13" H 2200 1615 50  0000 C CNN
 F 1 "V7805-2000R" H 2200 1524 50  0000 C CNN
-F 2 "" H 2150 1400 50  0001 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78HB-0.5L_THT" H 2150 1400 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/v78xx-2000.pdf" H 2150 1400 50  0001 C CNN
+F 4 "https://www.digikey.ca/products/en?keywords=V7805-2000R" H 2200 1250 50  0001 C CNN "Digikey"
+F 5 "V7805-2000R" H 2200 1250 50  0001 C CNN "Part Number"
 	1    2200 1250
 	1    0    0    -1  
 $EndComp
@@ -1380,8 +1302,10 @@ U 1 1 5E990742
 P 7900 3650
 F 0 "R72" H 7968 3696 50  0000 L CNN
 F 1 "10K" H 7968 3605 50  0000 L CNN
-F 2 "" V 7940 3640 50  0001 C CNN
-F 3 "~" H 7900 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7940 3640 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7900 3650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 7900 3650 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 7900 3650 50  0001 C CNN "Part Number"
 	1    7900 3650
 	1    0    0    -1  
 $EndComp
@@ -1404,8 +1328,10 @@ U 1 1 5E9BC206
 P 7700 3850
 F 0 "R71" V 7495 3850 50  0000 C CNN
 F 1 "330" V 7586 3850 50  0000 C CNN
-F 2 "" V 7740 3840 50  0001 C CNN
-F 3 "~" H 7700 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7740 3840 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" H 7700 3850 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ331/RHM330DCT-ND/1762933" V 7700 3850 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ331" V 7700 3850 50  0001 C CNN "Part Number"
 	1    7700 3850
 	0    1    1    0   
 $EndComp
@@ -1468,8 +1394,10 @@ U 1 1 5EA6D2A4
 P 10900 2200
 F 0 "R73" H 10968 2246 50  0000 L CNN
 F 1 "1K" H 10968 2155 50  0000 L CNN
-F 2 "" V 10940 2190 50  0001 C CNN
-F 3 "~" H 10900 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10940 2190 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 10900 2200 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603JJ1K00/RMCF0603JJ1K00CT-ND/6053833" H 10900 2200 50  0001 C CNN "Digikey"
+F 5 "RMCF0603JJ1K00" H 10900 2200 50  0001 C CNN "Part Number"
 	1    10900 2200
 	1    0    0    -1  
 $EndComp
@@ -1640,8 +1568,10 @@ U 1 1 5EDD14E2
 P 6550 3900
 F 0 "R118" H 6618 3946 50  0000 L CNN
 F 1 "330" H 6618 3855 50  0000 L CNN
-F 2 "" V 6590 3890 50  0001 C CNN
-F 3 "~" H 6550 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6590 3890 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" H 6550 3900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ331/RHM330DCT-ND/1762933" H 6550 3900 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ331" H 6550 3900 50  0001 C CNN "Part Number"
 	1    6550 3900
 	1    0    0    -1  
 $EndComp
@@ -1677,8 +1607,10 @@ U 1 1 5EDD1503
 P 6900 3900
 F 0 "R119" H 6968 3946 50  0000 L CNN
 F 1 "330" H 6968 3855 50  0000 L CNN
-F 2 "" V 6940 3890 50  0001 C CNN
-F 3 "~" H 6900 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6940 3890 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" H 6900 3900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ331/RHM330DCT-ND/1762933" H 6900 3900 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ331" H 6900 3900 50  0001 C CNN "Part Number"
 	1    6900 3900
 	1    0    0    -1  
 $EndComp
@@ -1811,7 +1743,7 @@ Connection ~ 6000 2850
 Wire Wire Line
 	6000 2850 6000 2650
 Text Notes 2900 7000 0    118  ~ 0
-TODO:\n-Check ADC AINCOM\n-INAMPs
+TODO:\n-INAMPs\n-All those fucking resistors
 $Comp
 L Device:LED D36
 U 1 1 5ED157D8
@@ -1847,9 +1779,11 @@ L Device:R_US R116
 U 1 1 5ED46707
 P 1550 4150
 F 0 "R116" V 1345 4150 50  0000 C CNN
-F 1 "500" V 1436 4150 50  0000 C CNN
-F 2 "" V 1590 4140 50  0001 C CNN
-F 3 "~" H 1550 4150 50  0001 C CNN
+F 1 "470" V 1436 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1590 4140 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1550 4150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 1550 4150 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 1550 4150 50  0001 C CNN "Part Number"
 	1    1550 4150
 	0    1    1    0   
 $EndComp
@@ -1862,9 +1796,11 @@ L Device:R_US R117
 U 1 1 5ED5C148
 P 1550 5150
 F 0 "R117" V 1345 5150 50  0000 C CNN
-F 1 "500" V 1436 5150 50  0000 C CNN
-F 2 "" V 1590 5140 50  0001 C CNN
-F 3 "~" H 1550 5150 50  0001 C CNN
+F 1 "470" V 1436 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1590 5140 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1550 5150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 1550 5150 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 1550 5150 50  0001 C CNN "RMCF0603FT470R"
 	1    1550 5150
 	0    1    1    0   
 $EndComp
@@ -1990,8 +1926,10 @@ U 1 1 5E71545E
 P 5000 1150
 F 0 "U3" H 5000 1392 50  0000 C CNN
 F 1 "AZ1117-3.3" H 5000 1301 50  0000 C CNN
-F 2 "" H 5000 1400 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5000 1400 50  0001 C CIN
 F 3 "https://www.diodes.com/assets/Datasheets/AZ1117I.pdf" H 5000 1150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/AZ1117IH-3-3TRG1/AZ1117IH-3-3TRG1DICT-ND/5699682" H 5000 1150 50  0001 C CNN "Digikey"
+F 5 "AZ1117IH-3.3TRG1" H 5000 1150 50  0001 C CNN "Part Number"
 	1    5000 1150
 	1    0    0    -1  
 $EndComp
@@ -2005,7 +1943,7 @@ U 1 1 5E775E1B
 P 1150 1150
 F 0 "F1" V 953 1150 50  0000 C CNN
 F 1 "3A" V 1044 1150 50  0000 C CNN
-F 2 "" V 1080 1150 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Fuse_Littelfuse_0154003.DR" V 1080 1150 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 1150 1150 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/littelfuse-inc/0154003-DR/F1226CT-ND/183375" V 1150 1150 50  0001 C CNN "Digikey"
 F 5 "0154003.DR" V 1150 1150 50  0001 C CNN "Part Number"
@@ -2081,17 +2019,6 @@ Wire Wire Line
 	7650 2650 8000 2650
 Text Label 8000 2650 2    50   ~ 0
 USB_D-
-$Comp
-L Device:C C1
-U 1 1 5E58208B
-P 650 3700
-F 0 "C1" H 765 3746 50  0000 L CNN
-F 1 "22pF" H 765 3655 50  0000 L CNN
-F 2 "" H 688 3550 50  0001 C CNN
-F 3 "~" H 650 3700 50  0001 C CNN
-	1    650  3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 3500 1050 3500
 Wire Wire Line
@@ -2107,8 +2034,10 @@ U 1 1 5ED61E1B
 P 7350 2650
 F 0 "J38" H 7407 3117 50  0000 C CNN
 F 1 "USB_B" H 7407 3026 50  0000 C CNN
-F 2 "" H 7500 2600 50  0001 C CNN
-F 3 " ~" H 7500 2600 50  0001 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 7500 2600 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/uj2-bh-th.pdf" H 7500 2600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/cui-devices/UJ2-BH-1-TH/102-3999-ND/6187914" H 7350 2650 50  0001 C CNN "Digikey"
+F 5 "UJ2-BH-1-TH" H 7350 2650 50  0001 C CNN "Part Number"
 	1    7350 2650
 	1    0    0    -1  
 $EndComp
@@ -2454,6 +2383,138 @@ F 1 "GND" H 6755 5127 50  0000 C CNN
 F 2 "" H 6750 5300 50  0001 C CNN
 F 3 "" H 6750 5300 50  0001 C CNN
 	1    6750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5E78DA05
+P 2950 2800
+F 0 "R2" H 2850 2900 50  0000 L CNN
+F 1 "10K" V 2850 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2990 2790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2950 2800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 2950 2800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 2950 2800 50  0001 C CNN "Part Number"
+	1    2950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5E78E2B3
+P 3150 2800
+F 0 "R3" H 3050 2900 50  0000 L CNN
+F 1 "10K" V 3050 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3190 2790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3150 2800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3150 2800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3150 2800 50  0001 C CNN "Part Number"
+	1    3150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5E78E67C
+P 3350 2800
+F 0 "R4" H 3250 2900 50  0000 L CNN
+F 1 "10K" V 3250 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3390 2790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3350 2800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3350 2800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3350 2800 50  0001 C CNN "Part Number"
+	1    3350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E78EA7C
+P 3550 2800
+F 0 "R5" H 3450 2900 50  0000 L CNN
+F 1 "10K" V 3450 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3590 2790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3550 2800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3550 2800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3550 2800 50  0001 C CNN "Part Number"
+	1    3550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 5E78F003
+P 3750 2800
+F 0 "R7" H 3650 2900 50  0000 L CNN
+F 1 "10K" V 3650 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3790 2790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3750 2800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3750 2800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3750 2800 50  0001 C CNN "Part Number"
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 5E78F3B6
+P 3950 2800
+F 0 "R8" H 3850 2900 50  0000 L CNN
+F 1 "10K" V 3850 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3990 2790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3950 2800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3950 2800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3950 2800 50  0001 C CNN "Part Number"
+	1    3950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5EC36603
+P 7150 1600
+F 0 "C11" H 7265 1646 50  0000 L CNN
+F 1 "18pF" H 7265 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 1450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7150 1600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 7150 1600 50  0001 C CNN "Digikey"
+F 5 "CL10C180FB8NNNC" H 7150 1600 50  0001 C CNN "Part Number"
+	1    7150 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10250 2150
+NoConn ~ 1500 3400
+$Comp
+L Device:C C14
+U 1 1 5ECBD2B4
+P 7900 1600
+F 0 "C14" H 8015 1646 50  0000 L CNN
+F 1 "9pF" H 8015 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7938 1450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7900 1600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C090CB8NNNC/1276-2142-1-ND/3890228" H 7900 1600 50  0001 C CNN "Digikey"
+F 5 "CL10C090CB8NNNC" H 7900 1600 50  0001 C CNN "Part Number"
+	1    7900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5ECC8AAA
+P 650 3700
+F 0 "C1" H 765 3746 50  0000 L CNN
+F 1 "18pF" H 765 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 688 3550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 650 3700 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 650 3700 50  0001 C CNN "Digikey"
+F 5 "CL10C180FB8NNNC" H 650 3700 50  0001 C CNN "Part Number"
+	1    650  3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5ECC9E9B
+P 1050 3700
+F 0 "C2" H 1165 3746 50  0000 L CNN
+F 1 "18pF" H 1165 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1088 3550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1050 3700 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 1050 3700 50  0001 C CNN "Digikey"
+F 5 "CL10C180FB8NNNC" H 1050 3700 50  0001 C CNN "Part Number"
+	1    1050 3700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
