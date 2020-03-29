@@ -1516,69 +1516,69 @@ Wire Wire Line
 	7600 6000 7600 6050
 Connection ~ 7600 6000
 Wire Wire Line
-	9100 950  9100 1000
-Wire Wire Line
-	9100 1000 9450 1000
-Connection ~ 9100 1000
-Wire Wire Line
 	9100 1000 9100 1050
 Wire Wire Line
-	9450 1200 9450 1400
+	9100 1050 9450 1050
+Connection ~ 9100 1050
 Wire Wire Line
-	9450 1400 10100 1400
+	9100 1050 9100 1100
 Wire Wire Line
-	10100 1400 10100 1100
+	9450 1250 9450 1450
 Wire Wire Line
-	9100 1350 9100 1400
+	9450 1450 10100 1450
+Wire Wire Line
+	10100 1450 10100 1150
+Wire Wire Line
+	9100 1400 9100 1450
 $Comp
 L power:GND #PWR?
 U 1 1 5E69C3FB
-P 9100 1400
+P 9100 1450
 AR Path="/5E69C3FB" Ref="#PWR?"  Part="1" 
 AR Path="/5E59A680/5E69C3FB" Ref="#PWR080"  Part="1" 
 AR Path="/5E828D93/5E69C3FB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR080" H 9100 1150 50  0001 C CNN
-F 1 "GND" H 9105 1227 50  0000 C CNN
-F 2 "" H 9100 1400 50  0001 C CNN
-F 3 "" H 9100 1400 50  0001 C CNN
-	1    9100 1400
+F 0 "#PWR080" H 9100 1200 50  0001 C CNN
+F 1 "GND" H 9105 1277 50  0000 C CNN
+F 2 "" H 9100 1450 50  0001 C CNN
+F 3 "" H 9100 1450 50  0001 C CNN
+	1    9100 1450
 	1    0    0    -1  
 $EndComp
-Connection ~ 10100 1100
+Connection ~ 10100 1150
 Wire Wire Line
-	10100 1100 10050 1100
-Text Label 9450 1000 2    50   ~ 0
+	10100 1150 10050 1150
+Text Label 9450 1050 2    50   ~ 0
 3V3_IN_17
 Wire Wire Line
-	10150 1100 10100 1100
-Connection ~ 10600 1100
+	10150 1150 10100 1150
+Connection ~ 10600 1150
 Wire Wire Line
-	10600 1100 10650 1100
+	10600 1150 10650 1150
 Wire Wire Line
-	10600 1450 10600 1500
+	10600 1500 10600 1550
 $Comp
 L power:GND #PWR?
 U 1 1 5E69C417
-P 10600 1500
+P 10600 1550
 AR Path="/5E69C417" Ref="#PWR?"  Part="1" 
 AR Path="/5E59A680/5E69C417" Ref="#PWR082"  Part="1" 
 AR Path="/5E828D93/5E69C417" Ref="#PWR?"  Part="1" 
-F 0 "#PWR082" H 10600 1250 50  0001 C CNN
-F 1 "GND" H 10605 1327 50  0000 C CNN
-F 2 "" H 10600 1500 50  0001 C CNN
-F 3 "" H 10600 1500 50  0001 C CNN
-	1    10600 1500
+F 0 "#PWR082" H 10600 1300 50  0001 C CNN
+F 1 "GND" H 10605 1377 50  0000 C CNN
+F 2 "" H 10600 1550 50  0001 C CNN
+F 3 "" H 10600 1550 50  0001 C CNN
+	1    10600 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10600 1100 10600 1150
+	10600 1150 10600 1200
 Wire Wire Line
-	10450 1100 10600 1100
+	10450 1150 10600 1150
 Wire Wire Line
-	9100 600  9100 650 
-Text GLabel 10650 1100 2    50   Output ~ 0
+	9100 650  9100 700 
+Text GLabel 10650 1150 2    50   Output ~ 0
 SAMD_ADC_17
-Text Label 9450 1400 0    50   ~ 0
+Text Label 9450 1450 0    50   ~ 0
 IN_17_BUFFERED
 Wire Wire Line
 	9100 2150 9100 2200
@@ -1895,7 +1895,7 @@ Wire Wire Line
 Text GLabel 4850 3000 2    50   Input ~ 0
 5V_IN_11
 Wire Wire Line
-	9150 600  9100 600 
+	9150 650  9100 650 
 Text GLabel 7000 650  2    50   Input ~ 0
 5V_IN_13
 Wire Wire Line
@@ -1942,7 +1942,7 @@ Wire Wire Line
 	7000 3000 6950 3000
 Wire Wire Line
 	7000 1800 6950 1800
-Text GLabel 9150 600  2    50   Input ~ 0
+Text GLabel 9150 650  2    50   Input ~ 0
 10V_IN_3
 Wire Wire Line
 	7000 650  6950 650 
@@ -1959,7 +1959,7 @@ L Switch:SW_DIP_x10 SW1
 U 1 1 5ED6B5DC
 P 4600 7150
 F 0 "SW1" H 4600 7917 50  0000 C CNN
-F 1 "SW_DIP_x10" H 4600 7826 50  0000 C CNN
+F 1 "INPUT_RANGE_SEL_1" H 4600 7826 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_DIP_SPSTx10_Slide_6.7x26.96mm_W8.61mm_P2.54mm_LowProfile" H 4600 7150 50  0001 C CNN
 F 3 "https://www.cuidevices.com/product/resource/ds04-254-smt.pdf" H 4600 7150 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/cui-devices/DS04-254-2-10BK-SMT/2223-DS04-254-2-10BK-SMT-ND/11310823" H 4600 7150 50  0001 C CNN "Digikey"
@@ -2052,7 +2052,7 @@ L Switch:SW_DIP_x10 SW2
 U 1 1 5EF485AE
 P 6100 7150
 F 0 "SW2" H 6100 7917 50  0000 C CNN
-F 1 "SW_DIP_x10" H 6100 7826 50  0000 C CNN
+F 1 "INPUT_RANGE_SEL_2" H 6100 7826 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_DIP_SPSTx10_Slide_6.7x26.96mm_W8.61mm_P2.54mm_LowProfile" H 6100 7150 50  0001 C CNN
 F 3 "https://www.cuidevices.com/product/resource/ds04-254-smt.pdf" H 6100 7150 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/cui-devices/DS04-254-2-10BK-SMT/2223-DS04-254-2-10BK-SMT-ND/11310823" H 6100 7150 50  0001 C CNN "Digikey"
@@ -2344,12 +2344,12 @@ Wire Wire Line
 Wire Wire Line
 	10450 2350 10450 2300
 Wire Wire Line
-	10450 1450 10450 1500
+	10450 1500 10450 1550
 Wire Wire Line
-	10450 1500 10600 1500
+	10450 1550 10600 1550
 Wire Wire Line
-	10450 1150 10450 1100
-Connection ~ 10600 1500
+	10450 1200 10450 1150
+Connection ~ 10600 1550
 Connection ~ 10600 2700
 Connection ~ 10600 3900
 Text GLabel 9150 1800 2    50   Input ~ 0
@@ -2545,16 +2545,16 @@ $EndComp
 $Comp
 L Device:D_Zener D17
 U 1 1 5E85EA58
-P 10600 1300
+P 10600 1350
 AR Path="/5E59A680/5E85EA58" Ref="D17"  Part="1" 
 AR Path="/5E828D93/5E85EA58" Ref="D?"  Part="1" 
-F 0 "D17" V 10554 1379 50  0000 L CNN
-F 1 "3.3V" V 10645 1379 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10600 1300 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 10600 1300 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/MM3Z3V3ST1G/MM3Z3V3ST1GOSCT-ND/2705113" V 10600 1300 50  0001 C CNN "Digikey"
-F 5 "MM3Z3V3ST1G" V 10600 1300 50  0001 C CNN "Part Number"
-	1    10600 1300
+F 0 "D17" V 10554 1429 50  0000 L CNN
+F 1 "3.3V" V 10645 1429 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10600 1350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 10600 1350 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/MM3Z3V3ST1G/MM3Z3V3ST1GOSCT-ND/2705113" V 10600 1350 50  0001 C CNN "Digikey"
+F 5 "MM3Z3V3ST1G" V 10600 1350 50  0001 C CNN "Part Number"
+	1    10600 1350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3007,18 +3007,18 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5F019944
-P 10450 1300
+P 10450 1350
 AR Path="/5F019944" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5F019944" Ref="C54"  Part="1" 
 AR Path="/5E828D93/5F019944" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5F019944" Ref="C?"  Part="1" 
-F 0 "C54" H 10565 1346 50  0000 L CNN
-F 1 "0.1uF" H 10565 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10488 1150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 10450 1300 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 10450 1300 50  0001 C CNN "Digikey"
-F 5 "CC0603KRX7R8BB104" H 10450 1300 50  0001 C CNN "Part Number"
-	1    10450 1300
+F 0 "C54" H 10565 1396 50  0000 L CNN
+F 1 "0.1uF" H 10565 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10488 1200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 10450 1350 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 10450 1350 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 10450 1350 50  0001 C CNN "Part Number"
+	1    10450 1350
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3468,18 +3468,18 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E7F092C
-P 9100 800
+P 9100 850
 AR Path="/5E7F092C" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E7F092C" Ref="R57"  Part="1" 
 AR Path="/5E828D93/5E7F092C" Ref="R?"  Part="1" 
-F 0 "R57" H 9168 891 50  0000 L CNN
-F 1 "205K" H 9168 800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 790 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 9100 800 50  0001 C CNN
-F 4 "0.1%" H 9168 709 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 9100 800 50  0001 C CNN "Digikey"
-F 6 "ERA-3AEB2053V" H 9100 800 50  0001 C CNN "Part Number"
-	1    9100 800 
+F 0 "R57" H 9168 941 50  0000 L CNN
+F 1 "205K" H 9168 850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 840 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 9100 850 50  0001 C CNN
+F 4 "0.1%" H 9168 759 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 9100 850 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB2053V" H 9100 850 50  0001 C CNN "Part Number"
+	1    9100 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3740,18 +3740,18 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E80493B
-P 9100 1200
+P 9100 1250
 AR Path="/5E80493B" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E80493B" Ref="R58"  Part="1" 
 AR Path="/5E828D93/5E80493B" Ref="R?"  Part="1" 
-F 0 "R58" H 9168 1291 50  0000 L CNN
-F 1 "100K" H 9168 1200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 1190 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 9100 1200 50  0001 C CNN
-F 4 "0.1%" H 9168 1109 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 9100 1200 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 9100 1200 50  0001 C CNN "Part Number"
-	1    9100 1200
+F 0 "R58" H 9168 1341 50  0000 L CNN
+F 1 "100K" H 9168 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 1240 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 9100 1250 50  0001 C CNN
+F 4 "0.1%" H 9168 1159 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 9100 1250 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B1003V" H 9100 1250 50  0001 C CNN "Part Number"
+	1    9100 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4033,16 +4033,16 @@ $EndComp
 $Comp
 L Device:R_US R61
 U 1 1 5EAA4CE7
-P 10300 1100
+P 10300 1150
 AR Path="/5E59A680/5EAA4CE7" Ref="R61"  Part="1" 
 AR Path="/5E828D93/5EAA4CE7" Ref="R?"  Part="1" 
-F 0 "R61" V 10095 1100 50  0000 C CNN
-F 1 "470" V 10186 1100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10340 1090 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 10300 1100 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 10300 1100 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT470R" V 10300 1100 50  0001 C CNN "Part Number"
-	1    10300 1100
+F 0 "R61" V 10095 1150 50  0000 C CNN
+F 1 "470" V 10186 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10340 1140 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 10300 1150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 10300 1150 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 10300 1150 50  0001 C CNN "Part Number"
+	1    10300 1150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -4093,7 +4093,7 @@ $EndComp
 Connection ~ 10450 4650
 Connection ~ 10450 3500
 Connection ~ 10450 2300
-Connection ~ 10450 1100
+Connection ~ 10450 1150
 Connection ~ 8300 1150
 Connection ~ 8300 2300
 Connection ~ 8300 3500
@@ -4160,17 +4160,297 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM2902 U?
 U 1 1 5E8742F5
-P 9750 1100
+P 9750 1150
 AR Path="/5E8742F5" Ref="U?"  Part="1" 
 AR Path="/5E59A680/5E8742F5" Ref="U9"  Part="1" 
 AR Path="/5E828D93/5E8742F5" Ref="U?"  Part="1" 
-F 0 "U9" H 9750 1467 50  0000 C CNN
-F 1 "LM2902" H 9750 1376 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9700 1200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9800 1300 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/texas-instruments/LM2902LVIDR/296-51255-1-ND/9745619" H 9750 1100 50  0001 C CNN "Digikey"
-F 5 "LM2902LVIDR" H 9750 1100 50  0001 C CNN "Part Number"
-	1    9750 1100
+F 0 "U9" H 9750 1517 50  0000 C CNN
+F 1 "LM2902" H 9750 1426 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9700 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9800 1350 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/texas-instruments/LM2902LVIDR/296-51255-1-ND/9745619" H 9750 1150 50  0001 C CNN "Digikey"
+F 5 "LM2902LVIDR" H 9750 1150 50  0001 C CNN "Part Number"
+	1    9750 1150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5E8D9717
+P 600 650
+F 0 "TP9" H 650 750 50  0000 L CNN
+F 1 "5015" H 800 750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 800 650 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 800 650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    600  650 
+	1    0    0    -1  
+$EndComp
+Connection ~ 600  650 
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5E8DA442
+P 2700 650
+F 0 "TP13" H 2750 750 50  0000 L CNN
+F 1 "5015" H 2900 750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 2900 650 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 2900 650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    2700 650 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 650 
+$Comp
+L Connector:TestPoint TP17
+U 1 1 5E8DADE5
+P 4800 650
+F 0 "TP17" H 4850 750 50  0000 L CNN
+F 1 "5015" H 5000 750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5000 650 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5000 650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    4800 650 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4800 650 
+$Comp
+L Connector:TestPoint TP21
+U 1 1 5E8DB625
+P 6950 650
+F 0 "TP21" H 7000 750 50  0000 L CNN
+F 1 "5015" H 7150 750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 7150 650 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 7150 650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    6950 650 
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 650 
+$Comp
+L Connector:TestPoint TP25
+U 1 1 5E8DBE48
+P 9100 650
+F 0 "TP25" H 9150 750 50  0000 L CNN
+F 1 "5015" H 9300 750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 9300 650 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 9300 650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    9100 650 
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 650 
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5E916FD5
+P 600 1800
+F 0 "TP10" H 650 1900 50  0000 L CNN
+F 1 "5015" H 800 1900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 800 1800 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 800 1800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    600  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5E916FDB
+P 2700 1800
+F 0 "TP14" H 2750 1900 50  0000 L CNN
+F 1 "5015" H 2900 1900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 2900 1800 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 2900 1800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    2700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5E916FE1
+P 4800 1800
+F 0 "TP18" H 4850 1900 50  0000 L CNN
+F 1 "5015" H 5000 1900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5000 1800 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5000 1800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    4800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5E916FE7
+P 6950 1800
+F 0 "TP22" H 7000 1900 50  0000 L CNN
+F 1 "5015" H 7150 1900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 7150 1800 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 7150 1800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    6950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP26
+U 1 1 5E916FED
+P 9100 1800
+F 0 "TP26" H 9150 1900 50  0000 L CNN
+F 1 "5015" H 9300 1900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 9300 1800 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 9300 1800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    9100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5E9468AA
+P 600 3000
+F 0 "TP11" H 650 3100 50  0000 L CNN
+F 1 "5015" H 800 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 800 3000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 800 3000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    600  3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5E9468B0
+P 2700 3000
+F 0 "TP15" H 2750 3100 50  0000 L CNN
+F 1 "5015" H 2900 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 2900 3000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 2900 3000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    2700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5E9468B6
+P 4800 3000
+F 0 "TP19" H 4850 3100 50  0000 L CNN
+F 1 "5015" H 5000 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5000 3000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5000 3000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    4800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5E9468BC
+P 6950 3000
+F 0 "TP23" H 7000 3100 50  0000 L CNN
+F 1 "5015" H 7150 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 7150 3000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 7150 3000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    6950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP27
+U 1 1 5E9468C2
+P 9100 3000
+F 0 "TP27" H 9150 3100 50  0000 L CNN
+F 1 "5015" H 9300 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 9300 3000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 9300 3000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    9100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5E97684A
+P 600 4150
+F 0 "TP12" H 650 4250 50  0000 L CNN
+F 1 "5015" H 800 4250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 800 4150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 800 4150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    600  4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5E976850
+P 2700 4150
+F 0 "TP16" H 2750 4250 50  0000 L CNN
+F 1 "5015" H 2900 4250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 2900 4150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 2900 4150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    2700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 5E976856
+P 4800 4150
+F 0 "TP20" H 4850 4250 50  0000 L CNN
+F 1 "5015" H 5000 4250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5000 4150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5000 4150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    4800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP24
+U 1 1 5E97685C
+P 6950 4150
+F 0 "TP24" H 7000 4250 50  0000 L CNN
+F 1 "5015" H 7150 4250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 7150 4150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 7150 4150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    6950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP28
+U 1 1 5E976862
+P 9100 4150
+F 0 "TP28" H 9150 4250 50  0000 L CNN
+F 1 "5015" H 9300 4250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 9300 4150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 9300 4150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    9100 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 4150
+Connection ~ 9100 3000
+Connection ~ 6950 3000
+Connection ~ 6950 4150
+Connection ~ 4800 3000
+Connection ~ 4800 4150
+Connection ~ 2700 3000
+Connection ~ 600  3000
+Connection ~ 600  4150
+Connection ~ 2700 4150
+Connection ~ 600  1800
+Connection ~ 2700 1800
+Connection ~ 4800 1800
+Connection ~ 6950 1800
+Connection ~ 9100 1800
 $EndSCHEMATC

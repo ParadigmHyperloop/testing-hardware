@@ -615,19 +615,19 @@ Wire Wire Line
 $Comp
 L Device:R_US R?
 U 1 1 5E60499B
-P 3050 950
+P 5250 950
 AR Path="/5E60499B" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E60499B" Ref="R?"  Part="1" 
 AR Path="/5E828D93/5E60499B" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5E60499B" Ref="R86"  Part="1" 
-F 0 "R86" H 3118 1041 50  0000 L CNN
-F 1 "205K" H 3118 950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 940 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3050 950 50  0001 C CNN
-F 4 "0.1%" H 3118 859 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 3050 950 50  0001 C CNN "Digikey"
-F 6 "ERA-3AEB2053V" H 3050 950 50  0001 C CNN "Part Number"
-	1    3050 950 
+F 0 "R86" H 5318 1041 50  0000 L CNN
+F 1 "205K" H 5318 950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 940 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5250 950 50  0001 C CNN
+F 4 "0.1%" H 5318 859 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 5250 950 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB2053V" H 5250 950 50  0001 C CNN "Part Number"
+	1    5250 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1005,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 6150 3700 6200
 Connection ~ 3700 6150
-Text GLabel 3100 750  2    50   Input ~ 0
+Text GLabel 5300 750  2    50   Input ~ 0
 10V_IN_7
 Wire Wire Line
 	3100 750  3050 750 
@@ -1068,9 +1068,11 @@ L Switch:SW_DIP_x12 SW4
 U 1 1 5E6DCADE
 P 9250 5600
 F 0 "SW4" H 9250 6467 50  0000 C CNN
-F 1 "SW_DIP_x12" H 9250 6376 50  0000 C CNN
-F 2 "" H 9250 5600 50  0001 C CNN
-F 3 "~" H 9250 5600 50  0001 C CNN
+F 1 "INPUT_RANGE_SEL_3" H 9250 6376 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile" H 9250 5600 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/ds04-254-smt.pdf" H 9250 5600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/cui-devices/DS04-254-2-12BK-SMT/2223-DS04-254-2-12BK-SMT-ND/11310859" H 9250 5600 50  0001 C CNN "Digikey"
+F 5 "DS04-254-2-12BK-SMT" H 9250 5600 50  0001 C CNN "Part Number"
 	1    9250 5600
 	1    0    0    -1  
 $EndComp
@@ -1601,11 +1603,11 @@ F 5 "CC0603KRX7R8BB104" H 10400 2500 50  0001 C CNN "Part Number"
 	1    10400 2500
 	0    1    1    0   
 $EndComp
-Text GLabel 3100 1950 2    50   Input ~ 0
+Text GLabel 5300 1950 2    50   Input ~ 0
 10V_IN_8
-Text GLabel 3100 3150 2    50   Input ~ 0
+Text GLabel 5300 3150 2    50   Input ~ 0
 10V_IN_9
-Text GLabel 3100 4300 2    50   Input ~ 0
+Text GLabel 5300 4300 2    50   Input ~ 0
 10V_IN_10
 $Comp
 L Device:C C?
@@ -1697,58 +1699,6 @@ Text GLabel 8900 5200 0    50   Input ~ 0
 5V_IN_17
 Text GLabel 8900 5300 0    50   Input ~ 0
 5V_IN_18
-Text GLabel 8900 5400 0    50   Input ~ 0
-10V_IN_7
-Text GLabel 8900 5500 0    50   Input ~ 0
-10V_IN_8
-Text GLabel 8900 5600 0    50   Input ~ 0
-10V_IN_9
-Text GLabel 8900 5700 0    50   Input ~ 0
-10V_IN_9
-$Comp
-L Amplifier_Instrumentation:AD620 U22
-U 1 1 5EC11A48
-P 6400 1400
-F 0 "U22" H 6500 1750 50  0000 L CNN
-F 1 "AD620" H 5950 1750 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6400 1400 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf" H 6400 1400 50  0001 C CNN
-	1    6400 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5EC539AE
-P 6300 1050
-AR Path="/5E59A680/5EC539AE" Ref="#PWR?"  Part="1" 
-AR Path="/5E828D93/5EC539AE" Ref="#PWR?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5EC539AE" Ref="#PWR0216"  Part="1" 
-F 0 "#PWR0216" H 6300 900 50  0001 C CNN
-F 1 "+5V" H 6315 1223 50  0000 C CNN
-F 2 "" H 6300 1050 50  0001 C CNN
-F 3 "" H 6300 1050 50  0001 C CNN
-	1    6300 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 1050 6300 1100
-Wire Wire Line
-	6300 1700 6300 1750
-$Comp
-L power:GND #PWR?
-U 1 1 5EC72B3D
-P 6300 1750
-AR Path="/5EC72B3D" Ref="#PWR?"  Part="1" 
-AR Path="/5E59A680/5EC72B3D" Ref="#PWR?"  Part="1" 
-AR Path="/5E828D93/5EC72B3D" Ref="#PWR?"  Part="1" 
-AR Path="/5E59A680/5E5467E7/5EC72B3D" Ref="#PWR0217"  Part="1" 
-F 0 "#PWR0217" H 6300 1500 50  0001 C CNN
-F 1 "GND" H 6305 1577 50  0000 C CNN
-F 2 "" H 6300 1750 50  0001 C CNN
-F 3 "" H 6300 1750 50  0001 C CNN
-	1    6300 1750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E7E4C85
@@ -1806,55 +1756,55 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E7F335F
-P 3050 2150
+P 5250 2150
 AR Path="/5E7F335F" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E7F335F" Ref="R?"  Part="1" 
 AR Path="/5E828D93/5E7F335F" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5E7F335F" Ref="R88"  Part="1" 
-F 0 "R88" H 3118 2241 50  0000 L CNN
-F 1 "205K" H 3118 2150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 2140 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3050 2150 50  0001 C CNN
-F 4 "0.1%" H 3118 2059 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 3050 2150 50  0001 C CNN "Digikey"
-F 6 "ERA-3AEB2053V" H 3050 2150 50  0001 C CNN "Part Number"
-	1    3050 2150
+F 0 "R88" H 5318 2241 50  0000 L CNN
+F 1 "205K" H 5318 2150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 2140 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5250 2150 50  0001 C CNN
+F 4 "0.1%" H 5318 2059 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 5250 2150 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB2053V" H 5250 2150 50  0001 C CNN "Part Number"
+	1    5250 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E7F3ED8
-P 3050 3350
+P 5250 3350
 AR Path="/5E7F3ED8" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E7F3ED8" Ref="R?"  Part="1" 
 AR Path="/5E828D93/5E7F3ED8" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5E7F3ED8" Ref="R90"  Part="1" 
-F 0 "R90" H 3118 3441 50  0000 L CNN
-F 1 "205K" H 3118 3350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 3340 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3050 3350 50  0001 C CNN
-F 4 "0.1%" H 3118 3259 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 3050 3350 50  0001 C CNN "Digikey"
-F 6 "ERA-3AEB2053V" H 3050 3350 50  0001 C CNN "Part Number"
-	1    3050 3350
+F 0 "R90" H 5318 3441 50  0000 L CNN
+F 1 "205K" H 5318 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 3340 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5250 3350 50  0001 C CNN
+F 4 "0.1%" H 5318 3259 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 5250 3350 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB2053V" H 5250 3350 50  0001 C CNN "Part Number"
+	1    5250 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E7F4AC1
-P 3050 4500
+P 5250 4500
 AR Path="/5E7F4AC1" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E7F4AC1" Ref="R?"  Part="1" 
 AR Path="/5E828D93/5E7F4AC1" Ref="R?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5E7F4AC1" Ref="R92"  Part="1" 
-F 0 "R92" H 3118 4591 50  0000 L CNN
-F 1 "205K" H 3118 4500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 4490 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3050 4500 50  0001 C CNN
-F 4 "0.1%" H 3118 4409 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 3050 4500 50  0001 C CNN "Digikey"
-F 6 "ERA-3AEB2053V" H 3050 4500 50  0001 C CNN "Part Number"
-	1    3050 4500
+F 0 "R92" H 5318 4591 50  0000 L CNN
+F 1 "205K" H 5318 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 4490 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5250 4500 50  0001 C CNN
+F 4 "0.1%" H 5318 4409 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERA-3AEB2053V/P205KDBCT-ND/3075854" H 5250 4500 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB2053V" H 5250 4500 50  0001 C CNN "Part Number"
+	1    5250 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2153,4 +2103,1009 @@ F 5 "LM2902LVIDR" H 3700 1250 50  0001 C CNN "Part Number"
 	1    3700 1250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828DFB
+P 3050 950
+AR Path="/5E828DFB" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828DFB" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828DFB" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828DFB" Ref="R99"  Part="1" 
+F 0 "R99" H 3118 1041 50  0000 L CNN
+F 1 "51.1K" H 3118 950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 940 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 3050 950 50  0001 C CNN
+F 4 "0.1%" H 3118 859 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B5112V/P20167CT-ND/6214422" H 3050 950 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B5112V" H 3050 950 50  0001 C CNN "Part Number"
+	1    3050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828E08
+P 5250 1350
+AR Path="/5E828E08" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828E08" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828E08" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E08" Ref="R106"  Part="1" 
+F 0 "R106" H 5318 1441 50  0000 L CNN
+F 1 "100K" H 5318 1350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 1340 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 5250 1350 50  0001 C CNN
+F 4 "0.1%" H 5318 1259 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 5250 1350 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B1003V" H 5250 1350 50  0001 C CNN "Part Number"
+	1    5250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1100 5250 1150
+Wire Wire Line
+	5250 1150 5600 1150
+Connection ~ 5250 1150
+Wire Wire Line
+	5250 1150 5250 1200
+Wire Wire Line
+	5600 1350 5600 1550
+Wire Wire Line
+	5600 1550 6250 1550
+Wire Wire Line
+	6250 1550 6250 1250
+Wire Wire Line
+	5250 1500 5250 1550
+$Comp
+L power:GND #PWR?
+U 1 1 5E828E1A
+P 5250 1550
+AR Path="/5E828E1A" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828E1A" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828E1A" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E1A" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR0183" H 5250 1300 50  0001 C CNN
+F 1 "GND" H 5255 1377 50  0000 C CNN
+F 2 "" H 5250 1550 50  0001 C CNN
+F 3 "" H 5250 1550 50  0001 C CNN
+	1    5250 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 1250
+Wire Wire Line
+	6250 1250 6200 1250
+Text Label 5600 1150 2    50   ~ 0
+3V3_IN_29
+Wire Wire Line
+	6300 1250 6250 1250
+Connection ~ 6750 1250
+Wire Wire Line
+	6750 1250 6800 1250
+Wire Wire Line
+	6750 1600 6750 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5E828E2B
+P 6750 1650
+AR Path="/5E828E2B" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828E2B" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828E2B" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E2B" Ref="#PWR0189"  Part="1" 
+F 0 "#PWR0189" H 6750 1400 50  0001 C CNN
+F 1 "GND" H 6755 1477 50  0000 C CNN
+F 2 "" H 6750 1650 50  0001 C CNN
+F 3 "" H 6750 1650 50  0001 C CNN
+	1    6750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1250 6750 1300
+Wire Wire Line
+	6600 1250 6750 1250
+Wire Wire Line
+	5250 750  5250 800 
+Text GLabel 6800 1250 2    50   Output ~ 0
+EADC_ADC_9
+Text Label 5600 1550 0    50   ~ 0
+IN_29_BUFFERED
+Wire Wire Line
+	5250 2300 5250 2350
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 2 1 5E828E3B
+P 5900 2450
+AR Path="/5E828E3B" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E828E3B" Ref="U?"  Part="1" 
+AR Path="/5E828D93/5E828E3B" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E3B" Ref="U12"  Part="2" 
+F 0 "U12" H 5900 2817 50  0000 C CNN
+F 1 "LM2902" H 5900 2726 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5850 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5950 2650 50  0001 C CNN
+	2    5900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2350 5600 2350
+Connection ~ 5250 2350
+Wire Wire Line
+	5250 2350 5250 2400
+Wire Wire Line
+	5600 2550 5600 2750
+Wire Wire Line
+	5600 2750 6250 2750
+Wire Wire Line
+	6250 2750 6250 2450
+Wire Wire Line
+	5250 2700 5250 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5E828E4C
+P 5250 2750
+AR Path="/5E828E4C" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828E4C" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828E4C" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E4C" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 5250 2500 50  0001 C CNN
+F 1 "GND" H 5255 2577 50  0000 C CNN
+F 2 "" H 5250 2750 50  0001 C CNN
+F 3 "" H 5250 2750 50  0001 C CNN
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 2450
+Wire Wire Line
+	6250 2450 6200 2450
+Text Label 5600 2350 2    50   ~ 0
+3V3_IN_30
+Wire Wire Line
+	6300 2450 6250 2450
+Connection ~ 6750 2450
+Wire Wire Line
+	6750 2450 6800 2450
+Wire Wire Line
+	6750 2800 6750 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5E828E5D
+P 6750 2850
+AR Path="/5E828E5D" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828E5D" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828E5D" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E5D" Ref="#PWR0190"  Part="1" 
+F 0 "#PWR0190" H 6750 2600 50  0001 C CNN
+F 1 "GND" H 6755 2677 50  0000 C CNN
+F 2 "" H 6750 2850 50  0001 C CNN
+F 3 "" H 6750 2850 50  0001 C CNN
+	1    6750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2450 6750 2500
+Wire Wire Line
+	6600 2450 6750 2450
+Wire Wire Line
+	5250 1950 5250 2000
+Text GLabel 6800 2450 2    50   Output ~ 0
+EADC_ADC_10
+Text Label 5600 2750 0    50   ~ 0
+IN_30_BUFFERED
+Wire Wire Line
+	5250 3500 5250 3550
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 3 1 5E828E6D
+P 5900 3650
+AR Path="/5E828E6D" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E828E6D" Ref="U?"  Part="1" 
+AR Path="/5E828D93/5E828E6D" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E6D" Ref="U12"  Part="3" 
+F 0 "U12" H 5900 4017 50  0000 C CNN
+F 1 "LM2902" H 5900 3926 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5850 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5950 3850 50  0001 C CNN
+	3    5900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3550 5600 3550
+Connection ~ 5250 3550
+Wire Wire Line
+	5250 3550 5250 3600
+Wire Wire Line
+	5600 3750 5600 3950
+Wire Wire Line
+	5600 3950 6250 3950
+Wire Wire Line
+	6250 3950 6250 3650
+Wire Wire Line
+	5250 3900 5250 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5E828E7E
+P 5250 3950
+AR Path="/5E828E7E" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828E7E" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828E7E" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E7E" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 5250 3700 50  0001 C CNN
+F 1 "GND" H 5255 3777 50  0000 C CNN
+F 2 "" H 5250 3950 50  0001 C CNN
+F 3 "" H 5250 3950 50  0001 C CNN
+	1    5250 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 3650
+Wire Wire Line
+	6250 3650 6200 3650
+Text Label 5600 3550 2    50   ~ 0
+3V3_IN_31
+Wire Wire Line
+	6300 3650 6250 3650
+Connection ~ 6750 3650
+Wire Wire Line
+	6750 3650 6800 3650
+Wire Wire Line
+	6750 4000 6750 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5E828E8F
+P 6750 4050
+AR Path="/5E828E8F" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828E8F" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828E8F" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E8F" Ref="#PWR0191"  Part="1" 
+F 0 "#PWR0191" H 6750 3800 50  0001 C CNN
+F 1 "GND" H 6755 3877 50  0000 C CNN
+F 2 "" H 6750 4050 50  0001 C CNN
+F 3 "" H 6750 4050 50  0001 C CNN
+	1    6750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3650 6750 3700
+Wire Wire Line
+	6600 3650 6750 3650
+Wire Wire Line
+	5250 3150 5250 3200
+Text GLabel 6800 3650 2    50   Output ~ 0
+EADC_ADC_11
+Text Label 5600 3950 0    50   ~ 0
+IN_31_BUFFERED
+Wire Wire Line
+	5250 4650 5250 4700
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 4 1 5E828E9F
+P 5900 4800
+AR Path="/5E828E9F" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E828E9F" Ref="U?"  Part="1" 
+AR Path="/5E828D93/5E828E9F" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828E9F" Ref="U12"  Part="4" 
+F 0 "U12" H 5900 5167 50  0000 C CNN
+F 1 "LM2902" H 5900 5076 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5850 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5950 5000 50  0001 C CNN
+	4    5900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4700 5600 4700
+Connection ~ 5250 4700
+Wire Wire Line
+	5250 4700 5250 4750
+Wire Wire Line
+	5600 4900 5600 5100
+Wire Wire Line
+	5600 5100 6250 5100
+Wire Wire Line
+	6250 5100 6250 4800
+Wire Wire Line
+	5250 5050 5250 5100
+$Comp
+L power:GND #PWR?
+U 1 1 5E828EB0
+P 5250 5100
+AR Path="/5E828EB0" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828EB0" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828EB0" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828EB0" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 5250 4850 50  0001 C CNN
+F 1 "GND" H 5255 4927 50  0000 C CNN
+F 2 "" H 5250 5100 50  0001 C CNN
+F 3 "" H 5250 5100 50  0001 C CNN
+	1    5250 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 4800
+Wire Wire Line
+	6250 4800 6200 4800
+Text Label 5600 4700 2    50   ~ 0
+3V3_IN_32
+Wire Wire Line
+	6300 4800 6250 4800
+Connection ~ 6750 4800
+Wire Wire Line
+	6750 4800 6800 4800
+Wire Wire Line
+	6750 5150 6750 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5E828EC1
+P 6750 5200
+AR Path="/5E828EC1" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828EC1" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828EC1" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828EC1" Ref="#PWR0192"  Part="1" 
+F 0 "#PWR0192" H 6750 4950 50  0001 C CNN
+F 1 "GND" H 6755 5027 50  0000 C CNN
+F 2 "" H 6750 5200 50  0001 C CNN
+F 3 "" H 6750 5200 50  0001 C CNN
+	1    6750 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4800 6750 4850
+Wire Wire Line
+	6600 4800 6750 4800
+Wire Wire Line
+	5250 4300 5250 4350
+Text GLabel 6800 4800 2    50   Output ~ 0
+EADC_ADC_12
+Text Label 5600 5100 0    50   ~ 0
+IN_32_BUFFERED
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 5 1 5E828ED0
+P 6000 5800
+AR Path="/5E828ED0" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E828ED0" Ref="U?"  Part="5" 
+AR Path="/5E828D93/5E828ED0" Ref="U?"  Part="5" 
+AR Path="/5E59A680/5E5467E7/5E828ED0" Ref="U12"  Part="5" 
+F 0 "U12" H 6100 5850 50  0000 C CNN
+F 1 "LM2902" H 6100 5750 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5950 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6050 6000 50  0001 C CNN
+	5    6000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E828EDA
+P 5900 5350
+AR Path="/5E59A680/5E828EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828EDA" Ref="#PWR0187"  Part="1" 
+F 0 "#PWR0187" H 5900 5200 50  0001 C CNN
+F 1 "+5V" H 5915 5523 50  0000 C CNN
+F 2 "" H 5900 5350 50  0001 C CNN
+F 3 "" H 5900 5350 50  0001 C CNN
+	1    5900 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5350 5900 5450
+Wire Wire Line
+	5900 6100 5900 6150
+$Comp
+L power:GND #PWR?
+U 1 1 5E828EE6
+P 5900 6200
+AR Path="/5E828EE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E828EE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E828D93/5E828EE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828EE6" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR0188" H 5900 5950 50  0001 C CNN
+F 1 "GND" H 5905 6027 50  0000 C CNN
+F 2 "" H 5900 6200 50  0001 C CNN
+F 3 "" H 5900 6200 50  0001 C CNN
+	1    5900 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5450 5700 5450
+Wire Wire Line
+	5700 5450 5700 5650
+Connection ~ 5900 5450
+Wire Wire Line
+	5900 5450 5900 5500
+Wire Wire Line
+	5900 6150 5700 6150
+Wire Wire Line
+	5700 6150 5700 5950
+Wire Wire Line
+	5900 6150 5900 6200
+Connection ~ 5900 6150
+Text GLabel 3100 750  2    50   Input ~ 0
+5V_IN_19
+Wire Wire Line
+	5300 750  5250 750 
+Text GLabel 3100 3150 2    50   Input ~ 0
+5V_IN_21
+Wire Wire Line
+	5300 3150 5250 3150
+Text GLabel 3100 4300 2    50   Input ~ 0
+5V_IN_22
+Wire Wire Line
+	5300 4300 5250 4300
+Text GLabel 3100 1950 2    50   Input ~ 0
+5V_IN_20
+Wire Wire Line
+	5300 1950 5250 1950
+$Comp
+L Device:C C?
+U 1 1 5E828F02
+P 6600 1450
+AR Path="/5E828F02" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E828F02" Ref="C?"  Part="1" 
+AR Path="/5E828D93/5E828F02" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F02" Ref="C68"  Part="1" 
+F 0 "C68" H 6715 1496 50  0000 L CNN
+F 1 "0.1uF" H 6715 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6638 1300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6600 1450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 6600 1450 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 6600 1450 50  0001 C CNN "Part Number"
+	1    6600 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 1600 6600 1650
+Wire Wire Line
+	6600 1650 6750 1650
+Wire Wire Line
+	6600 1300 6600 1250
+Wire Wire Line
+	6600 2800 6600 2850
+Wire Wire Line
+	6600 2850 6750 2850
+Wire Wire Line
+	6600 2500 6600 2450
+Wire Wire Line
+	6600 4000 6600 4050
+Wire Wire Line
+	6600 4050 6750 4050
+Wire Wire Line
+	6600 3700 6600 3650
+Wire Wire Line
+	6600 5150 6600 5200
+Wire Wire Line
+	6600 5200 6750 5200
+Wire Wire Line
+	6600 4850 6600 4800
+Connection ~ 6750 1650
+Connection ~ 6750 2850
+Connection ~ 6750 4050
+Connection ~ 6750 5200
+$Comp
+L Device:D_Zener D?
+U 1 1 5E828F1E
+P 6750 1450
+AR Path="/5E59A680/5E828F1E" Ref="D?"  Part="1" 
+AR Path="/5E828D93/5E828F1E" Ref="D?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F1E" Ref="D31"  Part="1" 
+F 0 "D31" V 6704 1529 50  0000 L CNN
+F 1 "3.3V" V 6795 1529 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6750 1450 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 6750 1450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/MM3Z3V3ST1G/MM3Z3V3ST1GOSCT-ND/2705113" V 6750 1450 50  0001 C CNN "Digikey"
+F 5 "MM3Z3V3ST1G" V 6750 1450 50  0001 C CNN "Part Number"
+	1    6750 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5E828F2A
+P 6750 2650
+AR Path="/5E59A680/5E828F2A" Ref="D?"  Part="1" 
+AR Path="/5E828D93/5E828F2A" Ref="D?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F2A" Ref="D32"  Part="1" 
+F 0 "D32" V 6704 2729 50  0000 L CNN
+F 1 "3.3V" V 6795 2729 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6750 2650 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 6750 2650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/MM3Z3V3ST1G/MM3Z3V3ST1GOSCT-ND/2705113" V 6750 2650 50  0001 C CNN "Digikey"
+F 5 "MM3Z3V3ST1G" V 6750 2650 50  0001 C CNN "Part Number"
+	1    6750 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5E828F36
+P 6750 3850
+AR Path="/5E59A680/5E828F36" Ref="D?"  Part="1" 
+AR Path="/5E828D93/5E828F36" Ref="D?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F36" Ref="D33"  Part="1" 
+F 0 "D33" V 6704 3929 50  0000 L CNN
+F 1 "3.3V" V 6795 3929 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6750 3850 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 6750 3850 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/MM3Z3V3ST1G/MM3Z3V3ST1GOSCT-ND/2705113" V 6750 3850 50  0001 C CNN "Digikey"
+F 5 "MM3Z3V3ST1G" V 6750 3850 50  0001 C CNN "Part Number"
+	1    6750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5E828F42
+P 6750 5000
+AR Path="/5E59A680/5E828F42" Ref="D?"  Part="1" 
+AR Path="/5E828D93/5E828F42" Ref="D?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F42" Ref="D34"  Part="1" 
+F 0 "D34" V 6704 5079 50  0000 L CNN
+F 1 "3.3V" V 6795 5079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6750 5000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MM3Z2V4ST1-D.PDF" H 6750 5000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/MM3Z3V3ST1G/MM3Z3V3ST1GOSCT-ND/2705113" V 6750 5000 50  0001 C CNN "Digikey"
+F 5 "MM3Z3V3ST1G" V 6750 5000 50  0001 C CNN "Part Number"
+	1    6750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E828F4E
+P 6600 2650
+AR Path="/5E828F4E" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E828F4E" Ref="C?"  Part="1" 
+AR Path="/5E828D93/5E828F4E" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F4E" Ref="C69"  Part="1" 
+F 0 "C69" H 6715 2696 50  0000 L CNN
+F 1 "0.1uF" H 6715 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6638 2500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6600 2650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 6600 2650 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 6600 2650 50  0001 C CNN "Part Number"
+	1    6600 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E828F5A
+P 6600 3850
+AR Path="/5E828F5A" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E828F5A" Ref="C?"  Part="1" 
+AR Path="/5E828D93/5E828F5A" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F5A" Ref="C70"  Part="1" 
+F 0 "C70" H 6715 3896 50  0000 L CNN
+F 1 "0.1uF" H 6715 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6638 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6600 3850 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 6600 3850 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 6600 3850 50  0001 C CNN "Part Number"
+	1    6600 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E828F66
+P 6600 5000
+AR Path="/5E828F66" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E828F66" Ref="C?"  Part="1" 
+AR Path="/5E828D93/5E828F66" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F66" Ref="C71"  Part="1" 
+F 0 "C71" H 6715 5046 50  0000 L CNN
+F 1 "0.1uF" H 6715 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6638 4850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6600 5000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 6600 5000 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 6600 5000 50  0001 C CNN "Part Number"
+	1    6600 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E828F72
+P 5700 5800
+AR Path="/5E828F72" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E828F72" Ref="C?"  Part="1" 
+AR Path="/5E828D93/5E828F72" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F72" Ref="C67"  Part="1" 
+F 0 "C67" H 5815 5846 50  0000 L CNN
+F 1 "0.1uF" H 5815 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5738 5650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5700 5800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 5700 5800 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 5700 5800 50  0001 C CNN "Part Number"
+	1    5700 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828F7F
+P 3050 2150
+AR Path="/5E828F7F" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828F7F" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828F7F" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F7F" Ref="R101"  Part="1" 
+F 0 "R101" H 3118 2241 50  0000 L CNN
+F 1 "51.1K" H 3118 2150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 2140 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 3050 2150 50  0001 C CNN
+F 4 "0.1%" H 3118 2059 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B5112V/P20167CT-ND/6214422" H 3050 2150 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B5112V" H 3050 2150 50  0001 C CNN "Part Number"
+	1    3050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828F8C
+P 3050 3350
+AR Path="/5E828F8C" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828F8C" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828F8C" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F8C" Ref="R103"  Part="1" 
+F 0 "R103" H 3118 3441 50  0000 L CNN
+F 1 "51.1K" H 3118 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 3340 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 3050 3350 50  0001 C CNN
+F 4 "0.1%" H 3118 3259 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B5112V/P20167CT-ND/6214422" H 3050 3350 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B5112V" H 3050 3350 50  0001 C CNN "Part Number"
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828F99
+P 3050 4500
+AR Path="/5E828F99" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828F99" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828F99" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828F99" Ref="R105"  Part="1" 
+F 0 "R105" H 3118 4591 50  0000 L CNN
+F 1 "51.1K" H 3118 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3090 4490 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 3050 4500 50  0001 C CNN
+F 4 "0.1%" H 3118 4409 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B5112V/P20167CT-ND/6214422" H 3050 4500 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B5112V" H 3050 4500 50  0001 C CNN "Part Number"
+	1    3050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828FA6
+P 5250 2550
+AR Path="/5E828FA6" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828FA6" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828FA6" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828FA6" Ref="R107"  Part="1" 
+F 0 "R107" H 5318 2641 50  0000 L CNN
+F 1 "100K" H 5318 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 2540 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 5250 2550 50  0001 C CNN
+F 4 "0.1%" H 5318 2459 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 5250 2550 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B1003V" H 5250 2550 50  0001 C CNN "Part Number"
+	1    5250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828FB3
+P 5250 3750
+AR Path="/5E828FB3" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828FB3" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828FB3" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828FB3" Ref="R108"  Part="1" 
+F 0 "R108" H 5318 3841 50  0000 L CNN
+F 1 "100K" H 5318 3750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 3740 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 5250 3750 50  0001 C CNN
+F 4 "0.1%" H 5318 3659 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 5250 3750 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B1003V" H 5250 3750 50  0001 C CNN "Part Number"
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828FC0
+P 5250 4900
+AR Path="/5E828FC0" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E828FC0" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828FC0" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828FC0" Ref="R109"  Part="1" 
+F 0 "R109" H 5318 4991 50  0000 L CNN
+F 1 "100K" H 5318 4900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 4890 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 5250 4900 50  0001 C CNN
+F 4 "0.1%" H 5318 4809 50  0000 L CNN "Tolerance"
+F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 5250 4900 50  0001 C CNN "Digikey"
+F 6 "ERJ-PB3B1003V" H 5250 4900 50  0001 C CNN "Part Number"
+	1    5250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828FCC
+P 6450 4800
+AR Path="/5E59A680/5E828FCC" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828FCC" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828FCC" Ref="R115"  Part="1" 
+F 0 "R115" V 6245 4800 50  0000 C CNN
+F 1 "470" V 6336 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6490 4790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6450 4800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 6450 4800 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 6450 4800 50  0001 C CNN "Part Number"
+	1    6450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E828FD8
+P 6450 3650
+AR Path="/5E59A680/5E828FD8" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828FD8" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828FD8" Ref="R114"  Part="1" 
+F 0 "R114" V 6245 3650 50  0000 C CNN
+F 1 "470" V 6336 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6490 3640 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6450 3650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 6450 3650 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 6450 3650 50  0001 C CNN "Part Number"
+	1    6450 3650
+	0    1    1    0   
+$EndComp
+Connection ~ 6600 3650
+$Comp
+L Device:R_US R?
+U 1 1 5E828FE5
+P 6450 2450
+AR Path="/5E59A680/5E828FE5" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828FE5" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828FE5" Ref="R113"  Part="1" 
+F 0 "R113" V 6245 2450 50  0000 C CNN
+F 1 "470" V 6336 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6490 2440 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6450 2450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 6450 2450 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 6450 2450 50  0001 C CNN "Part Number"
+	1    6450 2450
+	0    1    1    0   
+$EndComp
+Connection ~ 6600 2450
+$Comp
+L Device:R_US R?
+U 1 1 5E828FF2
+P 6450 1250
+AR Path="/5E59A680/5E828FF2" Ref="R?"  Part="1" 
+AR Path="/5E828D93/5E828FF2" Ref="R?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E828FF2" Ref="R112"  Part="1" 
+F 0 "R112" V 6245 1250 50  0000 C CNN
+F 1 "470" V 6336 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6490 1240 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6450 1250 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 6450 1250 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 6450 1250 50  0001 C CNN "Part Number"
+	1    6450 1250
+	0    1    1    0   
+$EndComp
+Connection ~ 6600 1250
+Connection ~ 6600 4800
+$Comp
+L Amplifier_Operational:LM2902 U?
+U 1 1 5E829000
+P 5900 1250
+AR Path="/5E829000" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E829000" Ref="U?"  Part="1" 
+AR Path="/5E828D93/5E829000" Ref="U?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E829000" Ref="U12"  Part="1" 
+F 0 "U12" H 5900 1617 50  0000 C CNN
+F 1 "LM2902" H 5900 1526 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5850 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5950 1450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/texas-instruments/LM2902LVIDR/296-51255-1-ND/9745619" H 5900 1250 50  0001 C CNN "Digikey"
+F 5 "LM2902LVIDR" H 5900 1250 50  0001 C CNN "Part Number"
+	1    5900 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 5800 0    50   Input ~ 0
+10V_IN_7
+Text GLabel 8900 5900 0    50   Input ~ 0
+10V_IN_8
+Text GLabel 8900 6000 0    50   Input ~ 0
+10V_IN_9
+Text GLabel 8900 6100 0    50   Input ~ 0
+10V_IN_10
+Text GLabel 8900 5400 0    50   Input ~ 0
+5V_IN_19
+Text GLabel 8900 5500 0    50   Input ~ 0
+5V_IN_20
+Text GLabel 8900 5600 0    50   Input ~ 0
+5V_IN_21
+Text GLabel 8900 5700 0    50   Input ~ 0
+5V_IN_22
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9B2C1A
+P 850 750
+AR Path="/5E59A680/5E9B2C1A" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E9B2C1A" Ref="TP29"  Part="1" 
+F 0 "TP29" H 900 850 50  0000 L CNN
+F 1 "5015" H 1050 850 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 1050 750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 1050 750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    850  750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9B2C20
+P 3050 750
+AR Path="/5E59A680/5E9B2C20" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E9B2C20" Ref="TP33"  Part="1" 
+F 0 "TP33" H 3100 850 50  0000 L CNN
+F 1 "5015" H 3250 850 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 3250 750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 3250 750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    3050 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9B2C26
+P 5250 750
+AR Path="/5E59A680/5E9B2C26" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E9B2C26" Ref="TP37"  Part="1" 
+F 0 "TP37" H 5300 850 50  0000 L CNN
+F 1 "5015" H 5450 850 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5450 750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5450 750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    5250 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 750 
+Connection ~ 5250 750 
+Connection ~ 850  750 
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9E76C1
+P 850 1950
+AR Path="/5E59A680/5E9E76C1" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E9E76C1" Ref="TP30"  Part="1" 
+F 0 "TP30" H 900 2050 50  0000 L CNN
+F 1 "5015" H 1050 2050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 1050 1950 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 1050 1950 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    850  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9E76C7
+P 3050 1950
+AR Path="/5E59A680/5E9E76C7" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E9E76C7" Ref="TP34"  Part="1" 
+F 0 "TP34" H 3100 2050 50  0000 L CNN
+F 1 "5015" H 3250 2050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 3250 1950 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 3250 1950 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    3050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9E76CD
+P 5250 1950
+AR Path="/5E59A680/5E9E76CD" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5E9E76CD" Ref="TP38"  Part="1" 
+F 0 "TP38" H 5300 2050 50  0000 L CNN
+F 1 "5015" H 5450 2050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5450 1950 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5450 1950 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    5250 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 850  1950
+Connection ~ 3050 1950
+Connection ~ 5250 1950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA19D2F
+P 5250 3150
+AR Path="/5E59A680/5EA19D2F" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5EA19D2F" Ref="TP39"  Part="1" 
+F 0 "TP39" H 5300 3250 50  0000 L CNN
+F 1 "5015" H 5450 3250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5450 3150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5450 3150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA19D35
+P 850 3150
+AR Path="/5E59A680/5EA19D35" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5EA19D35" Ref="TP31"  Part="1" 
+F 0 "TP31" H 900 3250 50  0000 L CNN
+F 1 "5015" H 1050 3250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 1050 3150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 1050 3150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    850  3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA19D3B
+P 3050 3150
+AR Path="/5E59A680/5EA19D3B" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5EA19D3B" Ref="TP35"  Part="1" 
+F 0 "TP35" H 3100 3250 50  0000 L CNN
+F 1 "5015" H 3250 3250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 3250 3150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 3250 3150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    3050 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 850  3150
+Connection ~ 3050 3150
+Connection ~ 5250 3150
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA4E5C9
+P 850 4300
+AR Path="/5E59A680/5EA4E5C9" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5EA4E5C9" Ref="TP32"  Part="1" 
+F 0 "TP32" H 900 4400 50  0000 L CNN
+F 1 "5015" H 1050 4400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 1050 4300 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 1050 4300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    850  4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA4E5CF
+P 3050 4300
+AR Path="/5E59A680/5EA4E5CF" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5EA4E5CF" Ref="TP36"  Part="1" 
+F 0 "TP36" H 3100 4400 50  0000 L CNN
+F 1 "5015" H 3250 4400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 3250 4300 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 3250 4300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    3050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA4E5D5
+P 5250 4300
+AR Path="/5E59A680/5EA4E5D5" Ref="TP?"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5EA4E5D5" Ref="TP40"  Part="1" 
+F 0 "TP40" H 5300 4400 50  0000 L CNN
+F 1 "5015" H 5450 4400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5450 4300 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5450 4300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    5250 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 4300
+Connection ~ 3050 4300
+Connection ~ 850  4300
 $EndSCHEMATC

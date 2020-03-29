@@ -78,57 +78,57 @@ Wire Wire Line
 $Comp
 L Interface_CAN_LIN:MCP2515-xSO U1
 U 1 1 5E3A2A32
-P 2100 3000
-F 0 "U1" H 2550 3750 50  0000 C CNN
-F 1 "MCP2515-xSO" H 1700 3750 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 2100 2100 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf" H 2200 2200 50  0001 C CNN
-	1    2100 3000
+P 2100 3100
+F 0 "U1" H 2550 3850 50  0000 C CNN
+F 1 "MCP2515-xSO" H 1700 3850 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 2100 2200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf" H 2200 2300 50  0001 C CNN
+	1    2100 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR05
 U 1 1 5E3A4ED7
-P 2100 2150
-F 0 "#PWR05" H 2100 2000 50  0001 C CNN
-F 1 "+3.3V" H 2115 2323 50  0000 C CNN
-F 2 "" H 2100 2150 50  0001 C CNN
-F 3 "" H 2100 2150 50  0001 C CNN
-	1    2100 2150
+P 2100 2250
+F 0 "#PWR05" H 2100 2100 50  0001 C CNN
+F 1 "+3.3V" H 2115 2423 50  0000 C CNN
+F 2 "" H 2100 2250 50  0001 C CNN
+F 3 "" H 2100 2250 50  0001 C CNN
+	1    2100 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 2150 2100 2200
+	2100 2250 2100 2300
 Wire Wire Line
-	2100 3800 2100 3850
+	2100 3900 2100 3950
 $Comp
 L power:GND #PWR06
 U 1 1 5E3A6CBC
-P 2100 3850
-F 0 "#PWR06" H 2100 3600 50  0001 C CNN
-F 1 "GND" H 2105 3677 50  0000 C CNN
-F 2 "" H 2100 3850 50  0001 C CNN
-F 3 "" H 2100 3850 50  0001 C CNN
-	1    2100 3850
+P 2100 3950
+F 0 "#PWR06" H 2100 3700 50  0001 C CNN
+F 1 "GND" H 2105 3777 50  0000 C CNN
+F 2 "" H 2100 3950 50  0001 C CNN
+F 3 "" H 2100 3950 50  0001 C CNN
+	1    2100 3950
 	1    0    0    -1  
 $EndComp
-Text Label 1100 2400 0    50   ~ 0
-CAN_MOSI
 Text Label 1100 2500 0    50   ~ 0
-CAN_MISO
+CAN_MOSI
 Text Label 1100 2600 0    50   ~ 0
-CAN_SS
+CAN_MISO
 Text Label 1100 2700 0    50   ~ 0
+CAN_SS
+Text Label 1100 2800 0    50   ~ 0
 CAN_SCK
+Wire Wire Line
+	1100 2800 1500 2800
 Wire Wire Line
 	1100 2700 1500 2700
 Wire Wire Line
 	1100 2600 1500 2600
 Wire Wire Line
 	1100 2500 1500 2500
-Wire Wire Line
-	1100 2400 1500 2400
-Text Notes 2350 1950 0    118  ~ 0
+Text Notes 2350 2050 0    118  ~ 0
 CAN
 $Comp
 L Morro_Bay_Lib:ATSAMD21J18A-AU U4
@@ -515,65 +515,65 @@ $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5E408C50
-P 2900 4950
-F 0 "#PWR012" H 2900 4700 50  0001 C CNN
-F 1 "GND" H 2905 4777 50  0000 C CNN
-F 2 "" H 2900 4950 50  0001 C CNN
-F 3 "" H 2900 4950 50  0001 C CNN
-	1    2900 4950
+P 2900 5050
+F 0 "#PWR012" H 2900 4800 50  0001 C CNN
+F 1 "GND" H 2905 4877 50  0000 C CNN
+F 2 "" H 2900 5050 50  0001 C CNN
+F 3 "" H 2900 5050 50  0001 C CNN
+	1    2900 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 4900 2900 4950
+	2900 5000 2900 5050
 $Comp
 L power:+3.3V #PWR07
 U 1 1 5E3EC041
-P 2100 4350
-F 0 "#PWR07" H 2100 4200 50  0001 C CNN
-F 1 "+3.3V" H 2115 4523 50  0000 C CNN
-F 2 "" H 2100 4350 50  0001 C CNN
-F 3 "" H 2100 4350 50  0001 C CNN
-	1    2100 4350
+P 2100 4450
+F 0 "#PWR07" H 2100 4300 50  0001 C CNN
+F 1 "+3.3V" H 2115 4623 50  0000 C CNN
+F 2 "" H 2100 4450 50  0001 C CNN
+F 3 "" H 2100 4450 50  0001 C CNN
+	1    2100 4450
 	1    0    0    -1  
 $EndComp
-Text Label 1400 4700 0    50   ~ 0
+Text Label 1400 4800 0    50   ~ 0
 CAN_RX
-Text Label 1400 4600 0    50   ~ 0
+Text Label 1400 4700 0    50   ~ 0
 CAN_TX
 $Comp
 L power:GND #PWR08
 U 1 1 5E3F89BA
-P 2100 5150
-F 0 "#PWR08" H 2100 4900 50  0001 C CNN
-F 1 "GND" H 2105 4977 50  0000 C CNN
-F 2 "" H 2100 5150 50  0001 C CNN
-F 3 "" H 2100 5150 50  0001 C CNN
-	1    2100 5150
+P 2100 5250
+F 0 "#PWR08" H 2100 5000 50  0001 C CNN
+F 1 "GND" H 2105 5077 50  0000 C CNN
+F 2 "" H 2100 5250 50  0001 C CNN
+F 3 "" H 2100 5250 50  0001 C CNN
+	1    2100 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 5100 2100 5150
-Wire Wire Line
-	2500 4700 2700 4700
+	2100 5200 2100 5250
 Wire Wire Line
 	2500 4800 2700 4800
-Text Label 2700 4700 2    50   ~ 0
-CANH
+Wire Wire Line
+	2500 4900 2700 4900
 Text Label 2700 4800 2    50   ~ 0
+CANH
+Text Label 2700 4900 2    50   ~ 0
 CANL
 $Comp
 L Interface_CAN_LIN:SN65HVD232 U2
 U 1 1 5E3B940E
-P 2100 4700
-F 0 "U2" H 2350 4950 50  0000 C CNN
-F 1 "SN65HVD232" H 1700 4950 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 2000 5100 50  0001 C CNN
-	1    2100 4700
+P 2100 4800
+F 0 "U2" H 2350 5050 50  0000 C CNN
+F 1 "SN65HVD232" H 1700 5050 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 2000 5200 50  0001 C CNN
+	1    2100 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 4350 2100 4400
+	2100 4450 2100 4500
 Text Label 8150 1050 0    50   ~ 0
 SAMD_XTAL1_1
 Text Label 8150 1150 0    50   ~ 0
@@ -582,11 +582,11 @@ Text Label 8150 1300 0    50   ~ 0
 SAMD_XTAL2_1
 Text Label 8150 1400 0    50   ~ 0
 SAMD_XTAL2_2
-Text Label 1050 3200 0    50   ~ 0
+Text Label 1050 3300 0    50   ~ 0
 CAN_XTAL_1
 Wire Wire Line
-	1050 3300 1500 3300
-Text Label 1050 3300 0    50   ~ 0
+	1050 3400 1500 3400
+Text Label 1050 3400 0    50   ~ 0
 CAN_XTAL_2
 Wire Wire Line
 	7900 1400 8750 1400
@@ -596,46 +596,46 @@ Wire Wire Line
 	7150 1150 8750 1150
 Wire Wire Line
 	6750 1050 8750 1050
-Connection ~ 1050 3500
+Connection ~ 1050 3600
 Wire Wire Line
-	650  3900 1050 3900
+	650  4000 1050 4000
 Wire Wire Line
-	1050 3900 1050 3850
+	1050 4000 1050 3950
 Wire Wire Line
-	650  3850 650  3900
+	650  3950 650  4000
 Wire Wire Line
-	1050 3500 1050 3550
+	1050 3600 1050 3650
 $Comp
 L Device:Crystal Y1
 U 1 1 5E582097
-P 850 3500
-F 0 "Y1" H 850 3768 50  0000 C CNN
-F 1 "8MHz" H 850 3677 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 850 3500 50  0001 C CNN
-F 3 "https://abracon.com/Resonators/ABLS2.pdf" H 850 3500 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/abracon-llc/ABLS2-8-000MHZ-D4Y-T/535-9864-1-ND/2001487" H 850 3500 50  0001 C CNN "Digikey"
-F 5 "ABLS2-8.000MHZ-D4Y-T" H 850 3500 50  0001 C CNN "Part Number"
-	1    850  3500
+P 850 3600
+F 0 "Y1" H 850 3868 50  0000 C CNN
+F 1 "8MHz" H 850 3777 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 850 3600 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ABLS2.pdf" H 850 3600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/abracon-llc/ABLS2-8-000MHZ-D4Y-T/535-9864-1-ND/2001487" H 850 3600 50  0001 C CNN "Digikey"
+F 5 "ABLS2-8.000MHZ-D4Y-T" H 850 3600 50  0001 C CNN "Part Number"
+	1    850  3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	650  3200 1500 3200
+	650  3300 1500 3300
 Wire Wire Line
-	1050 3300 1050 3500
+	1050 3400 1050 3600
 $Comp
 L power:GND #PWR02
 U 1 1 5E5C0DC4
-P 1050 3950
-F 0 "#PWR02" H 1050 3700 50  0001 C CNN
-F 1 "GND" H 1055 3777 50  0000 C CNN
-F 2 "" H 1050 3950 50  0001 C CNN
-F 3 "" H 1050 3950 50  0001 C CNN
-	1    1050 3950
+P 1050 4050
+F 0 "#PWR02" H 1050 3800 50  0001 C CNN
+F 1 "GND" H 1055 3877 50  0000 C CNN
+F 2 "" H 1050 4050 50  0001 C CNN
+F 3 "" H 1050 4050 50  0001 C CNN
+	1    1050 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 3950 1050 3900
-Connection ~ 1050 3900
+	1050 4050 1050 4000
+Connection ~ 1050 4000
 Text Notes 8350 750  0    118  ~ 0
 MCU
 $Comp
@@ -775,194 +775,194 @@ SAMD_ADC_18
 Text GLabel 8700 2350 0    50   Input ~ 0
 SAMD_ADC_19
 Wire Wire Line
-	2900 4550 2900 4600
+	2900 4650 2900 4700
 $Comp
 L power:+3.3V #PWR019
 U 1 1 5E3EAEA7
-P 4650 3000
-F 0 "#PWR019" H 4650 2850 50  0001 C CNN
-F 1 "+3.3V" H 4665 3173 50  0000 C CNN
-F 2 "" H 4650 3000 50  0001 C CNN
-F 3 "" H 4650 3000 50  0001 C CNN
-	1    4650 3000
+P 4650 3100
+F 0 "#PWR019" H 4650 2950 50  0001 C CNN
+F 1 "+3.3V" H 4665 3273 50  0000 C CNN
+F 2 "" H 4650 3100 50  0001 C CNN
+F 3 "" H 4650 3100 50  0001 C CNN
+	1    4650 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 3000 4650 3050
+	4650 3100 4650 3150
 Wire Wire Line
-	4650 3350 4650 3400
+	4650 3450 4650 3500
 $Comp
 L power:+3.3V #PWR011
 U 1 1 5E408C46
-P 2900 4550
-F 0 "#PWR011" H 2900 4400 50  0001 C CNN
-F 1 "+3.3V" H 2915 4723 50  0000 C CNN
-F 2 "" H 2900 4550 50  0001 C CNN
-F 3 "" H 2900 4550 50  0001 C CNN
-	1    2900 4550
+P 2900 4650
+F 0 "#PWR011" H 2900 4500 50  0001 C CNN
+F 1 "+3.3V" H 2915 4823 50  0000 C CNN
+F 2 "" H 2900 4650 50  0001 C CNN
+F 3 "" H 2900 4650 50  0001 C CNN
+	1    2900 4650
 	1    0    0    -1  
 $EndComp
-Text Label 3850 4100 3    50   ~ 0
+Text Label 3850 4200 3    50   ~ 0
 CAN_TERM
 $Comp
 L Device:R_US R6
 U 1 1 5E42C915
-P 3650 4100
-F 0 "R6" V 3850 4100 50  0000 C CNN
-F 1 "120" V 3750 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3690 4090 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3650 4100 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603JT120R/RMCF0603JT120RCT-ND/1943157" V 3650 4100 50  0001 C CNN "Digikey"
-F 5 "RMCF0603JT120R" V 3650 4100 50  0001 C CNN "Part Number"
-	1    3650 4100
+P 3650 4200
+F 0 "R6" V 3850 4200 50  0000 C CNN
+F 1 "120" V 3750 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3690 4190 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3650 4200 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603JT120R/RMCF0603JT120RCT-ND/1943157" V 3650 4200 50  0001 C CNN "Digikey"
+F 5 "RMCF0603JT120R" V 3650 4200 50  0001 C CNN "Part Number"
+	1    3650 4200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3800 4100 3900 4100
-Text Label 3350 4100 0    50   ~ 0
+	3800 4200 3900 4200
+Text Label 3350 4200 0    50   ~ 0
 CANL
-Text Label 3350 3900 0    50   ~ 0
+Text Label 3350 4000 0    50   ~ 0
 CANH
 $Comp
 L power:GND #PWR020
 U 1 1 5E3EB860
-P 4650 3400
-F 0 "#PWR020" H 4650 3150 50  0001 C CNN
-F 1 "GND" H 4655 3227 50  0000 C CNN
-F 2 "" H 4650 3400 50  0001 C CNN
-F 3 "" H 4650 3400 50  0001 C CNN
-	1    4650 3400
+P 4650 3500
+F 0 "#PWR020" H 4650 3250 50  0001 C CNN
+F 1 "GND" H 4655 3327 50  0000 C CNN
+F 2 "" H 4650 3500 50  0001 C CNN
+F 3 "" H 4650 3500 50  0001 C CNN
+	1    4650 3500
 	1    0    0    -1  
 $EndComp
-Text Label 3000 2500 2    50   ~ 0
+Text Label 3000 2600 2    50   ~ 0
 CAN_TX
 Wire Wire Line
-	2700 2500 3000 2500
+	2700 2600 3000 2600
 Wire Wire Line
-	2700 2400 3000 2400
-Text Label 3000 2400 2    50   ~ 0
+	2700 2500 3000 2500
+Text Label 3000 2500 2    50   ~ 0
 CAN_RX
-Text Label 4500 3600 2    50   ~ 0
+Text Label 4500 3700 2    50   ~ 0
 CAN_nRESET
-Text Label 4500 3200 2    50   ~ 0
-CAN_nRX1BF
-Text Label 4500 3500 2    50   ~ 0
-CAN_nTX2RTS
-Text Label 4500 3400 2    50   ~ 0
-CAN_nTX1RTS
 Text Label 4500 3300 2    50   ~ 0
+CAN_nRX1BF
+Text Label 4500 3600 2    50   ~ 0
+CAN_nTX2RTS
+Text Label 4500 3500 2    50   ~ 0
+CAN_nTX1RTS
+Text Label 4500 3400 2    50   ~ 0
 CAN_nTX0RTS
 Wire Wire Line
-	3950 3600 4500 3600
+	3950 3700 4500 3700
 Wire Wire Line
-	3750 3500 4500 3500
+	3750 3600 4500 3600
 Wire Wire Line
-	3550 3400 4500 3400
+	3550 3500 4500 3500
 Wire Wire Line
-	3350 3300 4500 3300
+	3350 3400 4500 3400
 Wire Wire Line
-	3150 3200 4500 3200
+	3150 3300 4500 3300
 Wire Wire Line
-	2950 3100 4500 3100
+	2950 3200 4500 3200
 Wire Wire Line
-	2750 3000 4500 3000
-Text Label 4500 3100 2    50   ~ 0
+	2750 3100 4500 3100
+Text Label 4500 3200 2    50   ~ 0
 CAN_nRXOBF
-Text Label 4500 3000 2    50   ~ 0
+Text Label 4500 3100 2    50   ~ 0
 CAN_nINT
 $Comp
 L power:+3.3V #PWR016
 U 1 1 5E3BF914
-P 3950 2550
-F 0 "#PWR016" H 3950 2400 50  0001 C CNN
-F 1 "+3.3V" H 3965 2723 50  0000 C CNN
-F 2 "" H 3950 2550 50  0001 C CNN
-F 3 "" H 3950 2550 50  0001 C CNN
-	1    3950 2550
+P 3950 2650
+F 0 "#PWR016" H 3950 2500 50  0001 C CNN
+F 1 "+3.3V" H 3965 2823 50  0000 C CNN
+F 2 "" H 3950 2650 50  0001 C CNN
+F 3 "" H 3950 2650 50  0001 C CNN
+	1    3950 2650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3950 2600
+Connection ~ 3950 2700
 Wire Wire Line
-	3950 2600 3950 2550
+	3950 2700 3950 2650
 Wire Wire Line
-	2950 2600 3150 2600
-Connection ~ 2950 2600
+	2950 2700 3150 2700
+Connection ~ 2950 2700
 Wire Wire Line
-	2950 2650 2950 2600
+	2950 2750 2950 2700
 Wire Wire Line
-	3150 2600 3350 2600
-Connection ~ 3150 2600
+	3150 2700 3350 2700
+Connection ~ 3150 2700
 Wire Wire Line
-	3150 2650 3150 2600
+	3150 2750 3150 2700
 Wire Wire Line
-	3350 2600 3550 2600
-Connection ~ 3350 2600
+	3350 2700 3550 2700
+Connection ~ 3350 2700
 Wire Wire Line
-	3350 2650 3350 2600
+	3350 2750 3350 2700
 Wire Wire Line
-	3550 2600 3750 2600
-Connection ~ 3550 2600
+	3550 2700 3750 2700
+Connection ~ 3550 2700
 Wire Wire Line
-	3550 2650 3550 2600
+	3550 2750 3550 2700
 Wire Wire Line
-	3750 2600 3950 2600
-Connection ~ 3750 2600
+	3750 2700 3950 2700
+Connection ~ 3750 2700
 Wire Wire Line
-	3750 2650 3750 2600
+	3750 2750 3750 2700
 Wire Wire Line
-	3950 2600 3950 2650
+	3950 2700 3950 2750
 Wire Wire Line
-	2750 2600 2950 2600
+	2750 2700 2950 2700
 Wire Wire Line
-	2750 2650 2750 2600
-Connection ~ 3950 3600
-Connection ~ 3750 3500
-Connection ~ 3550 3400
+	2750 2750 2750 2700
+Connection ~ 3950 3700
+Connection ~ 3750 3600
+Connection ~ 3550 3500
 Wire Wire Line
-	2700 3600 3950 3600
+	2700 3700 3950 3700
 Wire Wire Line
-	3950 3600 3950 2950
+	3950 3700 3950 3050
 Wire Wire Line
-	2700 3500 3750 3500
+	2700 3600 3750 3600
 Wire Wire Line
-	3750 2950 3750 3500
+	3750 3050 3750 3600
 Wire Wire Line
-	2700 3400 3550 3400
+	2700 3500 3550 3500
 Wire Wire Line
-	3550 2950 3550 3400
-Connection ~ 3350 3300
+	3550 3050 3550 3500
+Connection ~ 3350 3400
 Wire Wire Line
-	3350 2950 3350 3300
-Connection ~ 3150 3200
+	3350 3050 3350 3400
+Connection ~ 3150 3300
 Wire Wire Line
-	3150 2950 3150 3200
-Connection ~ 2950 3100
+	3150 3050 3150 3300
+Connection ~ 2950 3200
 Wire Wire Line
-	2950 2950 2950 3100
-Connection ~ 2750 3000
+	2950 3050 2950 3200
+Connection ~ 2750 3100
 Wire Wire Line
-	2750 2950 2750 3000
+	2750 3050 2750 3100
 $Comp
 L Device:R_US R1
 U 1 1 5E3ADD49
-P 2750 2800
-F 0 "R1" H 2650 2900 50  0000 L CNN
-F 1 "10K" V 2650 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2790 2790 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2750 2800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 2750 2800 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT10K0" H 2750 2800 50  0001 C CNN "Part Number"
-	1    2750 2800
+P 2750 2900
+F 0 "R1" H 2650 3000 50  0000 L CNN
+F 1 "10K" V 2650 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2790 2890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2750 2900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 2750 2900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 2750 2900 50  0001 C CNN "Part Number"
+	1    2750 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 3300 3350 3300
+	2700 3400 3350 3400
 Wire Wire Line
-	2700 3200 3150 3200
+	2700 3300 3150 3300
 Wire Wire Line
-	2700 3100 2950 3100
+	2700 3200 2950 3200
 Wire Wire Line
-	2700 3000 2750 3000
+	2700 3100 2750 3100
 Text GLabel 8700 2450 0    50   Input ~ 0
 SAMD_ADC_20
 Wire Wire Line
@@ -1420,61 +1420,63 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5EC63505
-P 3650 5100
-F 0 "J2" H 3650 4700 50  0000 C CNN
-F 1 "CAN" H 3650 4800 50  0000 C CNN
-F 2 "" H 3650 5100 50  0001 C CNN
-F 3 "~" H 3650 5100 50  0001 C CNN
-	1    3650 5100
+P 3650 5200
+F 0 "J2" H 3650 4800 50  0000 C CNN
+F 1 "CAN" H 3650 4900 50  0000 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3650 5200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3650 5200 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   100 50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   100 50  0001 C CNN "Part Number"
+	1    3650 5200
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5EC64CCA
-P 3900 5250
-F 0 "#PWR03" H 3900 5000 50  0001 C CNN
-F 1 "GND" H 3905 5077 50  0000 C CNN
-F 2 "" H 3900 5250 50  0001 C CNN
-F 3 "" H 3900 5250 50  0001 C CNN
-	1    3900 5250
+P 3900 5350
+F 0 "#PWR03" H 3900 5100 50  0001 C CNN
+F 1 "GND" H 3905 5177 50  0000 C CNN
+F 2 "" H 3900 5350 50  0001 C CNN
+F 3 "" H 3900 5350 50  0001 C CNN
+	1    3900 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 5250 3900 5200
+	3900 5350 3900 5300
 Wire Wire Line
-	3900 5200 3850 5200
+	3900 5300 3850 5300
 $Comp
 L power:+3.3V #PWR01
 U 1 1 5EC75A10
-P 3900 4850
-F 0 "#PWR01" H 3900 4700 50  0001 C CNN
-F 1 "+3.3V" H 3915 5023 50  0000 C CNN
-F 2 "" H 3900 4850 50  0001 C CNN
-F 3 "" H 3900 4850 50  0001 C CNN
-	1    3900 4850
+P 3900 4950
+F 0 "#PWR01" H 3900 4800 50  0001 C CNN
+F 1 "+3.3V" H 3915 5123 50  0000 C CNN
+F 2 "" H 3900 4950 50  0001 C CNN
+F 3 "" H 3900 4950 50  0001 C CNN
+	1    3900 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 4850 3900 4900
+	3900 4950 3900 5000
 Wire Wire Line
-	3900 4900 3850 4900
-Text Label 4100 5000 2    50   ~ 0
+	3900 5000 3850 5000
+Text Label 4100 5100 2    50   ~ 0
 CANH
 Wire Wire Line
-	4100 5000 3850 5000
+	4100 5100 3850 5100
 Wire Wire Line
-	3850 5100 4100 5100
-Text Label 4100 5100 2    50   ~ 0
+	3850 5200 4100 5200
+Text Label 4100 5200 2    50   ~ 0
 CANL
 $Comp
 L Device:Jumper_NC_Small JP1
 U 1 1 5ECAC499
-P 3900 4000
-F 0 "JP1" V 3854 4074 50  0000 L CNN
-F 1 "CAN_TERM" V 3945 4074 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3900 4000 50  0001 C CNN
-F 3 "~" H 3900 4000 50  0001 C CNN
-	1    3900 4000
+P 3900 4100
+F 0 "JP1" V 3854 4174 50  0000 L CNN
+F 1 "CAN_TERM" V 3945 4174 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3900 4100 50  0001 C CNN
+F 3 "~" H 3900 4100 50  0001 C CNN
+	1    3900 4100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1609,64 +1611,59 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J23
 U 1 1 5EFCC5E1
-P 4900 2400
-F 0 "J23" H 5050 2300 50  0000 C CNN
-F 1 "POWER_OUT" H 5200 2400 50  0000 C CNN
-F 2 "" H 4900 2400 50  0001 C CNN
-F 3 "~" H 4900 2400 50  0001 C CNN
-	1    4900 2400
+P 5050 2550
+F 0 "J23" H 5200 2450 50  0000 C CNN
+F 1 "POWER_OUT" H 5350 2550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal" H 5050 2550 50  0001 C CNN
+F 3 "~" H 5050 2550 50  0001 C CNN
+	1    5050 2550
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0236
 U 1 1 5EFCF1C7
-P 5150 2550
-F 0 "#PWR0236" H 5150 2300 50  0001 C CNN
-F 1 "GND" H 5155 2377 50  0000 C CNN
-F 2 "" H 5150 2550 50  0001 C CNN
-F 3 "" H 5150 2550 50  0001 C CNN
-	1    5150 2550
+P 5300 2700
+F 0 "#PWR0236" H 5300 2450 50  0001 C CNN
+F 1 "GND" H 5305 2527 50  0000 C CNN
+F 2 "" H 5300 2700 50  0001 C CNN
+F 3 "" H 5300 2700 50  0001 C CNN
+	1    5300 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 2500 5150 2500
+	5250 2650 5300 2650
 Wire Wire Line
-	5150 2500 5150 2550
-Wire Wire Line
-	5100 2400 5150 2400
-Wire Wire Line
-	5150 2400 5150 2500
-Connection ~ 5150 2500
+	5300 2650 5300 2700
 $Comp
 L power:+5V #PWR0235
 U 1 1 5EFF4F84
-P 5150 2150
-F 0 "#PWR0235" H 5150 2000 50  0001 C CNN
-F 1 "+5V" H 5165 2323 50  0000 C CNN
-F 2 "" H 5150 2150 50  0001 C CNN
-F 3 "" H 5150 2150 50  0001 C CNN
-	1    5150 2150
+P 5300 2300
+F 0 "#PWR0235" H 5300 2150 50  0001 C CNN
+F 1 "+5V" H 5315 2473 50  0000 C CNN
+F 2 "" H 5300 2300 50  0001 C CNN
+F 3 "" H 5300 2300 50  0001 C CNN
+	1    5300 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0237
 U 1 1 5EFF62B9
-P 5400 2150
-F 0 "#PWR0237" H 5400 2000 50  0001 C CNN
-F 1 "+3.3V" H 5415 2323 50  0000 C CNN
-F 2 "" H 5400 2150 50  0001 C CNN
-F 3 "" H 5400 2150 50  0001 C CNN
-	1    5400 2150
+P 5550 2300
+F 0 "#PWR0237" H 5550 2150 50  0001 C CNN
+F 1 "+3.3V" H 5565 2473 50  0000 C CNN
+F 2 "" H 5550 2300 50  0001 C CNN
+F 3 "" H 5550 2300 50  0001 C CNN
+	1    5550 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 2150 5150 2200
+	5300 2300 5300 2350
 Wire Wire Line
-	5150 2200 5100 2200
+	5300 2350 5250 2350
 Wire Wire Line
-	5400 2300 5400 2150
+	5550 2450 5550 2300
 Wire Wire Line
-	5100 2300 5400 2300
+	5250 2450 5550 2450
 Text Label 5950 5150 2    50   ~ 0
 GPIO_1
 Text Label 5950 5050 2    50   ~ 0
@@ -1689,8 +1686,10 @@ U 1 1 5E5ED01E
 P 6250 2650
 F 0 "J36" H 6300 3067 50  0000 C CNN
 F 1 "SWD" H 6300 2976 50  0000 C CNN
-F 2 "" H 6250 2650 50  0001 C CNN
-F 3 "~" H 6250 2650 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_TE_5103308-1" H 6250 2650 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5103308&DocType=Customer+Drawing&DocLang=English" H 6250 2650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/te-connectivity-amp/5103308-1/A33159-ND/1114897?utm_adgroup=Rectangular%20Connectors%20-%20Headers%2C%20Male%20Pins&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Connectors%2C%20Interconnects_NEW&utm_term=&productid=1114897&gclid=Cj0KCQjwyPbzBRDsARIsAFh15Ja9--jPfLudcOT2l-jp9-iBDromexidc_WqIXtudp2_0qsNnA8qIHEaAkelEALw_wcB" H 6250 2650 50  0001 C CNN "Digikey"
+F 5 "5103308-1" H 6250 2650 50  0001 C CNN "Part Number"
 	1    6250 2650
 	1    0    0    -1  
 $EndComp
@@ -1711,148 +1710,152 @@ Wire Wire Line
 Connection ~ 6000 2850
 Wire Wire Line
 	6000 2850 6000 2650
-Text Notes 2900 7000 0    118  ~ 0
-TODO:\n-Distance sensors?\n-Connector footprints
 $Comp
 L Device:LED D36
 U 1 1 5ED157D8
-P 1350 4950
-F 0 "D36" V 1389 4833 50  0000 R CNN
-F 1 "LED" V 1298 4833 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 4950 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 4950 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 4950 50  0001 C CNN "Digikey"
-F 5 "LTST-C191KFKT" V 1350 4950 50  0001 C CNN "Part Number"
-	1    1350 4950
+P 1350 5050
+F 0 "D36" V 1389 4933 50  0000 R CNN
+F 1 "LED" V 1298 4933 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 5050 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 5050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 5050 50  0001 C CNN "Digikey"
+F 5 "LTST-C191KFKT" V 1350 5050 50  0001 C CNN "Part Number"
+	1    1350 5050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1350 4800 1350 4700
+	1350 4900 1350 4800
+Wire Wire Line
+	1350 4800 1700 4800
+Wire Wire Line
+	1350 4700 1350 4600
 Wire Wire Line
 	1350 4700 1700 4700
-Wire Wire Line
-	1350 4600 1350 4500
-Wire Wire Line
-	1350 4600 1700 4600
 $Comp
 L Device:LED D35
 U 1 1 5ED41066
-P 1350 4350
-F 0 "D35" V 1400 4550 50  0000 R CNN
-F 1 "LED" V 1300 4600 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 4350 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 4350 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 4350 50  0001 C CNN "Digikey"
-F 5 "LTST-C191KFKT" V 1350 4350 50  0001 C CNN "Part Number"
-	1    1350 4350
+P 1350 4450
+F 0 "D35" V 1400 4650 50  0000 R CNN
+F 1 "LED" V 1300 4700 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 4450 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 4450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 4450 50  0001 C CNN "Digikey"
+F 5 "LTST-C191KFKT" V 1350 4450 50  0001 C CNN "Part Number"
+	1    1350 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R116
 U 1 1 5ED46707
-P 1550 4150
-F 0 "R116" V 1345 4150 50  0000 C CNN
-F 1 "470" V 1436 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1590 4140 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1550 4150 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 1550 4150 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT470R" V 1550 4150 50  0001 C CNN "Part Number"
-	1    1550 4150
+P 1550 4250
+F 0 "R116" V 1345 4250 50  0000 C CNN
+F 1 "470" V 1436 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1590 4240 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1550 4250 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 1550 4250 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 1550 4250 50  0001 C CNN "Part Number"
+	1    1550 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1400 4150 1350 4150
+	1400 4250 1350 4250
 Wire Wire Line
-	1350 4150 1350 4200
+	1350 4250 1350 4300
 $Comp
 L Device:R_US R117
 U 1 1 5ED5C148
-P 1550 5150
-F 0 "R117" V 1345 5150 50  0000 C CNN
-F 1 "470" V 1436 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1590 5140 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1550 5150 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 1550 5150 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT470R" V 1550 5150 50  0001 C CNN "Part Number"
-	1    1550 5150
+P 1550 5250
+F 0 "R117" V 1345 5250 50  0000 C CNN
+F 1 "470" V 1436 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1590 5240 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1550 5250 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT470R/RMCF0603FT470RCT-ND/1942986" V 1550 5250 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT470R" V 1550 5250 50  0001 C CNN "Part Number"
+	1    1550 5250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1400 5150 1350 5150
+	1400 5250 1350 5250
 Wire Wire Line
-	1350 5150 1350 5100
+	1350 5250 1350 5200
 Wire Wire Line
-	1700 5150 1750 5150
+	1700 5250 1750 5250
 Wire Wire Line
-	1750 5150 1750 5100
+	1750 5250 1750 5200
 Wire Wire Line
-	1700 4150 1750 4150
+	1700 4250 1750 4250
 Wire Wire Line
-	1750 4150 1750 4100
+	1750 4250 1750 4200
 $Comp
 L power:+3.3V #PWR0233
 U 1 1 5ED9D323
-P 1750 4100
-F 0 "#PWR0233" H 1750 3950 50  0001 C CNN
-F 1 "+3.3V" H 1765 4273 50  0000 C CNN
-F 2 "" H 1750 4100 50  0001 C CNN
-F 3 "" H 1750 4100 50  0001 C CNN
-	1    1750 4100
+P 1750 4200
+F 0 "#PWR0233" H 1750 4050 50  0001 C CNN
+F 1 "+3.3V" H 1765 4373 50  0000 C CNN
+F 2 "" H 1750 4200 50  0001 C CNN
+F 3 "" H 1750 4200 50  0001 C CNN
+	1    1750 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0234
 U 1 1 5ED9D6BB
-P 1750 5100
-F 0 "#PWR0234" H 1750 4950 50  0001 C CNN
-F 1 "+3.3V" H 1900 5100 50  0000 C CNN
-F 2 "" H 1750 5100 50  0001 C CNN
-F 3 "" H 1750 5100 50  0001 C CNN
-	1    1750 5100
+P 1750 5200
+F 0 "#PWR0234" H 1750 5050 50  0001 C CNN
+F 1 "+3.3V" H 1900 5200 50  0000 C CNN
+F 2 "" H 1750 5200 50  0001 C CNN
+F 3 "" H 1750 5200 50  0001 C CNN
+	1    1750 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 800  5600 0    50   ~ 0
+Text Notes 800  5700 0    50   ~ 0
 THIS IS A HORRIBLE HACK I LEARNED AT WORK\nIT'S WRONG, BUT IT SHOULD FUNCTION FINE\nHOPEFULLY
 Wire Wire Line
-	3300 4100 3500 4100
+	3300 4200 3500 4200
 Wire Wire Line
-	3300 3900 3900 3900
+	3300 4000 3900 4000
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5EE146DC
-P 1200 4600
-F 0 "TP1" V 1200 4850 50  0000 C CNN
-F 1 "TestPoint" V 1300 4750 50  0000 C CNN
-F 2 "" H 1400 4600 50  0001 C CNN
-F 3 "~" H 1400 4600 50  0001 C CNN
-	1    1200 4600
+P 1200 4700
+F 0 "TP1" V 1200 4950 50  0000 C CNN
+F 1 "5015" V 1300 4850 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 1400 4700 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 1400 4700 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   100 50  0001 C CNN "Digikey"
+F 5 "5015" H 0   100 50  0001 C CNN "Part Number"
+	1    1200 4700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5EE161FF
-P 1200 4700
-F 0 "TP2" V 1200 4950 50  0000 C CNN
-F 1 "TestPoint" V 1100 4850 50  0000 C CNN
-F 2 "" H 1400 4700 50  0001 C CNN
-F 3 "~" H 1400 4700 50  0001 C CNN
-	1    1200 4700
+P 1200 4800
+F 0 "TP2" V 1200 5050 50  0000 C CNN
+F 1 "5015" V 1100 4950 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 1400 4800 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 1400 4800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   100 50  0001 C CNN "Digikey"
+F 5 "5015" H 0   100 50  0001 C CNN "Part Number"
+	1    1200 4800
 	0    -1   -1   0   
 $EndComp
+Connection ~ 1350 4800
+Wire Wire Line
+	1200 4800 1350 4800
+Wire Wire Line
+	1350 4700 1200 4700
 Connection ~ 1350 4700
-Wire Wire Line
-	1200 4700 1350 4700
-Wire Wire Line
-	1350 4600 1200 4600
-Connection ~ 1350 4600
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5EE758F1
 P 5450 1150
 F 0 "TP6" H 5508 1268 50  0000 L CNN
-F 1 "TestPoint" H 5508 1177 50  0000 L CNN
-F 2 "" H 5650 1150 50  0001 C CNN
-F 3 "~" H 5650 1150 50  0001 C CNN
+F 1 "5015" H 5508 1177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 5650 1150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 5650 1150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
 	1    5450 1150
 	1    0    0    -1  
 $EndComp
@@ -1863,9 +1866,11 @@ L Connector:TestPoint TP5
 U 1 1 5EE8D89F
 P 4050 1150
 F 0 "TP5" H 4108 1268 50  0000 L CNN
-F 1 "TestPoint" H 4108 1177 50  0000 L CNN
-F 2 "" H 4250 1150 50  0001 C CNN
-F 3 "~" H 4250 1150 50  0001 C CNN
+F 1 "5015" H 4108 1177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 4250 1150 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 4250 1150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
 	1    4050 1150
 	1    0    0    -1  
 $EndComp
@@ -1874,23 +1879,27 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5EED46EF
-P 3300 3900
-F 0 "TP3" V 3300 4150 50  0000 C CNN
-F 1 "TestPoint" V 3400 4050 50  0000 C CNN
-F 2 "" H 3500 3900 50  0001 C CNN
-F 3 "~" H 3500 3900 50  0001 C CNN
-	1    3300 3900
+P 3300 4000
+F 0 "TP3" V 3300 4250 50  0000 C CNN
+F 1 "5015" V 3400 4150 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 3500 4000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 3500 4000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   100 50  0001 C CNN "Digikey"
+F 5 "5015" H 0   100 50  0001 C CNN "Part Number"
+	1    3300 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5EED573E
-P 3300 4100
-F 0 "TP4" V 3300 4350 50  0000 C CNN
-F 1 "TestPoint" V 3400 4250 50  0000 C CNN
-F 2 "" H 3500 4100 50  0001 C CNN
-F 3 "~" H 3500 4100 50  0001 C CNN
-	1    3300 4100
+P 3300 4200
+F 0 "TP4" V 3300 4450 50  0000 C CNN
+F 1 "5015" V 3400 4350 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 3500 4200 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 3500 4200 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   100 50  0001 C CNN "Digikey"
+F 5 "5015" H 0   100 50  0001 C CNN "Part Number"
+	1    3300 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1993,14 +2002,14 @@ Wire Wire Line
 Text Label 8000 2650 2    50   ~ 0
 USB_D-
 Wire Wire Line
-	1000 3500 1050 3500
+	1000 3600 1050 3600
 Wire Wire Line
-	650  3550 650  3500
+	650  3650 650  3600
 Wire Wire Line
-	700  3500 650  3500
-Connection ~ 650  3500
+	700  3600 650  3600
+Connection ~ 650  3600
 Wire Wire Line
-	650  3500 650  3200
+	650  3600 650  3300
 $Comp
 L Connector:USB_B J38
 U 1 1 5ED61E1B
@@ -2019,24 +2028,24 @@ USB_D-
 Text Label 10800 2600 2    50   ~ 0
 USB_D+
 Wire Wire Line
-	10800 2600 10250 2600
+	10850 2600 10250 2600
 Wire Wire Line
-	10250 2700 10800 2700
+	10250 2700 10850 2700
 $Comp
 L Device:C C6
 U 1 1 5F0DB211
-P 2900 4750
+P 2900 4850
 AR Path="/5F0DB211" Ref="C6"  Part="1" 
 AR Path="/5E59A680/5F0DB211" Ref="C?"  Part="1" 
 AR Path="/5E828D93/5F0DB211" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5F0DB211" Ref="C?"  Part="1" 
-F 0 "C6" H 3015 4796 50  0000 L CNN
-F 1 "0.1uF" H 3015 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2938 4600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2900 4750 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 2900 4750 50  0001 C CNN "Digikey"
-F 5 "CC0603KRX7R8BB104" H 2900 4750 50  0001 C CNN "Part Number"
-	1    2900 4750
+F 0 "C6" H 3015 4896 50  0000 L CNN
+F 1 "0.1uF" H 3015 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2938 4700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2900 4850 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 2900 4850 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 2900 4850 50  0001 C CNN "Part Number"
+	1    2900 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2161,18 +2170,18 @@ $EndComp
 $Comp
 L Device:C C9
 U 1 1 5F1D25FC
-P 4650 3200
+P 4650 3300
 AR Path="/5F1D25FC" Ref="C9"  Part="1" 
 AR Path="/5E59A680/5F1D25FC" Ref="C?"  Part="1" 
 AR Path="/5E828D93/5F1D25FC" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5E5467E7/5F1D25FC" Ref="C?"  Part="1" 
-F 0 "C9" H 4765 3246 50  0000 L CNN
-F 1 "0.1uF" H 4765 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 3050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4650 3200 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 4650 3200 50  0001 C CNN "Digikey"
-F 5 "CC0603KRX7R8BB104" H 4650 3200 50  0001 C CNN "Part Number"
-	1    4650 3200
+F 0 "C9" H 4765 3346 50  0000 L CNN
+F 1 "0.1uF" H 4765 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 3150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4650 3300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 4650 3300 50  0001 C CNN "Digikey"
+F 5 "CC0603KRX7R8BB104" H 4650 3300 50  0001 C CNN "Part Number"
+	1    4650 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2250,8 +2259,10 @@ U 1 1 5E89A4EB
 P 5450 5050
 F 0 "J37" H 5600 5000 50  0000 C CNN
 F 1 "GPIO" H 5600 5100 50  0000 C CNN
-F 2 "" H 5450 5050 50  0001 C CNN
-F 3 "~" H 5450 5050 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_6POS_0705510005" H 5450 5050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 5450 5050 50  0001 C CNN
+F 4 "0705510005" H 5450 5050 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/molex/0705510005/3468759" H 5450 5050 50  0001 C CNN "Digikey"
 	1    5450 5050
 	-1   0    0    1   
 $EndComp
@@ -2291,8 +2302,10 @@ U 1 1 5E94597B
 P 6500 5050
 F 0 "J39" H 6650 5000 50  0000 C CNN
 F 1 "ESERCOM" H 6750 5100 50  0000 C CNN
-F 2 "" H 6500 5050 50  0001 C CNN
-F 3 "~" H 6500 5050 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_6POS_0705510005" H 6500 5050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 6500 5050 50  0001 C CNN
+F 4 "0705510005" H 6500 5050 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/molex/0705510005/3468759" H 6500 5050 50  0001 C CNN "Digikey"
 	1    6500 5050
 	-1   0    0    1   
 $EndComp
@@ -2350,79 +2363,79 @@ $EndComp
 $Comp
 L Device:R_US R2
 U 1 1 5E78DA05
-P 2950 2800
-F 0 "R2" H 2850 2900 50  0000 L CNN
-F 1 "10K" V 2850 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2990 2790 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2950 2800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 2950 2800 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT10K0" H 2950 2800 50  0001 C CNN "Part Number"
-	1    2950 2800
+P 2950 2900
+F 0 "R2" H 2850 3000 50  0000 L CNN
+F 1 "10K" V 2850 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2990 2890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2950 2900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 2950 2900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 2950 2900 50  0001 C CNN "Part Number"
+	1    2950 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R3
 U 1 1 5E78E2B3
-P 3150 2800
-F 0 "R3" H 3050 2900 50  0000 L CNN
-F 1 "10K" V 3050 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3190 2790 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3150 2800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3150 2800 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT10K0" H 3150 2800 50  0001 C CNN "Part Number"
-	1    3150 2800
+P 3150 2900
+F 0 "R3" H 3050 3000 50  0000 L CNN
+F 1 "10K" V 3050 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3190 2890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3150 2900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3150 2900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3150 2900 50  0001 C CNN "Part Number"
+	1    3150 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R4
 U 1 1 5E78E67C
-P 3350 2800
-F 0 "R4" H 3250 2900 50  0000 L CNN
-F 1 "10K" V 3250 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3390 2790 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3350 2800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3350 2800 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT10K0" H 3350 2800 50  0001 C CNN "Part Number"
-	1    3350 2800
+P 3350 2900
+F 0 "R4" H 3250 3000 50  0000 L CNN
+F 1 "10K" V 3250 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3390 2890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3350 2900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3350 2900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3350 2900 50  0001 C CNN "Part Number"
+	1    3350 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R5
 U 1 1 5E78EA7C
-P 3550 2800
-F 0 "R5" H 3450 2900 50  0000 L CNN
-F 1 "10K" V 3450 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3590 2790 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3550 2800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3550 2800 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT10K0" H 3550 2800 50  0001 C CNN "Part Number"
-	1    3550 2800
+P 3550 2900
+F 0 "R5" H 3450 3000 50  0000 L CNN
+F 1 "10K" V 3450 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3590 2890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3550 2900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3550 2900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3550 2900 50  0001 C CNN "Part Number"
+	1    3550 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R7
 U 1 1 5E78F003
-P 3750 2800
-F 0 "R7" H 3650 2900 50  0000 L CNN
-F 1 "10K" V 3650 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3790 2790 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3750 2800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3750 2800 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT10K0" H 3750 2800 50  0001 C CNN "Part Number"
-	1    3750 2800
+P 3750 2900
+F 0 "R7" H 3650 3000 50  0000 L CNN
+F 1 "10K" V 3650 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3790 2890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3750 2900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3750 2900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3750 2900 50  0001 C CNN "Part Number"
+	1    3750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R8
 U 1 1 5E78F3B6
-P 3950 2800
-F 0 "R8" H 3850 2900 50  0000 L CNN
-F 1 "10K" V 3850 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3990 2790 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3950 2800 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3950 2800 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT10K0" H 3950 2800 50  0001 C CNN "Part Number"
-	1    3950 2800
+P 3950 2900
+F 0 "R8" H 3850 3000 50  0000 L CNN
+F 1 "10K" V 3850 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3990 2890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3950 2900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057" H 3950 2900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT10K0" H 3950 2900 50  0001 C CNN "Part Number"
+	1    3950 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2439,7 +2452,7 @@ F 5 "CL10C180FB8NNNC" H 7150 1600 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10250 2150
-NoConn ~ 1500 3400
+NoConn ~ 1500 3500
 $Comp
 L Device:C C14
 U 1 1 5ECBD2B4
@@ -2456,27 +2469,27 @@ $EndComp
 $Comp
 L Device:C C1
 U 1 1 5ECC8AAA
-P 650 3700
-F 0 "C1" H 765 3746 50  0000 L CNN
-F 1 "18pF" H 765 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 688 3550 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 650 3700 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 650 3700 50  0001 C CNN "Digikey"
-F 5 "CL10C180FB8NNNC" H 650 3700 50  0001 C CNN "Part Number"
-	1    650  3700
+P 650 3800
+F 0 "C1" H 765 3846 50  0000 L CNN
+F 1 "18pF" H 765 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 688 3650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 650 3800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 650 3800 50  0001 C CNN "Digikey"
+F 5 "CL10C180FB8NNNC" H 650 3800 50  0001 C CNN "Part Number"
+	1    650  3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5ECC9E9B
-P 1050 3700
-F 0 "C2" H 1165 3746 50  0000 L CNN
-F 1 "18pF" H 1165 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1088 3550 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1050 3700 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 1050 3700 50  0001 C CNN "Digikey"
-F 5 "CL10C180FB8NNNC" H 1050 3700 50  0001 C CNN "Part Number"
-	1    1050 3700
+P 1050 3800
+F 0 "C2" H 1165 3846 50  0000 L CNN
+F 1 "18pF" H 1165 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1088 3650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1050 3800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10C180FB8NNNC/1276-2206-1-ND/3890292" H 1050 3800 50  0001 C CNN "Digikey"
+F 5 "CL10C180FB8NNNC" H 1050 3800 50  0001 C CNN "Part Number"
+	1    1050 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2537,14 +2550,193 @@ F 3 "" H 3950 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0182
 U 1 1 5E79E504
 P 6750 4700
-F 0 "#PWR?" H 6750 4550 50  0001 C CNN
+F 0 "#PWR0182" H 6750 4550 50  0001 C CNN
 F 1 "+3.3V" H 6765 4873 50  0000 C CNN
 F 2 "" H 6750 4700 50  0001 C CNN
 F 3 "" H 6750 4700 50  0001 C CNN
 	1    6750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5E8B8046
+P 10850 2700
+F 0 "TP8" V 10850 2950 50  0000 C CNN
+F 1 "5015" V 10950 2850 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 11050 2700 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 11050 2700 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    10850 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5E8BA10A
+P 10850 2600
+F 0 "TP7" V 10850 2850 50  0000 C CNN
+F 1 "5015" V 10750 2750 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 11050 2600 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 11050 2600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015CT-ND/278886" H 0   0   50  0001 C CNN "Digikey"
+F 5 "5015" H 0   0   50  0001 C CNN "Part Number"
+	1    10850 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2550 5300 2550
+Wire Wire Line
+	5300 2550 5300 2650
+Connection ~ 5300 2650
+Wire Wire Line
+	5000 6950 5000 7000
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EDEF7EE
+P 5000 6850
+F 0 "H1" H 5100 6899 50  0000 L CNN
+F 1 "M4" H 5100 6808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5000 6850 50  0001 C CNN
+F 3 "~" H 5000 6850 50  0001 C CNN
+	1    5000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R120
+U 1 1 5EDEFD46
+P 5000 7150
+F 0 "R120" H 5068 7196 50  0000 L CNN
+F 1 "0" H 5068 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5040 7140 50  0001 C CNN
+F 3 "~" H 5000 7150 50  0001 C CNN
+	1    5000 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7300 5000 7350
+$Comp
+L power:GND #PWR0251
+U 1 1 5EE0E023
+P 5000 7350
+F 0 "#PWR0251" H 5000 7100 50  0001 C CNN
+F 1 "GND" H 5005 7177 50  0000 C CNN
+F 2 "" H 5000 7350 50  0001 C CNN
+F 3 "" H 5000 7350 50  0001 C CNN
+	1    5000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 6950 5300 7000
+$Comp
+L Device:R_US R121
+U 1 1 5EE10A69
+P 5300 7150
+F 0 "R121" H 5368 7196 50  0000 L CNN
+F 1 "0" H 5368 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5340 7140 50  0001 C CNN
+F 3 "~" H 5300 7150 50  0001 C CNN
+	1    5300 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 7300 5300 7350
+$Comp
+L power:GND #PWR0252
+U 1 1 5EE10A74
+P 5300 7350
+F 0 "#PWR0252" H 5300 7100 50  0001 C CNN
+F 1 "GND" H 5305 7177 50  0000 C CNN
+F 2 "" H 5300 7350 50  0001 C CNN
+F 3 "" H 5300 7350 50  0001 C CNN
+	1    5300 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6950 5600 7000
+$Comp
+L Device:R_US R122
+U 1 1 5EE2E593
+P 5600 7150
+F 0 "R122" H 5668 7196 50  0000 L CNN
+F 1 "0" H 5668 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5640 7140 50  0001 C CNN
+F 3 "~" H 5600 7150 50  0001 C CNN
+	1    5600 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 7300 5600 7350
+$Comp
+L power:GND #PWR0253
+U 1 1 5EE2E59E
+P 5600 7350
+F 0 "#PWR0253" H 5600 7100 50  0001 C CNN
+F 1 "GND" H 5605 7177 50  0000 C CNN
+F 2 "" H 5600 7350 50  0001 C CNN
+F 3 "" H 5600 7350 50  0001 C CNN
+	1    5600 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6950 5900 7000
+$Comp
+L Device:R_US R123
+U 1 1 5EE2E5B3
+P 5900 7150
+F 0 "R123" H 5968 7196 50  0000 L CNN
+F 1 "0" H 5968 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5940 7140 50  0001 C CNN
+F 3 "~" H 5900 7150 50  0001 C CNN
+	1    5900 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 7300 5900 7350
+$Comp
+L power:GND #PWR0254
+U 1 1 5EE2E5BE
+P 5900 7350
+F 0 "#PWR0254" H 5900 7100 50  0001 C CNN
+F 1 "GND" H 5905 7177 50  0000 C CNN
+F 2 "" H 5900 7350 50  0001 C CNN
+F 3 "" H 5900 7350 50  0001 C CNN
+	1    5900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5EE94E26
+P 5300 6850
+F 0 "H2" H 5400 6899 50  0000 L CNN
+F 1 "M4" H 5400 6808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5300 6850 50  0001 C CNN
+F 3 "~" H 5300 6850 50  0001 C CNN
+	1    5300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5EE94F9A
+P 5600 6850
+F 0 "H3" H 5700 6899 50  0000 L CNN
+F 1 "M4" H 5700 6808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5600 6850 50  0001 C CNN
+F 3 "~" H 5600 6850 50  0001 C CNN
+	1    5600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5EE951CD
+P 5900 6850
+F 0 "H4" H 6000 6899 50  0000 L CNN
+F 1 "M4" H 6000 6808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5900 6850 50  0001 C CNN
+F 3 "~" H 5900 6850 50  0001 C CNN
+	1    5900 6850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

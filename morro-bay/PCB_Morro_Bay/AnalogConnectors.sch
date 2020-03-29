@@ -39,7 +39,7 @@ AR Path="/5E59A680/5E877D15/5E87C871" Ref="J3"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E87C871" Ref="J?"  Part="1" 
 F 0 "J3" H 750 650 50  0000 C CNN
 F 1 "Conn_01x04" H 750 750 50  0000 C CNN
-F 2 "" H 750 1050 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 1050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 1050 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 750 1050 50  0001 C CNN "Digikey"
 F 5 "0705510038" H 750 1050 50  0001 C CNN "Part Number"
@@ -109,8 +109,10 @@ AR Path="/5E59A680/5E877D15/5E884A5D" Ref="J4"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E884A5D" Ref="J?"  Part="1" 
 F 0 "J4" H 750 1500 50  0000 C CNN
 F 1 "Conn_01x04" H 750 1600 50  0000 C CNN
-F 2 "" H 750 1900 50  0001 C CNN
-F 3 "~" H 750 1900 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 1900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 1900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    750  1900
 	-1   0    0    1   
 $EndComp
@@ -177,8 +179,10 @@ AR Path="/5E59A680/5E877D15/5E88C14D" Ref="J5"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E88C14D" Ref="J?"  Part="1" 
 F 0 "J5" H 750 2350 50  0000 C CNN
 F 1 "Conn_01x04" H 750 2450 50  0000 C CNN
-F 2 "" H 750 2750 50  0001 C CNN
-F 3 "~" H 750 2750 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 2750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 2750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    750  2750
 	-1   0    0    1   
 $EndComp
@@ -245,8 +249,10 @@ AR Path="/5E59A680/5E877D15/5E88C17D" Ref="J6"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E88C17D" Ref="J?"  Part="1" 
 F 0 "J6" H 750 3200 50  0000 C CNN
 F 1 "Conn_01x04" H 750 3300 50  0000 C CNN
-F 2 "" H 750 3600 50  0001 C CNN
-F 3 "~" H 750 3600 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 3600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    750  3600
 	-1   0    0    1   
 $EndComp
@@ -313,8 +319,10 @@ AR Path="/5E59A680/5E877D15/5E8948E3" Ref="J7"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8948E3" Ref="J?"  Part="1" 
 F 0 "J7" H 750 4050 50  0000 C CNN
 F 1 "Conn_01x04" H 750 4150 50  0000 C CNN
-F 2 "" H 750 4450 50  0001 C CNN
-F 3 "~" H 750 4450 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 4450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 4450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    750  4450
 	-1   0    0    1   
 $EndComp
@@ -381,8 +389,10 @@ AR Path="/5E59A680/5E877D15/5E894913" Ref="J8"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E894913" Ref="J?"  Part="1" 
 F 0 "J8" H 750 4900 50  0000 C CNN
 F 1 "Conn_01x04" H 750 5000 50  0000 C CNN
-F 2 "" H 750 5300 50  0001 C CNN
-F 3 "~" H 750 5300 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 5300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 5300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    750  5300
 	-1   0    0    1   
 $EndComp
@@ -449,8 +459,10 @@ AR Path="/5E59A680/5E877D15/5E894943" Ref="J9"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E894943" Ref="J?"  Part="1" 
 F 0 "J9" H 750 5750 50  0000 C CNN
 F 1 "Conn_01x04" H 750 5850 50  0000 C CNN
-F 2 "" H 750 6150 50  0001 C CNN
-F 3 "~" H 750 6150 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 6150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 6150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    750  6150
 	-1   0    0    1   
 $EndComp
@@ -517,8 +529,10 @@ AR Path="/5E59A680/5E877D15/5E894973" Ref="J10"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E894973" Ref="J?"  Part="1" 
 F 0 "J10" H 750 6600 50  0000 C CNN
 F 1 "Conn_01x04" H 750 6700 50  0000 C CNN
-F 2 "" H 750 7000 50  0001 C CNN
-F 3 "~" H 750 7000 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 750 7000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 750 7000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    750  7000
 	-1   0    0    1   
 $EndComp
@@ -585,8 +599,10 @@ AR Path="/5E59A680/5E877D15/5E8AC7AF" Ref="J11"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC7AF" Ref="J?"  Part="1" 
 F 0 "J11" H 1600 650 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 750 50  0000 C CNN
-F 2 "" H 1600 1050 50  0001 C CNN
-F 3 "~" H 1600 1050 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 1050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 1050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 1050
 	-1   0    0    1   
 $EndComp
@@ -653,8 +669,10 @@ AR Path="/5E59A680/5E877D15/5E8AC7DF" Ref="J12"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC7DF" Ref="J?"  Part="1" 
 F 0 "J12" H 1600 1500 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 1600 50  0000 C CNN
-F 2 "" H 1600 1900 50  0001 C CNN
-F 3 "~" H 1600 1900 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 1900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 1900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 1900
 	-1   0    0    1   
 $EndComp
@@ -721,8 +739,10 @@ AR Path="/5E59A680/5E877D15/5E8AC80F" Ref="J13"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC80F" Ref="J?"  Part="1" 
 F 0 "J13" H 1600 2350 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 2450 50  0000 C CNN
-F 2 "" H 1600 2750 50  0001 C CNN
-F 3 "~" H 1600 2750 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 2750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 2750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 2750
 	-1   0    0    1   
 $EndComp
@@ -787,8 +807,10 @@ AR Path="/5E59A680/5E877D15/5E8AC83F" Ref="J14"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC83F" Ref="J?"  Part="1" 
 F 0 "J14" H 1600 3200 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 3300 50  0000 C CNN
-F 2 "" H 1600 3600 50  0001 C CNN
-F 3 "~" H 1600 3600 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 3600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 3600
 	-1   0    0    1   
 $EndComp
@@ -853,8 +875,10 @@ AR Path="/5E59A680/5E877D15/5E8AC86F" Ref="J15"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC86F" Ref="J?"  Part="1" 
 F 0 "J15" H 1600 4050 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 4150 50  0000 C CNN
-F 2 "" H 1600 4450 50  0001 C CNN
-F 3 "~" H 1600 4450 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 4450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 4450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 4450
 	-1   0    0    1   
 $EndComp
@@ -919,8 +943,10 @@ AR Path="/5E59A680/5E877D15/5E8AC89F" Ref="J16"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC89F" Ref="J?"  Part="1" 
 F 0 "J16" H 1600 4900 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 5000 50  0000 C CNN
-F 2 "" H 1600 5300 50  0001 C CNN
-F 3 "~" H 1600 5300 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 5300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 5300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 5300
 	-1   0    0    1   
 $EndComp
@@ -985,8 +1011,10 @@ AR Path="/5E59A680/5E877D15/5E8AC8CF" Ref="J17"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC8CF" Ref="J?"  Part="1" 
 F 0 "J17" H 1600 5750 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 5850 50  0000 C CNN
-F 2 "" H 1600 6150 50  0001 C CNN
-F 3 "~" H 1600 6150 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 6150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 6150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 6150
 	-1   0    0    1   
 $EndComp
@@ -1051,8 +1079,10 @@ AR Path="/5E59A680/5E877D15/5E8AC8FF" Ref="J18"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8AC8FF" Ref="J?"  Part="1" 
 F 0 "J18" H 1600 6600 50  0000 C CNN
 F 1 "Conn_01x04" H 1600 6700 50  0000 C CNN
-F 2 "" H 1600 7000 50  0001 C CNN
-F 3 "~" H 1600 7000 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 1600 7000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 1600 7000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 7000
 	-1   0    0    1   
 $EndComp
@@ -1117,8 +1147,10 @@ AR Path="/5E59A680/5E877D15/5E8B58B7" Ref="J19"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8B58B7" Ref="J?"  Part="1" 
 F 0 "J19" H 2450 650 50  0000 C CNN
 F 1 "Conn_01x04" H 2450 750 50  0000 C CNN
-F 2 "" H 2450 1050 50  0001 C CNN
-F 3 "~" H 2450 1050 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 2450 1050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 2450 1050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    2450 1050
 	-1   0    0    1   
 $EndComp
@@ -1183,8 +1215,10 @@ AR Path="/5E59A680/5E877D15/5E8B58E7" Ref="J20"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8B58E7" Ref="J?"  Part="1" 
 F 0 "J20" H 2450 1500 50  0000 C CNN
 F 1 "Conn_01x04" H 2450 1600 50  0000 C CNN
-F 2 "" H 2450 1900 50  0001 C CNN
-F 3 "~" H 2450 1900 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 2450 1900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 2450 1900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    2450 1900
 	-1   0    0    1   
 $EndComp
@@ -1249,8 +1283,10 @@ AR Path="/5E59A680/5E877D15/5E8B5917" Ref="J21"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8B5917" Ref="J?"  Part="1" 
 F 0 "J21" H 2450 2350 50  0000 C CNN
 F 1 "Conn_01x04" H 2450 2450 50  0000 C CNN
-F 2 "" H 2450 2750 50  0001 C CNN
-F 3 "~" H 2450 2750 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 2450 2750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 2450 2750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    2450 2750
 	-1   0    0    1   
 $EndComp
@@ -1315,8 +1351,10 @@ AR Path="/5E59A680/5E877D15/5E8B5947" Ref="J22"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E8B5947" Ref="J?"  Part="1" 
 F 0 "J22" H 2450 3200 50  0000 C CNN
 F 1 "Conn_01x04" H 2450 3300 50  0000 C CNN
-F 2 "" H 2450 3600 50  0001 C CNN
-F 3 "~" H 2450 3600 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 2450 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 2450 3600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    2450 3600
 	-1   0    0    1   
 $EndComp
@@ -1381,8 +1419,10 @@ AR Path="/5E59A680/5E877D15/5E6B73F7" Ref="J24"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B73F7" Ref="J?"  Part="1" 
 F 0 "J24" H 3550 650 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 750 50  0000 C CNN
-F 2 "" H 3550 1050 50  0001 C CNN
-F 3 "~" H 3550 1050 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 1050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 1050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 1050
 	-1   0    0    1   
 $EndComp
@@ -1449,8 +1489,10 @@ AR Path="/5E59A680/5E877D15/5E6B7427" Ref="J25"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B7427" Ref="J?"  Part="1" 
 F 0 "J25" H 3550 1500 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 1600 50  0000 C CNN
-F 2 "" H 3550 1900 50  0001 C CNN
-F 3 "~" H 3550 1900 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 1900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 1900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 1900
 	-1   0    0    1   
 $EndComp
@@ -1517,8 +1559,10 @@ AR Path="/5E59A680/5E877D15/5E6B7457" Ref="J26"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B7457" Ref="J?"  Part="1" 
 F 0 "J26" H 3550 2350 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 2450 50  0000 C CNN
-F 2 "" H 3550 2750 50  0001 C CNN
-F 3 "~" H 3550 2750 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 2750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 2750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 2750
 	-1   0    0    1   
 $EndComp
@@ -1585,8 +1629,10 @@ AR Path="/5E59A680/5E877D15/5E6B7487" Ref="J27"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B7487" Ref="J?"  Part="1" 
 F 0 "J27" H 3550 3200 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 3300 50  0000 C CNN
-F 2 "" H 3550 3600 50  0001 C CNN
-F 3 "~" H 3550 3600 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 3600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 3600
 	-1   0    0    1   
 $EndComp
@@ -1653,8 +1699,10 @@ AR Path="/5E59A680/5E877D15/5E6B74B7" Ref="J28"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B74B7" Ref="J?"  Part="1" 
 F 0 "J28" H 3550 4050 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 4150 50  0000 C CNN
-F 2 "" H 3550 4450 50  0001 C CNN
-F 3 "~" H 3550 4450 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 4450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 4450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 4450
 	-1   0    0    1   
 $EndComp
@@ -1719,8 +1767,10 @@ AR Path="/5E59A680/5E877D15/5E6B74E7" Ref="J29"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B74E7" Ref="J?"  Part="1" 
 F 0 "J29" H 3550 4900 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 5000 50  0000 C CNN
-F 2 "" H 3550 5300 50  0001 C CNN
-F 3 "~" H 3550 5300 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 5300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 5300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 5300
 	-1   0    0    1   
 $EndComp
@@ -1785,8 +1835,10 @@ AR Path="/5E59A680/5E877D15/5E6B7517" Ref="J30"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B7517" Ref="J?"  Part="1" 
 F 0 "J30" H 3550 5750 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 5850 50  0000 C CNN
-F 2 "" H 3550 6150 50  0001 C CNN
-F 3 "~" H 3550 6150 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 6150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 6150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 6150
 	-1   0    0    1   
 $EndComp
@@ -1851,8 +1903,10 @@ AR Path="/5E59A680/5E877D15/5E6B7547" Ref="J31"  Part="1"
 AR Path="/5E59A680/5E5467E7/5E6B7547" Ref="J?"  Part="1" 
 F 0 "J31" H 3550 6600 50  0000 C CNN
 F 1 "Conn_01x04" H 3550 6700 50  0000 C CNN
-F 2 "" H 3550 7000 50  0001 C CNN
-F 3 "~" H 3550 7000 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 3550 7000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 3550 7000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 0   0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 0   0   50  0001 C CNN "Part Number"
 	1    3550 7000
 	-1   0    0    1   
 $EndComp
@@ -1920,4 +1974,284 @@ Text GLabel 3800 6150 2    50   Output ~ 0
 10V_IN_9
 Text GLabel 3800 7000 2    50   Output ~ 0
 10V_IN_10
+Wire Wire Line
+	4600 1150 4650 1150
+Wire Wire Line
+	4650 1150 4650 1200
+$Comp
+L power:GND #PWR0193
+U 1 1 5ECDA986
+P 4650 1200
+AR Path="/5E59A680/5E877D15/5ECDA986" Ref="#PWR0193"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA986" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0193" H 4650 950 50  0001 C CNN
+F 1 "GND" H 4655 1027 50  0000 C CNN
+F 2 "" H 4650 1200 50  0001 C CNN
+F 3 "" H 4650 1200 50  0001 C CNN
+	1    4650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J32
+U 1 1 5ECDA992
+P 4400 1050
+AR Path="/5E59A680/5E877D15/5ECDA992" Ref="J32"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA992" Ref="J?"  Part="1" 
+F 0 "J32" H 4400 650 50  0000 C CNN
+F 1 "Conn_01x04" H 4400 750 50  0000 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 4400 1050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 4400 1050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 850 0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 850 0   50  0001 C CNN "Part Number"
+	1    4400 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0216
+U 1 1 5ECDA99C
+P 4900 800
+AR Path="/5E59A680/5E877D15/5ECDA99C" Ref="#PWR0216"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA99C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0216" H 4900 650 50  0001 C CNN
+F 1 "+3.3V" H 4915 973 50  0000 C CNN
+F 2 "" H 4900 800 50  0001 C CNN
+F 3 "" H 4900 800 50  0001 C CNN
+	1    4900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0217
+U 1 1 5ECDA9A6
+P 4700 800
+AR Path="/5E59A680/5E877D15/5ECDA9A6" Ref="#PWR0217"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA9A6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0217" H 4700 650 50  0001 C CNN
+F 1 "+5V" H 4715 973 50  0000 C CNN
+F 2 "" H 4700 800 50  0001 C CNN
+F 3 "" H 4700 800 50  0001 C CNN
+	1    4700 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 950  4900 800 
+Wire Wire Line
+	4600 950  4900 950 
+Wire Wire Line
+	4700 850  4700 800 
+Wire Wire Line
+	4600 850  4700 850 
+Wire Wire Line
+	4600 1050 4650 1050
+Text GLabel 4650 1050 2    50   Output ~ 0
+5V_IN_19
+Wire Wire Line
+	4600 2000 4650 2000
+Wire Wire Line
+	4650 2000 4650 2050
+$Comp
+L power:GND #PWR0218
+U 1 1 5ECDA9B8
+P 4650 2050
+AR Path="/5E59A680/5E877D15/5ECDA9B8" Ref="#PWR0218"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA9B8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0218" H 4650 1800 50  0001 C CNN
+F 1 "GND" H 4655 1877 50  0000 C CNN
+F 2 "" H 4650 2050 50  0001 C CNN
+F 3 "" H 4650 2050 50  0001 C CNN
+	1    4650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J33
+U 1 1 5ECDA9C4
+P 4400 1900
+AR Path="/5E59A680/5E877D15/5ECDA9C4" Ref="J33"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA9C4" Ref="J?"  Part="1" 
+F 0 "J33" H 4400 1500 50  0000 C CNN
+F 1 "Conn_01x04" H 4400 1600 50  0000 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 4400 1900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 4400 1900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 850 0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 850 0   50  0001 C CNN "Part Number"
+	1    4400 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0219
+U 1 1 5ECDA9CE
+P 4900 1650
+AR Path="/5E59A680/5E877D15/5ECDA9CE" Ref="#PWR0219"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA9CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0219" H 4900 1500 50  0001 C CNN
+F 1 "+3.3V" H 4915 1823 50  0000 C CNN
+F 2 "" H 4900 1650 50  0001 C CNN
+F 3 "" H 4900 1650 50  0001 C CNN
+	1    4900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0220
+U 1 1 5ECDA9D8
+P 4700 1650
+AR Path="/5E59A680/5E877D15/5ECDA9D8" Ref="#PWR0220"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA9D8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0220" H 4700 1500 50  0001 C CNN
+F 1 "+5V" H 4715 1823 50  0000 C CNN
+F 2 "" H 4700 1650 50  0001 C CNN
+F 3 "" H 4700 1650 50  0001 C CNN
+	1    4700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1800 4900 1650
+Wire Wire Line
+	4600 1800 4900 1800
+Wire Wire Line
+	4700 1700 4700 1650
+Wire Wire Line
+	4600 1700 4700 1700
+Wire Wire Line
+	4600 1900 4650 1900
+Text GLabel 4650 1900 2    50   Output ~ 0
+5V_IN_20
+Wire Wire Line
+	4600 2850 4650 2850
+Wire Wire Line
+	4650 2850 4650 2900
+$Comp
+L power:GND #PWR0221
+U 1 1 5ECDA9EA
+P 4650 2900
+AR Path="/5E59A680/5E877D15/5ECDA9EA" Ref="#PWR0221"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA9EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0221" H 4650 2650 50  0001 C CNN
+F 1 "GND" H 4655 2727 50  0000 C CNN
+F 2 "" H 4650 2900 50  0001 C CNN
+F 3 "" H 4650 2900 50  0001 C CNN
+	1    4650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J34
+U 1 1 5ECDA9F6
+P 4400 2750
+AR Path="/5E59A680/5E877D15/5ECDA9F6" Ref="J34"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDA9F6" Ref="J?"  Part="1" 
+F 0 "J34" H 4400 2350 50  0000 C CNN
+F 1 "Conn_01x04" H 4400 2450 50  0000 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 4400 2750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 4400 2750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 850 0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 850 0   50  0001 C CNN "Part Number"
+	1    4400 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0222
+U 1 1 5ECDAA00
+P 4900 2500
+AR Path="/5E59A680/5E877D15/5ECDAA00" Ref="#PWR0222"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDAA00" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0222" H 4900 2350 50  0001 C CNN
+F 1 "+3.3V" H 4915 2673 50  0000 C CNN
+F 2 "" H 4900 2500 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0223
+U 1 1 5ECDAA0A
+P 4700 2500
+AR Path="/5E59A680/5E877D15/5ECDAA0A" Ref="#PWR0223"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDAA0A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0223" H 4700 2350 50  0001 C CNN
+F 1 "+5V" H 4715 2673 50  0000 C CNN
+F 2 "" H 4700 2500 50  0001 C CNN
+F 3 "" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2650 4900 2500
+Wire Wire Line
+	4600 2650 4900 2650
+Wire Wire Line
+	4700 2550 4700 2500
+Wire Wire Line
+	4600 2550 4700 2550
+Wire Wire Line
+	4600 2750 4650 2750
+Text GLabel 4650 2750 2    50   Output ~ 0
+5V_IN_21
+Wire Wire Line
+	4600 3700 4650 3700
+Wire Wire Line
+	4650 3700 4650 3750
+$Comp
+L power:GND #PWR0247
+U 1 1 5ECDAA1C
+P 4650 3750
+AR Path="/5E59A680/5E877D15/5ECDAA1C" Ref="#PWR0247"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDAA1C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0247" H 4650 3500 50  0001 C CNN
+F 1 "GND" H 4655 3577 50  0000 C CNN
+F 2 "" H 4650 3750 50  0001 C CNN
+F 3 "" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J35
+U 1 1 5ECDAA28
+P 4400 3600
+AR Path="/5E59A680/5E877D15/5ECDAA28" Ref="J35"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDAA28" Ref="J?"  Part="1" 
+F 0 "J35" H 4400 3200 50  0000 C CNN
+F 1 "Conn_01x04" H 4400 3300 50  0000 C CNN
+F 2 "PCB_Morro_Bay:Connector_Molex_SL_4POS_0705510038" H 4400 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705510001_sd.pdf" H 4400 3600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/molex/0705510038/WM14059-ND/3468768" H 850 0   50  0001 C CNN "Digikey"
+F 5 "0705510038" H 850 0   50  0001 C CNN "Part Number"
+	1    4400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0249
+U 1 1 5ECDAA32
+P 4900 3350
+AR Path="/5E59A680/5E877D15/5ECDAA32" Ref="#PWR0249"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDAA32" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0249" H 4900 3200 50  0001 C CNN
+F 1 "+3.3V" H 4915 3523 50  0000 C CNN
+F 2 "" H 4900 3350 50  0001 C CNN
+F 3 "" H 4900 3350 50  0001 C CNN
+	1    4900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0250
+U 1 1 5ECDAA3C
+P 4700 3350
+AR Path="/5E59A680/5E877D15/5ECDAA3C" Ref="#PWR0250"  Part="1" 
+AR Path="/5E59A680/5E5467E7/5ECDAA3C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0250" H 4700 3200 50  0001 C CNN
+F 1 "+5V" H 4715 3523 50  0000 C CNN
+F 2 "" H 4700 3350 50  0001 C CNN
+F 3 "" H 4700 3350 50  0001 C CNN
+	1    4700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3500 4900 3350
+Wire Wire Line
+	4600 3500 4900 3500
+Wire Wire Line
+	4700 3400 4700 3350
+Wire Wire Line
+	4600 3400 4700 3400
+Wire Wire Line
+	4600 3600 4650 3600
+Text GLabel 4650 3600 2    50   Output ~ 0
+5V_IN_22
 $EndSCHEMATC
