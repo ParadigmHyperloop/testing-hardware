@@ -1714,8 +1714,8 @@ $Comp
 L Device:LED D36
 U 1 1 5ED157D8
 P 1350 5050
-F 0 "D36" V 1389 4933 50  0000 R CNN
-F 1 "LED" V 1298 4933 50  0000 R CNN
+F 0 "D36" V 1450 4950 50  0000 R CNN
+F 1 "LED" V 1350 4950 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 5050 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 5050 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 5050 50  0001 C CNN "Digikey"
@@ -1736,7 +1736,7 @@ L Device:LED D35
 U 1 1 5ED41066
 P 1350 4450
 F 0 "D35" V 1400 4650 50  0000 R CNN
-F 1 "LED" V 1300 4700 50  0000 R CNN
+F 1 "LED" V 1300 4650 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 4450 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 4450 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 4450 50  0001 C CNN "Digikey"
@@ -2599,7 +2599,7 @@ U 1 1 5EDEF7EE
 P 5000 6850
 F 0 "H1" H 5100 6899 50  0000 L CNN
 F 1 "M4" H 5100 6808 50  0000 L CNN
-F 2 "" H 5000 6850 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5000 6850 50  0001 C CNN
 F 3 "~" H 5000 6850 50  0001 C CNN
 	1    5000 6850
 	1    0    0    -1  
@@ -2631,17 +2631,6 @@ $EndComp
 Wire Wire Line
 	5300 6950 5300 7000
 $Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5EE10A5F
-P 5300 6850
-F 0 "H2" H 5400 6899 50  0000 L CNN
-F 1 "M4" H 5400 6808 50  0000 L CNN
-F 2 "" H 5300 6850 50  0001 C CNN
-F 3 "~" H 5300 6850 50  0001 C CNN
-	1    5300 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R121
 U 1 1 5EE10A69
 P 5300 7150
@@ -2667,17 +2656,6 @@ F 3 "" H 5300 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 6950 5600 7000
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5EE2E589
-P 5600 6850
-F 0 "H3" H 5700 6899 50  0000 L CNN
-F 1 "M4" H 5700 6808 50  0000 L CNN
-F 2 "" H 5600 6850 50  0001 C CNN
-F 3 "~" H 5600 6850 50  0001 C CNN
-	1    5600 6850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R122
 U 1 1 5EE2E593
@@ -2705,17 +2683,6 @@ $EndComp
 Wire Wire Line
 	5900 6950 5900 7000
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5EE2E5A9
-P 5900 6850
-F 0 "H4" H 6000 6899 50  0000 L CNN
-F 1 "M4" H 6000 6808 50  0000 L CNN
-F 2 "" H 5900 6850 50  0001 C CNN
-F 3 "~" H 5900 6850 50  0001 C CNN
-	1    5900 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R123
 U 1 1 5EE2E5B3
 P 5900 7150
@@ -2737,6 +2704,39 @@ F 1 "GND" H 5905 7177 50  0000 C CNN
 F 2 "" H 5900 7350 50  0001 C CNN
 F 3 "" H 5900 7350 50  0001 C CNN
 	1    5900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5EE94E26
+P 5300 6850
+F 0 "H2" H 5400 6899 50  0000 L CNN
+F 1 "M4" H 5400 6808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5300 6850 50  0001 C CNN
+F 3 "~" H 5300 6850 50  0001 C CNN
+	1    5300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5EE94F9A
+P 5600 6850
+F 0 "H3" H 5700 6899 50  0000 L CNN
+F 1 "M4" H 5700 6808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5600 6850 50  0001 C CNN
+F 3 "~" H 5600 6850 50  0001 C CNN
+	1    5600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5EE951CD
+P 5900 6850
+F 0 "H4" H 6000 6899 50  0000 L CNN
+F 1 "M4" H 6000 6808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5900 6850 50  0001 C CNN
+F 3 "~" H 5900 6850 50  0001 C CNN
+	1    5900 6850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

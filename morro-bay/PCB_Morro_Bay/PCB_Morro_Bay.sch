@@ -181,19 +181,6 @@ F 3 "" H 5350 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
-U 1 1 5E3CE794
-P 4550 1350
-F 0 "C7" H 4665 1396 50  0000 L CNN
-F 1 "1uF" H 4665 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 1200 50  0001 C CNN
-F 3 "~" H 4550 1350 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842" H 4550 1350 50  0001 C CNN "Digikey"
-F 5 "CL10B105KA8NNNC" H 4550 1350 50  0001 C CNN "Part Number"
-	1    4550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR014
 U 1 1 5E3D0289
 P 4550 1650
@@ -1714,8 +1701,8 @@ $Comp
 L Device:LED D36
 U 1 1 5ED157D8
 P 1350 5050
-F 0 "D36" V 1389 4933 50  0000 R CNN
-F 1 "LED" V 1298 4933 50  0000 R CNN
+F 0 "D36" V 1450 4950 50  0000 R CNN
+F 1 "LED" V 1350 4950 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 5050 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 5050 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 5050 50  0001 C CNN "Digikey"
@@ -1736,7 +1723,7 @@ L Device:LED D35
 U 1 1 5ED41066
 P 1350 4450
 F 0 "D35" V 1400 4650 50  0000 R CNN
-F 1 "LED" V 1300 4700 50  0000 R CNN
+F 1 "LED" V 1300 4650 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1350 4450 50  0001 C CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf" H 1350 4450 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832" V 1350 4450 50  0001 C CNN "Digikey"
@@ -2199,19 +2186,6 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY
 F 4 "https://www.digikey.ca/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125" H 8000 4100 50  0001 C CNN "Digikey"
 F 5 "CC0603KRX7R8BB104" H 8000 4100 50  0001 C CNN "Part Number"
 	1    8000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5E7F39FA
-P 5350 1350
-F 0 "C8" H 5465 1396 50  0000 L CNN
-F 1 "1uF" H 5465 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 1200 50  0001 C CNN
-F 3 "~" H 5350 1350 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842" H 5350 1350 50  0001 C CNN "Digikey"
-F 5 "CL10B105KA8NNNC" H 5350 1350 50  0001 C CNN "Part Number"
-	1    5350 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2737,6 +2711,34 @@ F 1 "M4" H 6000 6808 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5900 6850 50  0001 C CNN
 F 3 "~" H 5900 6850 50  0001 C CNN
 	1    5900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5E85940A
+P 4550 1350
+F 0 "C7" H 4665 1396 50  0000 L CNN
+F 1 "10uF" H 4665 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 1200 50  0001 C CNN
+F 3 "~" H 4550 1350 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527" H 4550 1350 50  0001 C CNN "Digikey"
+F 5 "CL10A106MA8NRNC	" H 4550 1350 50  0001 C CNN "Part Number"
+	1    4550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5E88C625
+P 5350 1350
+AR Path="/5E88C625" Ref="C8"  Part="1" 
+AR Path="/5E59A680/5E88C625" Ref="C?"  Part="1" 
+F 0 "C8" H 5465 1396 50  0000 L CNN
+F 1 "22uF" H 5465 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5388 1200 50  0001 C CNN
+F 3 "~" H 5350 1350 50  0001 C CNN
+F 4 "CL21A226MAQNNNE" H 5350 1350 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 5350 1350 50  0001 C CNN "Digikey"
+	1    5350 1350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
