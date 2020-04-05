@@ -3130,7 +3130,6 @@ Wire Wire Line
 	3000 6650 3400 6650
 Wire Wire Line
 	3000 6950 3400 6950
-Connection ~ 3400 6950
 $Comp
 L Device:C C?
 U 1 1 5E88C603
@@ -3149,16 +3148,16 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5E88C60F
-P 3500 6750
+P 3400 6800
 AR Path="/5E88C60F" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5E88C60F" Ref="C66"  Part="1" 
-F 0 "C66" H 3615 6796 50  0000 L CNN
-F 1 "22uF" H 3615 6705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3538 6600 50  0001 C CNN
-F 3 "~" H 3500 6750 50  0001 C CNN
-F 4 "CL21A226MAQNNNE" H 3500 6750 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3500 6750 50  0001 C CNN "Digikey"
-	1    3500 6750
+F 0 "C66" H 3515 6846 50  0000 L CNN
+F 1 "22uF" H 3515 6755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 6650 50  0001 C CNN
+F 3 "~" H 3400 6800 50  0001 C CNN
+F 4 "CL21A226MAQNNNE" H 3400 6800 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3400 6800 50  0001 C CNN "Digikey"
+	1    3400 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4453,4 +4452,5 @@ Connection ~ 2700 1800
 Connection ~ 4800 1800
 Connection ~ 6950 1800
 Connection ~ 9100 1800
+Connection ~ 3400 6950
 $EndSCHEMATC
