@@ -723,43 +723,43 @@ F1 "AnalogInput.sch" 50
 $EndSheet
 Text Notes 850  7300 0    118  ~ 0
 ANALOG INPUT
-Text GLabel 8700 2600 0    50   Input ~ 0
+Text GLabel 8700 2450 0    50   Input ~ 0
 SAMD_ADC_1
-Text GLabel 8700 2700 0    50   Input ~ 0
-SAMD_ADC_2
-Text GLabel 8700 2800 0    50   Input ~ 0
-SAMD_ADC_3
-Text GLabel 8700 2900 0    50   Input ~ 0
-SAMD_ADC_4
-Text GLabel 8700 1550 0    50   Input ~ 0
-SAMD_ADC_5
-Text GLabel 8700 1650 0    50   Input ~ 0
-SAMD_ADC_6
-Text GLabel 8700 3000 0    50   Input ~ 0
-SAMD_ADC_7
-Text GLabel 8700 3100 0    50   Input ~ 0
-SAMD_ADC_8
-Text GLabel 8700 3200 0    50   Input ~ 0
-SAMD_ADC_9
-Text GLabel 8700 3300 0    50   Input ~ 0
-SAMD_ADC_10
-Text GLabel 8700 3400 0    50   Input ~ 0
-SAMD_ADC_11
-Text GLabel 8700 3500 0    50   Input ~ 0
-SAMD_ADC_12
-Text GLabel 8700 1750 0    50   Input ~ 0
-SAMD_ADC_13
-Text GLabel 8700 1850 0    50   Input ~ 0
-SAMD_ADC_14
-Text GLabel 8700 1950 0    50   Input ~ 0
-SAMD_ADC_15
-Text GLabel 8700 2050 0    50   Input ~ 0
-SAMD_ADC_16
-Text GLabel 8700 2150 0    50   Input ~ 0
-SAMD_ADC_17
-Text GLabel 8700 2250 0    50   Input ~ 0
-SAMD_ADC_18
 Text GLabel 8700 2350 0    50   Input ~ 0
+SAMD_ADC_2
+Text GLabel 8700 2250 0    50   Input ~ 0
+SAMD_ADC_3
+Text GLabel 8700 2150 0    50   Input ~ 0
+SAMD_ADC_4
+Text GLabel 8700 2050 0    50   Input ~ 0
+SAMD_ADC_5
+Text GLabel 8700 1950 0    50   Input ~ 0
+SAMD_ADC_6
+Text GLabel 8700 1850 0    50   Input ~ 0
+SAMD_ADC_7
+Text GLabel 8700 1750 0    50   Input ~ 0
+SAMD_ADC_8
+Text GLabel 8700 3500 0    50   Input ~ 0
+SAMD_ADC_9
+Text GLabel 8700 3400 0    50   Input ~ 0
+SAMD_ADC_10
+Text GLabel 8700 3300 0    50   Input ~ 0
+SAMD_ADC_11
+Text GLabel 8700 3200 0    50   Input ~ 0
+SAMD_ADC_12
+Text GLabel 8700 3100 0    50   Input ~ 0
+SAMD_ADC_13
+Text GLabel 8700 3000 0    50   Input ~ 0
+SAMD_ADC_14
+Text GLabel 8700 1650 0    50   Input ~ 0
+SAMD_ADC_15
+Text GLabel 8700 1550 0    50   Input ~ 0
+SAMD_ADC_16
+Text GLabel 8700 2900 0    50   Input ~ 0
+SAMD_ADC_17
+Text GLabel 8700 2800 0    50   Input ~ 0
+SAMD_ADC_18
+Text GLabel 8700 2700 0    50   Input ~ 0
 SAMD_ADC_19
 Wire Wire Line
 	2900 4650 2900 4700
@@ -950,7 +950,7 @@ Wire Wire Line
 	2700 3200 2950 3200
 Wire Wire Line
 	2700 3100 2750 3100
-Text GLabel 8700 2450 0    50   Input ~ 0
+Text GLabel 8700 2600 0    50   Input ~ 0
 SAMD_ADC_20
 Wire Wire Line
 	8700 1550 8750 1550
