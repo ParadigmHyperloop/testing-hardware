@@ -1015,51 +1015,51 @@ Wire Wire Line
 	3100 4300 3050 4300
 Wire Wire Line
 	3100 1950 3050 1950
-Text GLabel 8500 2950 0    50   Input ~ 0
+Text GLabel 8500 2450 0    50   Input ~ 0
 EADC_ADC_1
 Wire Wire Line
 	8500 2450 8550 2450
-Text GLabel 8500 2850 0    50   Input ~ 0
+Text GLabel 8500 2550 0    50   Input ~ 0
 EADC_ADC_2
 Wire Wire Line
 	8500 2550 8550 2550
-Text GLabel 8500 2750 0    50   Input ~ 0
+Text GLabel 8500 2650 0    50   Input ~ 0
 EADC_ADC_3
 Wire Wire Line
 	8500 2650 8550 2650
-Text GLabel 8500 2650 0    50   Input ~ 0
+Text GLabel 8500 2750 0    50   Input ~ 0
 EADC_ADC_4
 Wire Wire Line
 	8500 2750 8550 2750
-Text GLabel 8500 2550 0    50   Input ~ 0
+Text GLabel 8500 2850 0    50   Input ~ 0
 EADC_ADC_5
 Wire Wire Line
 	8500 2850 8550 2850
-Text GLabel 8500 2450 0    50   Input ~ 0
+Text GLabel 8500 2950 0    50   Input ~ 0
 EADC_ADC_6
 Wire Wire Line
 	8500 2950 8550 2950
-Text GLabel 8500 3550 0    50   Input ~ 0
+Text GLabel 8500 3050 0    50   Input ~ 0
 EADC_ADC_7
 Wire Wire Line
 	8500 3050 8550 3050
-Text GLabel 8500 3450 0    50   Input ~ 0
+Text GLabel 8500 3150 0    50   Input ~ 0
 EADC_ADC_8
 Wire Wire Line
 	8500 3150 8550 3150
-Text GLabel 8500 3350 0    50   Input ~ 0
+Text GLabel 8500 3250 0    50   Input ~ 0
 EADC_ADC_9
 Wire Wire Line
 	8500 3250 8550 3250
-Text GLabel 8500 3250 0    50   Input ~ 0
+Text GLabel 8500 3350 0    50   Input ~ 0
 EADC_ADC_10
 Wire Wire Line
 	8500 3350 8550 3350
-Text GLabel 8500 3150 0    50   Input ~ 0
+Text GLabel 8500 3450 0    50   Input ~ 0
 EADC_ADC_11
 Wire Wire Line
 	8500 3450 8550 3450
-Text GLabel 8500 3050 0    50   Input ~ 0
+Text GLabel 8500 3550 0    50   Input ~ 0
 EADC_ADC_12
 Wire Wire Line
 	8500 3550 8550 3550

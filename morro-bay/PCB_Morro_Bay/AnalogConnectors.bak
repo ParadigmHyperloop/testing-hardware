@@ -1966,13 +1966,13 @@ Text GLabel 1850 4450 2    50   Output ~ 0
 5V_IN_13
 Text GLabel 1850 5300 2    50   Output ~ 0
 5V_IN_14
-Text GLabel 3800 4450 2    50   Output ~ 0
+Text GLabel 4650 1050 2    50   Output ~ 0
 10V_IN_7
-Text GLabel 3800 5300 2    50   Output ~ 0
+Text GLabel 4650 1900 2    50   Output ~ 0
 10V_IN_8
-Text GLabel 3800 6150 2    50   Output ~ 0
+Text GLabel 4650 2750 2    50   Output ~ 0
 10V_IN_9
-Text GLabel 3800 7000 2    50   Output ~ 0
+Text GLabel 4650 3600 2    50   Output ~ 0
 10V_IN_10
 Wire Wire Line
 	4600 1150 4650 1150
@@ -2042,7 +2042,7 @@ Wire Wire Line
 	4600 850  4700 850 
 Wire Wire Line
 	4600 1050 4650 1050
-Text GLabel 4650 1050 2    50   Output ~ 0
+Text GLabel 3800 4450 2    50   Output ~ 0
 5V_IN_19
 Wire Wire Line
 	4600 2000 4650 2000
@@ -2112,7 +2112,7 @@ Wire Wire Line
 	4600 1700 4700 1700
 Wire Wire Line
 	4600 1900 4650 1900
-Text GLabel 4650 1900 2    50   Output ~ 0
+Text GLabel 3800 5300 2    50   Output ~ 0
 5V_IN_20
 Wire Wire Line
 	4600 2850 4650 2850
@@ -2182,7 +2182,7 @@ Wire Wire Line
 	4600 2550 4700 2550
 Wire Wire Line
 	4600 2750 4650 2750
-Text GLabel 4650 2750 2    50   Output ~ 0
+Text GLabel 3800 6150 2    50   Output ~ 0
 5V_IN_21
 Wire Wire Line
 	4600 3700 4650 3700
@@ -2252,6 +2252,6 @@ Wire Wire Line
 	4600 3400 4700 3400
 Wire Wire Line
 	4600 3600 4650 3600
-Text GLabel 4650 3600 2    50   Output ~ 0
+Text GLabel 3800 7000 2    50   Output ~ 0
 5V_IN_22
 $EndSCHEMATC
