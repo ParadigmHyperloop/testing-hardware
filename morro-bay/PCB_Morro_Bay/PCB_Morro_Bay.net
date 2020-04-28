@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Jasper Rubin\\Desktop\\Projects\\Hyperloop\\testing-hardware\\morro-bay\\PCB_Morro_Bay\\PCB_Morro_Bay.sch")
-    (date "4/20/2020 12:33:30")
+    (date "4/23/2020 23:11:29")
     (tool "Eeschema (5.1.0)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -101,7 +101,7 @@
       (tstamp 5E582097))
     (comp (ref Y3)
       (value 32.768kHz)
-      (footprint Crystal:Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering)
+      (footprint PCB_Morro_Bay:Crystal_Epson_MC-146)
       (datasheet https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-146&lang=en)
       (fields
         (field (name Digikey) https://www.digikey.ca/product-detail/en/epson/MC-146-32-7680KA-AC0-ROHS/SER4303CT-ND/7932290)

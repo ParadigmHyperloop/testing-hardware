@@ -631,7 +631,7 @@ U 1 1 5E49B041
 P 7700 1400
 F 0 "Y3" H 7700 1668 50  0000 C CNN
 F 1 "32.768kHz" H 7700 1577 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering" H 7700 1400 50  0001 C CNN
+F 2 "PCB_Morro_Bay:Crystal_Epson_MC-146" H 7700 1400 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-146&lang=en" H 7700 1400 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/epson/MC-146-32-7680KA-AC0-ROHS/SER4303CT-ND/7932290" H 7700 1400 50  0001 C CNN "Digikey"
 F 5 "MC-146 32.7680KA-AC0: ROHS" H 7700 1400 50  0001 C CNN "Part Number"
