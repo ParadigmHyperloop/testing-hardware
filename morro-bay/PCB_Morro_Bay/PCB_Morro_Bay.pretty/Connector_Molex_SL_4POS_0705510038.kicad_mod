@@ -1,4 +1,4 @@
-(module Connector_Molex_SL_4POS_0705510038 (layer F.Cu) (tedit 5E7D373A)
+(module Connector_Molex_SL_4POS_0705510038 (layer F.Cu) (tedit 5EADC9BD)
   (fp_text reference REF** (at 0 16) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -22,4 +22,9 @@
   (pad 4 thru_hole circle (at 3.81 13.21) (size 1.7 1.7) (drill 1.09) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at -5.08 4.24) (size 3.6 3.6) (drill 3.4) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 5.08 4.24) (size 3.6 3.6) (drill 3.4) (layers *.Cu *.Mask))
+  (model "C:/Users/Jasper Rubin/Desktop/Projects/Hyperloop/testing-hardware/morro-bay/Models/705510038.stp"
+    (offset (xyz 0 -6 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
