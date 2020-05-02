@@ -1,0 +1,421 @@
+EESchema Schematic File Version 4
+LIBS:PCB_Morro_Bay-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Morro Bay Data Acquisition Board"
+Date ""
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Jasper Rubin"
+$EndDescr
+$Comp
+L Connector:USB_B J?
+U 1 1 5E38CA09
+P 1300 1400
+F 0 "J?" H 1357 1867 50  0000 C CNN
+F 1 "USB_B" H 1357 1776 50  0000 C CNN
+F 2 "" H 1450 1350 50  0001 C CNN
+F 3 " ~" H 1450 1350 50  0001 C CNN
+	1    1300 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1800 1200 1850
+Wire Wire Line
+	1200 1850 1250 1850
+Wire Wire Line
+	1300 1850 1300 1800
+Wire Wire Line
+	1250 1850 1250 1900
+Connection ~ 1250 1850
+Wire Wire Line
+	1250 1850 1300 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5E38E8EE
+P 1250 1900
+F 0 "#PWR?" H 1250 1650 50  0001 C CNN
+F 1 "GND" H 1255 1727 50  0000 C CNN
+F 2 "" H 1250 1900 50  0001 C CNN
+F 3 "" H 1250 1900 50  0001 C CNN
+	1    1250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1400 1650 1400
+Wire Wire Line
+	1600 1500 1650 1500
+NoConn ~ 1650 1400
+NoConn ~ 1650 1500
+Text Notes 1050 800  0    118  ~ 0
+USB POWER INPUT
+$Comp
+L power:+5V #PWR?
+U 1 1 5E390D0C
+P 2800 1150
+F 0 "#PWR?" H 2800 1000 50  0001 C CNN
+F 1 "+5V" H 2815 1323 50  0000 C CNN
+F 2 "" H 2800 1150 50  0001 C CNN
+F 3 "" H 2800 1150 50  0001 C CNN
+	1    2800 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E392D8B
+P 1800 1400
+F 0 "C?" H 1915 1446 50  0000 L CNN
+F 1 "0.1uF" H 1915 1355 50  0000 L CNN
+F 2 "" H 1838 1250 50  0001 C CNN
+F 3 "~" H 1800 1400 50  0001 C CNN
+	1    1800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3943A9
+P 2300 1400
+F 0 "C?" H 2415 1446 50  0000 L CNN
+F 1 "0.1uF" H 2415 1355 50  0000 L CNN
+F 2 "" H 2338 1250 50  0001 C CNN
+F 3 "~" H 2300 1400 50  0001 C CNN
+	1    2300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E394B09
+P 2800 1400
+F 0 "C?" H 2915 1446 50  0000 L CNN
+F 1 "10uF" H 2915 1355 50  0000 L CNN
+F 2 "" H 2838 1250 50  0001 C CNN
+F 3 "~" H 2800 1400 50  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1150 2800 1200
+Wire Wire Line
+	1600 1200 1800 1200
+Wire Wire Line
+	2300 1200 2800 1200
+Connection ~ 2800 1200
+Wire Wire Line
+	2800 1200 2800 1250
+Wire Wire Line
+	1800 1200 1800 1250
+Wire Wire Line
+	2300 1200 2300 1250
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5E396CF7
+P 2050 1200
+F 0 "FB?" V 1776 1200 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1867 1200 50  0000 C CNN
+F 2 "" V 1980 1200 50  0001 C CNN
+F 3 "~" H 2050 1200 50  0001 C CNN
+	1    2050 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 1200 2200 1200
+Connection ~ 2300 1200
+Wire Wire Line
+	1900 1200 1800 1200
+Connection ~ 1800 1200
+Wire Wire Line
+	1800 1550 1800 1600
+Wire Wire Line
+	2300 1550 2300 1600
+Wire Wire Line
+	2800 1550 2800 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5E399792
+P 1800 1600
+F 0 "#PWR?" H 1800 1350 50  0001 C CNN
+F 1 "GND" H 1805 1427 50  0000 C CNN
+F 2 "" H 1800 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	1    1800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E399E08
+P 2300 1600
+F 0 "#PWR?" H 2300 1350 50  0001 C CNN
+F 1 "GND" H 2305 1427 50  0000 C CNN
+F 2 "" H 2300 1600 50  0001 C CNN
+F 3 "" H 2300 1600 50  0001 C CNN
+	1    2300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E39A370
+P 2800 1600
+F 0 "#PWR?" H 2800 1350 50  0001 C CNN
+F 1 "GND" H 2805 1427 50  0000 C CNN
+F 2 "" H 2800 1600 50  0001 C CNN
+F 3 "" H 2800 1600 50  0001 C CNN
+	1    2800 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 1600 2400 0    50   ~ 0
+DUNNO IF WE ACTUALLY NEED\nANY FILTERING HERE, MIGHT\nBE GOOD THOUGH, I CAN'T\nIMAGINE IT'LL BE PERFECTLY CLEAN\nCOMING OFF A WALL WART
+$Comp
+L Interface_CAN_LIN:MCP2515-xSO U?
+U 1 1 5E3A2A32
+P 1950 3800
+F 0 "U?" H 2400 4550 50  0000 C CNN
+F 1 "MCP2515-xSO" H 1550 4550 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 1950 2900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf" H 2050 3000 50  0001 C CNN
+	1    1950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E3A4ED7
+P 1950 2950
+F 0 "#PWR?" H 1950 2800 50  0001 C CNN
+F 1 "+3.3V" H 1965 3123 50  0000 C CNN
+F 2 "" H 1950 2950 50  0001 C CNN
+F 3 "" H 1950 2950 50  0001 C CNN
+	1    1950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2950 1950 3000
+Wire Wire Line
+	1950 4600 1950 4650
+$Comp
+L power:GND #PWR?
+U 1 1 5E3A6CBC
+P 1950 4650
+F 0 "#PWR?" H 1950 4400 50  0001 C CNN
+F 1 "GND" H 1955 4477 50  0000 C CNN
+F 2 "" H 1950 4650 50  0001 C CNN
+F 3 "" H 1950 4650 50  0001 C CNN
+	1    1950 4650
+	1    0    0    -1  
+$EndComp
+Text Label 950  3200 0    50   ~ 0
+CAN_MOSI
+Text Label 950  3300 0    50   ~ 0
+CAN_MISO
+Text Label 950  3400 0    50   ~ 0
+CAN_SS
+Text Label 950  3500 0    50   ~ 0
+CAN_SCK
+Wire Wire Line
+	2550 3800 2600 3800
+Wire Wire Line
+	2550 3900 2800 3900
+Wire Wire Line
+	2550 4000 3000 4000
+Wire Wire Line
+	2550 4100 3200 4100
+$Comp
+L Device:R_US R?
+U 1 1 5E3ADD49
+P 2600 3600
+F 0 "R?" H 2500 3700 50  0000 L CNN
+F 1 "10K" V 2500 3500 50  0000 L CNN
+F 2 "" V 2640 3590 50  0001 C CNN
+F 3 "~" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E3B1AE3
+P 2800 3600
+F 0 "R?" H 2700 3700 50  0000 L CNN
+F 1 "10K" V 2700 3500 50  0000 L CNN
+F 2 "" V 2840 3590 50  0001 C CNN
+F 3 "~" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E3B2269
+P 3000 3600
+F 0 "R?" H 2900 3700 50  0000 L CNN
+F 1 "10K" V 2900 3500 50  0000 L CNN
+F 2 "" V 3040 3590 50  0001 C CNN
+F 3 "~" H 3000 3600 50  0001 C CNN
+	1    3000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E3B26A9
+P 3200 3600
+F 0 "R?" H 3100 3700 50  0000 L CNN
+F 1 "10K" V 3100 3500 50  0000 L CNN
+F 2 "" V 3240 3590 50  0001 C CNN
+F 3 "~" H 3200 3600 50  0001 C CNN
+	1    3200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3750 2600 3800
+Connection ~ 2600 3800
+Wire Wire Line
+	2800 3750 2800 3900
+Connection ~ 2800 3900
+Wire Wire Line
+	3000 3750 3000 4000
+Connection ~ 3000 4000
+Wire Wire Line
+	3200 3750 3200 4100
+Connection ~ 3200 4100
+$Comp
+L Device:R_US R?
+U 1 1 5E3B4378
+P 3400 3600
+F 0 "R?" H 3300 3700 50  0000 L CNN
+F 1 "10K" V 3300 3500 50  0000 L CNN
+F 2 "" V 3440 3590 50  0001 C CNN
+F 3 "~" H 3400 3600 50  0001 C CNN
+	1    3400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E3B4A88
+P 3600 3600
+F 0 "R?" H 3500 3700 50  0000 L CNN
+F 1 "10K" V 3500 3500 50  0000 L CNN
+F 2 "" V 3640 3590 50  0001 C CNN
+F 3 "~" H 3600 3600 50  0001 C CNN
+	1    3600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E3B4E22
+P 3800 3600
+F 0 "R?" H 3700 3700 50  0000 L CNN
+F 1 "10K" V 3700 3500 50  0000 L CNN
+F 2 "" V 3840 3590 50  0001 C CNN
+F 3 "~" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3750 3400 4200
+Wire Wire Line
+	2550 4200 3400 4200
+Wire Wire Line
+	3600 3750 3600 4300
+Wire Wire Line
+	2550 4300 3600 4300
+Wire Wire Line
+	3800 4400 3800 3750
+Wire Wire Line
+	2550 4400 3800 4400
+Connection ~ 3400 4200
+Connection ~ 3600 4300
+Connection ~ 3800 4400
+Wire Wire Line
+	2600 3450 2600 3400
+Wire Wire Line
+	2600 3400 2800 3400
+Wire Wire Line
+	3800 3400 3800 3450
+Wire Wire Line
+	3600 3450 3600 3400
+Connection ~ 3600 3400
+Wire Wire Line
+	3600 3400 3800 3400
+Wire Wire Line
+	3400 3450 3400 3400
+Connection ~ 3400 3400
+Wire Wire Line
+	3400 3400 3600 3400
+Wire Wire Line
+	3200 3450 3200 3400
+Connection ~ 3200 3400
+Wire Wire Line
+	3200 3400 3400 3400
+Wire Wire Line
+	3000 3450 3000 3400
+Connection ~ 3000 3400
+Wire Wire Line
+	3000 3400 3200 3400
+Wire Wire Line
+	2800 3450 2800 3400
+Connection ~ 2800 3400
+Wire Wire Line
+	2800 3400 3000 3400
+Wire Wire Line
+	3800 3400 3800 3350
+Connection ~ 3800 3400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E3BF914
+P 3800 3350
+F 0 "#PWR?" H 3800 3200 50  0001 C CNN
+F 1 "+3.3V" H 3815 3523 50  0000 C CNN
+F 2 "" H 3800 3350 50  0001 C CNN
+F 3 "" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3500 1350 3500
+Wire Wire Line
+	950  3400 1350 3400
+Wire Wire Line
+	950  3300 1350 3300
+Wire Wire Line
+	950  3200 1350 3200
+Text Label 4300 3800 2    50   ~ 0
+CAN_nINT
+Text Label 4300 3900 2    50   ~ 0
+CAN_nRXOBF
+Wire Wire Line
+	2600 3800 4300 3800
+Wire Wire Line
+	2800 3900 4300 3900
+Wire Wire Line
+	3000 4000 4300 4000
+Wire Wire Line
+	3200 4100 4300 4100
+Wire Wire Line
+	3400 4200 4300 4200
+Wire Wire Line
+	3600 4300 4300 4300
+Wire Wire Line
+	3800 4400 4300 4400
+Text Label 4300 4100 2    50   ~ 0
+CAN_nTX0RTS
+Text Label 4300 4200 2    50   ~ 0
+CAN_nTX1RTS
+Text Label 4300 4300 2    50   ~ 0
+CAN_nTX2RTS
+Text Label 4300 4000 2    50   ~ 0
+CAN_nRX1BF
+Text Label 4300 4400 2    50   ~ 0
+CAN_nRESET
+Text Label 2850 3200 2    50   ~ 0
+CAN_RX
+Wire Wire Line
+	2550 3200 2850 3200
+Wire Wire Line
+	2550 3300 2850 3300
+Text Label 2850 3300 2    50   ~ 0
+CAN_TX
+Text Notes 3350 2700 0    118  ~ 0
+CAN
+$EndSCHEMATC

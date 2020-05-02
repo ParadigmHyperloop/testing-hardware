@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS114S08BIPBSR
+F http://www.ti.com/lit/ds/symlink/ads114s06b.pdf
+$ENDCMP
+#
+$CMP ATSAMD21J18A-AU
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP V7805-2000R
+F https://www.cui.com/product/resource/v78xx-2000.pdf
+$ENDCMP
+#
+#End Doc Library
