@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 58)
+    (drawings 59)
     (tracks 2666)
     (zones 0)
     (modules 346)
@@ -18985,6 +18985,9 @@
     (pad 4 smd rect (at 3.15 0.45) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask))
   )
 
+  (gr_text "REV A" (at 291 168.75) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.3)))
+  )
   (gr_text "Copyright Paradigm Hyperloop, 2020\nAll Rights Reserved" (at 234.5 89.25) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.3)) (justify left))
   )
@@ -19180,8 +19183,8 @@
     (arrow2a (pts (xy 101.25 44.25) (xy 102.376504 44.836421)))
     (arrow2b (pts (xy 101.25 44.25) (xy 102.376504 43.663579)))
   )
-  (gr_poly (pts (xy 278.75 170.75) (xy 293.25 170.75) (xy 293.25 166.75) (xy 278.75 166.75)) (layer F.SilkS) (width 0.1))
-  (gr_text "Morro Bay   SN:\nData Acquisition Board" (at 241 171) (layer F.SilkS)
+  (gr_poly (pts (xy 273.75 170.75) (xy 284 170.75) (xy 284 166.75) (xy 273.75 166.75)) (layer F.SilkS) (width 0.1))
+  (gr_text "Morro Bay SN:\nData Acquisition Board" (at 241 171) (layer F.SilkS)
     (effects (font (size 3 3) (thickness 0.3)) (justify left))
   )
   (gr_text "Designed by\nJasper Rubin\nin 2020" (at 274.25 85.5) (layer B.SilkS)

@@ -83,6 +83,8 @@ F 0 "U1" H 2550 3850 50  0000 C CNN
 F 1 "MCP2515-xSO" H 1700 3850 50  0000 C CNN
 F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 2100 2200 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf" H 2200 2300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/microchip-technology/MCP2515T-I-SO/MCP2515T-I-SOCT-ND/4307902" H 2100 3100 50  0001 C CNN "Digikey"
+F 5 "MCP2515T-I/SO" H 2100 3100 50  0001 C CNN "Part Number"
 	1    2100 3100
 	1    0    0    -1  
 $EndComp
@@ -138,6 +140,8 @@ F 0 "U4" H 9500 2450 50  0000 C CNN
 F 1 "ATSAMD21J18A-AU" H 9500 2550 50  0000 C CNN
 F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" H 9650 3150 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf" H 9650 3150 50  0001 C CNN
+F 4 "https://www.digikey.ca/products/en/integrated-circuits-ics/embedded-microcontrollers/685?k=ATSAMD21J18A-AU&k=&pkeyword=ATSAMD21J18A-AU&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 9500 2450 50  0001 C CNN "Digikey"
+F 5 "ATSAMD21J18A-AUT" H 9500 2450 50  0001 C CNN "Part Number"
 	1    9500 2450
 	1    0    0    -1  
 $EndComp
@@ -556,6 +560,8 @@ F 0 "U2" H 2350 5050 50  0000 C CNN
 F 1 "SN65HVD232" H 1700 5050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 2000 5200 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/texas-instruments/SN65HVD232DR/296-26344-1-ND/2254978" H 2100 4800 50  0001 C CNN "Digikey"
+F 5 "SN65HVD232DR" H 2100 4800 50  0001 C CNN "Part Number"
 	1    2100 4800
 	1    0    0    -1  
 $EndComp
@@ -1602,7 +1608,9 @@ P 5050 2550
 F 0 "J23" H 5200 2450 50  0000 C CNN
 F 1 "POWER_OUT" H 5350 2550 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal" H 5050 2550 50  0001 C CNN
-F 3 "~" H 5050 2550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450400_sd.pdf" H 5050 2550 50  0001 C CNN
+F 4 "https://www.digikey.ca/products/en?keywords=430450400" H 5050 2550 50  0001 C CNN "Digikey"
+F 5 "0430450400" H 5050 2550 50  0001 C CNN "Part Number"
 	1    5050 2550
 	-1   0    0    1   
 $EndComp
