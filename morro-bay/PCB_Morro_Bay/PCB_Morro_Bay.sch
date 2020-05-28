@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:PCB_Morro_Bay-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1949,24 +1949,15 @@ Wire Wire Line
 	7650 2450 7700 2450
 Wire Wire Line
 	7700 2450 7700 2400
-Wire Wire Line
-	7350 3100 7350 3150
-Wire Wire Line
-	7350 3050 7350 3100
-Connection ~ 7350 3100
-Wire Wire Line
-	7250 3050 7250 3100
-Wire Wire Line
-	7250 3100 7350 3100
 $Comp
 L power:GND #PWR0243
 U 1 1 5E996862
-P 7350 3150
-F 0 "#PWR0243" H 7350 2900 50  0001 C CNN
-F 1 "GND" H 7355 2977 50  0000 C CNN
-F 2 "" H 7350 3150 50  0001 C CNN
-F 3 "" H 7350 3150 50  0001 C CNN
-	1    7350 3150
+P 7350 3100
+F 0 "#PWR0243" H 7350 2850 50  0001 C CNN
+F 1 "GND" H 7355 2927 50  0000 C CNN
+F 2 "" H 7350 3100 50  0001 C CNN
+F 3 "" H 7350 3100 50  0001 C CNN
+	1    7350 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2741,4 +2732,7 @@ F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226
 	1    5350 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 3050 7350 3100
+NoConn ~ 7250 3050
 $EndSCHEMATC
