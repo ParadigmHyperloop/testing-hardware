@@ -35,8 +35,8 @@ F 0 "C5" H 4065 1396 50  0000 L CNN
 F 1 "10uF" H 4065 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3988 1200 50  0001 C CNN
 F 3 "~" H 3950 1350 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527" H 3950 1350 50  0001 C CNN "Digikey"
-F 5 "CL10A106MA8NRNC	" H 3950 1350 50  0001 C CNN "Part Number"
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188R61E106MA73J/4905347" H 3950 1350 50  0001 C CNN "Digikey"
+F 5 "GRM188R61E106MA73J" H 3950 1350 50  0001 C CNN "Part Number"
 	1    3950 1350
 	1    0    0    -1  
 $EndComp
@@ -1162,19 +1162,6 @@ F 5 "GRM32EC72A106KE05L" H 1750 1350 50  0001 C CNN "Part Number"
 $EndComp
 Wire Wire Line
 	1750 1500 1750 1600
-$Comp
-L Device:C C28
-U 1 1 5E5B0247
-P 2600 1350
-F 0 "C28" H 2715 1396 50  0000 L CNN
-F 1 "22uF" H 2715 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2638 1200 50  0001 C CNN
-F 3 "~" H 2600 1350 50  0001 C CNN
-F 4 "CL21A226MAQNNNE" H 2600 1350 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 2600 1350 50  0001 C CNN "Digikey"
-	1    2600 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 1150 2600 1200
 Wire Wire Line
@@ -1921,9 +1908,9 @@ P 1150 1150
 F 0 "F1" V 953 1150 50  0000 C CNN
 F 1 "3A" V 1044 1150 50  0000 C CNN
 F 2 "PCB_Morro_Bay:Fuse_Littelfuse_0154003.DR" V 1080 1150 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 1150 1150 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/littelfuse-inc/0154003-DR/F1226CT-ND/183375" V 1150 1150 50  0001 C CNN "Digikey"
-F 5 "0154003.DR" V 1150 1150 50  0001 C CNN "Part Number"
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0679l-series.pdf" H 1150 1150 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/bel-fuse-inc/0679L3000-05/5844035" V 1150 1150 50  0001 C CNN "Digikey"
+F 5 "0679L3000-05" V 1150 1150 50  0001 C CNN "Part Number"
 	1    1150 1150
 	0    1    1    0   
 $EndComp
@@ -2207,32 +2194,6 @@ F 3 "~" H 10300 4050 50  0001 C CNN
 F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842" H 10300 4050 50  0001 C CNN "Digikey"
 F 5 "CL10B105KA8NNNC" H 10300 4050 50  0001 C CNN "Part Number"
 	1    10300 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C12
-U 1 1 5E828B57
-P 7400 4950
-F 0 "C12" H 7515 4996 50  0000 L CNN
-F 1 "10uF" H 7515 4905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7438 4800 50  0001 C CNN
-F 3 "~" H 7400 4950 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527" H 7400 4950 50  0001 C CNN "Digikey"
-F 5 "CL10A106MA8NRNC	" H 7400 4950 50  0001 C CNN "Part Number"
-	1    7400 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 5E829E0A
-P 10750 4950
-F 0 "C21" H 10865 4996 50  0000 L CNN
-F 1 "10uF" H 10865 4905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 4800 50  0001 C CNN
-F 3 "~" H 10750 4950 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527" H 10750 4950 50  0001 C CNN "Digikey"
-F 5 "CL10A106MA8NRNC	" H 10750 4950 50  0001 C CNN "Part Number"
-	1    10750 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2723,30 +2684,71 @@ F 3 "~" H 5900 6850 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C7
-U 1 1 5E85940A
+U 1 1 5EE0F3C0
 P 4550 1350
 F 0 "C7" H 4665 1396 50  0000 L CNN
 F 1 "10uF" H 4665 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 1200 50  0001 C CNN
 F 3 "~" H 4550 1350 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527" H 4550 1350 50  0001 C CNN "Digikey"
-F 5 "CL10A106MA8NRNC	" H 4550 1350 50  0001 C CNN "Part Number"
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188R61E106MA73J/4905347" H 4550 1350 50  0001 C CNN "Digikey"
+F 5 "GRM188R61E106MA73J" H 4550 1350 50  0001 C CNN "Part Number"
 	1    4550 1350
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:C C12
+U 1 1 5EE1125A
+P 7400 4950
+F 0 "C12" H 7515 4996 50  0000 L CNN
+F 1 "10uF" H 7515 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7438 4800 50  0001 C CNN
+F 3 "~" H 7400 4950 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188R61E106MA73J/4905347" H 7400 4950 50  0001 C CNN "Digikey"
+F 5 "GRM188R61E106MA73J" H 7400 4950 50  0001 C CNN "Part Number"
+	1    7400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5EE1245E
+P 10750 4950
+F 0 "C21" H 10865 4996 50  0000 L CNN
+F 1 "10uF" H 10865 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 4800 50  0001 C CNN
+F 3 "~" H 10750 4950 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188R61E106MA73J/4905347" H 10750 4950 50  0001 C CNN "Digikey"
+F 5 "GRM188R61E106MA73J" H 10750 4950 50  0001 C CNN "Part Number"
+	1    10750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:C C8
-U 1 1 5E88C625
+U 1 1 5EE2D87D
 P 5350 1350
-AR Path="/5E88C625" Ref="C8"  Part="1" 
-AR Path="/5E59A680/5E88C625" Ref="C?"  Part="1" 
+AR Path="/5EE2D87D" Ref="C8"  Part="1" 
+AR Path="/5E59A680/5EE2D87D" Ref="C?"  Part="1" 
 F 0 "C8" H 5465 1396 50  0000 L CNN
 F 1 "22uF" H 5465 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5388 1200 50  0001 C CNN
 F 3 "~" H 5350 1350 50  0001 C CNN
-F 4 "CL21A226MAQNNNE" H 5350 1350 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 5350 1350 50  0001 C CNN "Digikey"
+F 4 "CC0805MKX5R8BB226" H 5350 1350 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/yageo/CC0805MKX5R8BB226/5195309" H 5350 1350 50  0001 C CNN "Digikey"
 	1    5350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5EE4B16D
+P 2600 1350
+AR Path="/5EE4B16D" Ref="C28"  Part="1" 
+AR Path="/5E59A680/5EE4B16D" Ref="C?"  Part="1" 
+F 0 "C28" H 2715 1396 50  0000 L CNN
+F 1 "22uF" H 2715 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2638 1200 50  0001 C CNN
+F 3 "~" H 2600 1350 50  0001 C CNN
+F 4 "CC0805MKX5R8BB226" H 2600 1350 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/yageo/CC0805MKX5R8BB226/5195309" H 2600 1350 50  0001 C CNN "Digikey"
+	1    2600 1350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

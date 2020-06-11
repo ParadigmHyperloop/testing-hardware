@@ -43,8 +43,8 @@ F 1 "100K" H 668 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 640 1240 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 600 1250 50  0001 C CNN
 F 4 "0.1%" H 668 1159 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 600 1250 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 600 1250 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 600 1250 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 600 1250 50  0001 C CNN "Part Number"
 	1    600  1250
 	1    0    0    -1  
 $EndComp
@@ -2167,10 +2167,8 @@ F 3 "" H 3400 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 7200 3400 7200
-Connection ~ 3000 7200
 Wire Wire Line
 	3000 7500 3400 7500
-Connection ~ 3400 7500
 Text GLabel 2150 1150 2    50   Output ~ 0
 SAMD_ADC_1
 $Comp
@@ -3072,36 +3070,6 @@ F 5 "CC0603KRX7R8BB104" H 10450 4850 50  0001 C CNN "Part Number"
 	1    10450 4850
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5E78EDE6
-P 3000 7350
-AR Path="/5E78EDE6" Ref="C?"  Part="1" 
-AR Path="/5E59A680/5E78EDE6" Ref="C40"  Part="1" 
-F 0 "C40" H 3115 7396 50  0000 L CNN
-F 1 "22uF" H 3115 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 7200 50  0001 C CNN
-F 3 "~" H 3000 7350 50  0001 C CNN
-F 4 "CL21A226MAQNNNE" H 3000 7350 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3000 7350 50  0001 C CNN "Digikey"
-	1    3000 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E7BDB3E
-P 3400 7350
-AR Path="/5E7BDB3E" Ref="C?"  Part="1" 
-AR Path="/5E59A680/5E7BDB3E" Ref="C41"  Part="1" 
-F 0 "C41" H 3515 7396 50  0000 L CNN
-F 1 "22uF" H 3515 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 7200 50  0001 C CNN
-F 3 "~" H 3400 7350 50  0001 C CNN
-F 4 "CL21A226MAQNNNE" H 3400 7350 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3400 7350 50  0001 C CNN "Digikey"
-	1    3400 7350
-	1    0    0    -1  
-$EndComp
 Text GLabel 5750 7150 0    50   Input ~ 0
 10V_IN_2
 Text GLabel 5750 7250 0    50   Input ~ 0
@@ -3133,31 +3101,16 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5E88C603
-P 3000 6800
+P 2800 6550
 AR Path="/5E88C603" Ref="C?"  Part="1" 
 AR Path="/5E59A680/5E88C603" Ref="C32"  Part="1" 
-F 0 "C32" H 3115 6846 50  0000 L CNN
-F 1 "22uF" H 3115 6755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 6650 50  0001 C CNN
-F 3 "~" H 3000 6800 50  0001 C CNN
-F 4 "CL21A226MAQNNNE" H 3000 6800 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3000 6800 50  0001 C CNN "Digikey"
-	1    3000 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E88C60F
-P 3400 6800
-AR Path="/5E88C60F" Ref="C?"  Part="1" 
-AR Path="/5E59A680/5E88C60F" Ref="C66"  Part="1" 
-F 0 "C66" H 3515 6846 50  0000 L CNN
-F 1 "22uF" H 3515 6755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 6650 50  0001 C CNN
-F 3 "~" H 3400 6800 50  0001 C CNN
-F 4 "CL21A226MAQNNNE" H 3400 6800 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-1-ND/3890994" H 3400 6800 50  0001 C CNN "Digikey"
-	1    3400 6800
+F 0 "C32" H 2915 6596 50  0000 L CNN
+F 1 "22uF" H 2915 6505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 6400 50  0001 C CNN
+F 3 "~" H 2800 6550 50  0001 C CNN
+F 4 "CC0805MKX5R8BB226" H 2800 6550 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/yageo/CC0805MKX5R8BB226/5195309" H 2800 6550 50  0001 C CNN "Digikey"
+	1    2800 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3493,8 +3446,8 @@ F 1 "100K" H 668 2400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 640 2390 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 600 2400 50  0001 C CNN
 F 4 "0.1%" H 668 2309 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 600 2400 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 600 2400 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 600 2400 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 600 2400 50  0001 C CNN "Part Number"
 	1    600  2400
 	1    0    0    -1  
 $EndComp
@@ -3510,8 +3463,8 @@ F 1 "100K" H 668 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 640 3590 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 600 3600 50  0001 C CNN
 F 4 "0.1%" H 668 3509 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 600 3600 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 600 3600 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 600 3600 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 600 3600 50  0001 C CNN "Part Number"
 	1    600  3600
 	1    0    0    -1  
 $EndComp
@@ -3527,8 +3480,8 @@ F 1 "100K" H 668 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 640 4740 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 600 4750 50  0001 C CNN
 F 4 "0.1%" H 668 4659 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 600 4750 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 600 4750 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 600 4750 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 600 4750 50  0001 C CNN "Part Number"
 	1    600  4750
 	1    0    0    -1  
 $EndComp
@@ -3544,8 +3497,8 @@ F 1 "100K" H 2768 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2740 4740 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 2700 4750 50  0001 C CNN
 F 4 "0.1%" H 2768 4659 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 2700 4750 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 2700 4750 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 2700 4750 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 2700 4750 50  0001 C CNN "Part Number"
 	1    2700 4750
 	1    0    0    -1  
 $EndComp
@@ -3561,8 +3514,8 @@ F 1 "100K" H 2768 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2740 3590 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 2700 3600 50  0001 C CNN
 F 4 "0.1%" H 2768 3509 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 2700 3600 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 2700 3600 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 2700 3600 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 2700 3600 50  0001 C CNN "Part Number"
 	1    2700 3600
 	1    0    0    -1  
 $EndComp
@@ -3578,8 +3531,8 @@ F 1 "100K" H 2768 2400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2740 2390 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 2700 2400 50  0001 C CNN
 F 4 "0.1%" H 2768 2309 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 2700 2400 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 2700 2400 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 2700 2400 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 2700 2400 50  0001 C CNN "Part Number"
 	1    2700 2400
 	1    0    0    -1  
 $EndComp
@@ -3595,8 +3548,8 @@ F 1 "100K" H 2768 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2740 1240 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 2700 1250 50  0001 C CNN
 F 4 "0.1%" H 2768 1159 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 2700 1250 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 2700 1250 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 2700 1250 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 2700 1250 50  0001 C CNN "Part Number"
 	1    2700 1250
 	1    0    0    -1  
 $EndComp
@@ -3612,8 +3565,8 @@ F 1 "100K" H 4868 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4840 1240 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 4800 1250 50  0001 C CNN
 F 4 "0.1%" H 4868 1159 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 4800 1250 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 4800 1250 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 4800 1250 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 4800 1250 50  0001 C CNN "Part Number"
 	1    4800 1250
 	1    0    0    -1  
 $EndComp
@@ -3629,8 +3582,8 @@ F 1 "100K" H 4868 2400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4840 2390 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 4800 2400 50  0001 C CNN
 F 4 "0.1%" H 4868 2309 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 4800 2400 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 4800 2400 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 4800 2400 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 4800 2400 50  0001 C CNN "Part Number"
 	1    4800 2400
 	1    0    0    -1  
 $EndComp
@@ -3646,8 +3599,8 @@ F 1 "100K" H 4868 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4840 3590 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 4800 3600 50  0001 C CNN
 F 4 "0.1%" H 4868 3509 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 4800 3600 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 4800 3600 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 4800 3600 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 4800 3600 50  0001 C CNN "Part Number"
 	1    4800 3600
 	1    0    0    -1  
 $EndComp
@@ -3663,8 +3616,8 @@ F 1 "100K" H 4868 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4840 4740 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 4800 4750 50  0001 C CNN
 F 4 "0.1%" H 4868 4659 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 4800 4750 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 4800 4750 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 4800 4750 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 4800 4750 50  0001 C CNN "Part Number"
 	1    4800 4750
 	1    0    0    -1  
 $EndComp
@@ -3680,8 +3633,8 @@ F 1 "100K" H 7018 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6990 4740 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 6950 4750 50  0001 C CNN
 F 4 "0.1%" H 7018 4659 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 6950 4750 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 6950 4750 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 6950 4750 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 6950 4750 50  0001 C CNN "Part Number"
 	1    6950 4750
 	1    0    0    -1  
 $EndComp
@@ -3697,8 +3650,8 @@ F 1 "100K" H 7018 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6990 3590 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 6950 3600 50  0001 C CNN
 F 4 "0.1%" H 7018 3509 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 6950 3600 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 6950 3600 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 6950 3600 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 6950 3600 50  0001 C CNN "Part Number"
 	1    6950 3600
 	1    0    0    -1  
 $EndComp
@@ -3714,8 +3667,8 @@ F 1 "100K" H 7018 2400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6990 2390 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 6950 2400 50  0001 C CNN
 F 4 "0.1%" H 7018 2309 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 6950 2400 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 6950 2400 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 6950 2400 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 6950 2400 50  0001 C CNN "Part Number"
 	1    6950 2400
 	1    0    0    -1  
 $EndComp
@@ -3731,8 +3684,8 @@ F 1 "100K" H 7018 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6990 1240 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 6950 1250 50  0001 C CNN
 F 4 "0.1%" H 7018 1159 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 6950 1250 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 6950 1250 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 6950 1250 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 6950 1250 50  0001 C CNN "Part Number"
 	1    6950 1250
 	1    0    0    -1  
 $EndComp
@@ -3748,8 +3701,8 @@ F 1 "100K" H 9168 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 1240 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 9100 1250 50  0001 C CNN
 F 4 "0.1%" H 9168 1159 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 9100 1250 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 9100 1250 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 9100 1250 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 9100 1250 50  0001 C CNN "Part Number"
 	1    9100 1250
 	1    0    0    -1  
 $EndComp
@@ -3765,8 +3718,8 @@ F 1 "100K" H 9168 2400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 2390 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 9100 2400 50  0001 C CNN
 F 4 "0.1%" H 9168 2309 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 9100 2400 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 9100 2400 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 9100 2400 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 9100 2400 50  0001 C CNN "Part Number"
 	1    9100 2400
 	1    0    0    -1  
 $EndComp
@@ -3782,8 +3735,8 @@ F 1 "100K" H 9168 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 3590 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 9100 3600 50  0001 C CNN
 F 4 "0.1%" H 9168 3509 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 9100 3600 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 9100 3600 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 9100 3600 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 9100 3600 50  0001 C CNN "Part Number"
 	1    9100 3600
 	1    0    0    -1  
 $EndComp
@@ -3799,8 +3752,8 @@ F 1 "100K" H 9168 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9140 4740 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 9100 4750 50  0001 C CNN
 F 4 "0.1%" H 9168 4659 50  0000 L CNN "Tolerance"
-F 5 "https://www.digikey.ca/product-detail/en/panasonic-electronic-components/ERJ-PB3B1003V/P20200CT-ND/6214455" H 9100 4750 50  0001 C CNN "Digikey"
-F 6 "ERJ-PB3B1003V" H 9100 4750 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB104V/1465902" H 9100 4750 50  0001 C CNN "Digikey"
+F 6 "ERA-3AEB104V" H 9100 4750 50  0001 C CNN "Part Number"
 	1    9100 4750
 	1    0    0    -1  
 $EndComp
@@ -4452,7 +4405,54 @@ Connection ~ 2700 1800
 Connection ~ 4800 1800
 Connection ~ 6950 1800
 Connection ~ 9100 1800
-Connection ~ 3400 6950
 Text Notes 3750 6350 0    50   ~ 0
 NOTE: SOLDER DIP SWITCHES WITH "ON"\nPOSITION TOWARDS CENTER OF PCB
+$Comp
+L Device:C C?
+U 1 1 5EE18E8D
+P 3400 6800
+AR Path="/5EE18E8D" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5EE18E8D" Ref="C66"  Part="1" 
+F 0 "C66" H 3515 6846 50  0000 L CNN
+F 1 "22uF" H 3515 6755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 6650 50  0001 C CNN
+F 3 "~" H 3400 6800 50  0001 C CNN
+F 4 "CC0805MKX5R8BB226" H 3400 6800 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/yageo/CC0805MKX5R8BB226/5195309" H 3400 6800 50  0001 C CNN "Digikey"
+	1    3400 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 6950
+$Comp
+L Device:C C?
+U 1 1 5EE19444
+P 3000 7350
+AR Path="/5EE19444" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5EE19444" Ref="C40"  Part="1" 
+F 0 "C40" H 3115 7396 50  0000 L CNN
+F 1 "22uF" H 3115 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 7200 50  0001 C CNN
+F 3 "~" H 3000 7350 50  0001 C CNN
+F 4 "CC0805MKX5R8BB226" H 3000 7350 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/yageo/CC0805MKX5R8BB226/5195309" H 3000 7350 50  0001 C CNN "Digikey"
+	1    3000 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 7200
+$Comp
+L Device:C C?
+U 1 1 5EE19C2F
+P 3400 7350
+AR Path="/5EE19C2F" Ref="C?"  Part="1" 
+AR Path="/5E59A680/5EE19C2F" Ref="C41"  Part="1" 
+F 0 "C41" H 3515 7396 50  0000 L CNN
+F 1 "22uF" H 3515 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 7200 50  0001 C CNN
+F 3 "~" H 3400 7350 50  0001 C CNN
+F 4 "CC0805MKX5R8BB226" H 3400 7350 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/en/products/detail/yageo/CC0805MKX5R8BB226/5195309" H 3400 7350 50  0001 C CNN "Digikey"
+	1    3400 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 7500
 $EndSCHEMATC
